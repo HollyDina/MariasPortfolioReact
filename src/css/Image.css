@@ -1,0 +1,38 @@
+.images {
+  max-width: 100%;
+  height: auto; 
+  display: flex;
+}
+
+.Imagehero{
+  max-width: 100%;
+  height: auto; 
+  display: flex;
+}
+
+
+/* For tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  .images {
+    /* Add your tablet styles here */
+    /* Example: Adjusting the width and padding */
+    width: 100%;
+     max-width: 1200px; 
+   
+  }
+  .img_container {
+   
+   
+   }
+   
+}
+
+/* For desktop */
+@media (min-width: 992px) {
+  .images {
+    /* Add your desktop styles here */
+    /* Example: Keeping the original width and padding */
+    width: auto;
+    
+  }
+}
