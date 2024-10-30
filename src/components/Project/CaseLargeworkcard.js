@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import { useLanguage } from '../LanguageContext';
 export function CaseLargeworkcard({ item }) {
-  console.log(item, "vad innehåller")
+
   const { language } = useLanguage();
   return (
 

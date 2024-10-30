@@ -5,7 +5,7 @@ import { useLanguage } from '../LanguageContext';
 export function CaseLargeworkcardright({ item }) {
 
   const { language } = useLanguage();
-console.log(item.id);
+
 
   return (
     <Link to={`/case/${item.path}`}>

@@ -1,12 +1,16 @@
 import React from 'react';
 import { CaseLargeworkcard } from './CaseLargeworkcard';
-import { CaseLargeworkcardright } from './CaseLargeworkcardright';
+import { CaseLargeworkcardright } from './CaseLargeworkcardright';   
+import { useLanguage } from '../LanguageContext';
 export function CaseLargeWorkcardSection({ dataHome }) {
- 
+   const { language } = useLanguage();
   return (
-
     <div className='case-largeworkcard-container'> 
    <h1>Här kan du se någa projekt</h1>
+
+   {language && language === "sv"
+            ? "Här kan du se någa projekt"
+            : "Here you can see some projects"}
       {dataHome && dataHome.map((item, index) => (
         <section className="case_content_main" key={index}>
           {index % 2 === 0 ? (
