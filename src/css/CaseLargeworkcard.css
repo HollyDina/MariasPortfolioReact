@@ -7,12 +7,30 @@
 }
 
 
+.CaseLargeworkcardright{
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: start;
+  border-radius: 8px;
+
+}
+.CaseLargeworkcardright:hover{
+  background-color: rgb(0, 0, 0,0.05);
+  opacity: 0.6;
+  transition: 0.3s;
+  color:black;
+  border-radius: 4px;
+  text-decoration: underline;
+}
+
+
 .CaseLargeworkcard :hover{
   background-color: rgb(0, 0, 0,0.05);
   opacity: 0.6;
   transition: 0.3s;
   color:black;
   border-radius: 4px;
+  text-decoration: underline;
 }
 
 .card-container-row {
@@ -43,7 +61,10 @@
 
 .CaseLargeworkcard-titel {
   font-size: 18px;
+  text-decoration: none;
 }
+
+
 
 .CaseLargeworkcard-container {
   display: flex;
@@ -70,10 +91,16 @@
 
 @media (min-width: 500px) {
 
+ 
+
   .case-card-container-row {
     margin: 80px 0px 0px 0px;
   }
 
+  .CaseLargeworkcardright{
+    flex-direction: row
+ 
+  }
 
   .CaseLargeworkcard {
     flex-direction: row;
@@ -93,6 +120,7 @@
 }
 
 @media (min-width: 924px) {
+  
 
   .card-container-row {
     flex-direction: row;

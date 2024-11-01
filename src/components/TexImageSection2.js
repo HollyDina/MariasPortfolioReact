@@ -18,7 +18,9 @@ export const TexImageSection2 = ({ headlineSwe, headlineEng, textSwe, textEng,
                 </p>
             </div>
             <div className="case_content">
-                <Images img={img} imageDescriptionSwe={imageDescriptionSwe} imageDescriptionEng={imageDescriptionEng} altSwe={altSwe} altEng={altEng} />
+                <Images img={img} imageDescriptionSwe={imageDescriptionSwe} 
+                imageDescriptionEng={imageDescriptionEng} 
+                altSwe={altSwe} altEng={altEng} />
             </div>
         </>
 

@@ -12,7 +12,8 @@ function DropdownList(props) {
     {<ul className='down-menu-link'>
     
           {props.list.map((item, index) => (
-            <li className="hej"  style={{listStyleType:"none",padding:"10px"}}key={index}>
+            <li className="li-menu-link"
+            key={index}>
               <Link className="menu-link" href to={item.path}> {language && language === "sv"
                     ? item.label &&item.label
                     : item.labelEng && item.labelEng} </Link> 

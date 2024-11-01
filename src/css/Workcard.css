@@ -1,90 +1,78 @@
+.card-main {
+ 
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 9rem;
+
+}
+
+.cards-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 6rem;
+
+}
+
+.card-container {
+  justify-content: center;
+  display: flex;
+  position: relative;
+}
+
+.card {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  text-align: left;
+  padding: 2rem;
+  
+  border-radius: 8px;
+  line-height: 5rem;
+}
+
+
+
+
+.card-ul {
+  flex-direction: row;
+  display: flex;
+  list-style: none;
+
+
+}
+
+@media (min-width: 768px) {
 
 
   .card-main {
-    background-color: aqua;
-    display: flex;
+
     flex-direction: column;
-    text-align: center;
-    row-gap: 9rem;
- 
+
+
+
   }
 
   .cards-row {
-    display:flex;
-    background-color: brown;
-    flex-direction: column;
-    justify-content: center;
-    row-gap: 6rem;
+
+    flex-direction: row;
+    column-gap: 5rem;
+
+
    
   }
- 
-  .card-container{
-    justify-content: center;
-    display: flex;
-    position: relative; 
-  }
-  .card{
-  display:flex;
-  background-color: blueviolet;
-  flex-direction: column;
-   text-align: left;
-  padding: 2rem;;
-   border-radius: 8px;
-   line-height:5rem;
+
+  .card {
+
+    min-width: 300px;
+
+    box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 40%);
+
   }
 
 
- 
-  .card-image{
-  position: absolute;
-  top: 0%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: var(--h2-font-size);
-  border-radius: 500px;
-  background-color: #fff;
-  padding: 10px;
-  max-width: 80px;
-  height: 100%;
-  width: 100%;
-  max-height: 80px;
-  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
-  border: 3px solid rgba(0, 0, 0, 0.5);
-    
-  }
- .card-ul {
-        flex-direction: row;
-        display: flex;
-        list-style:none;
 
-    
-      }
+}
 
-  @media (min-width: 768px) {
-    .card-main {
- 
-      flex-direction:column;
-      
-
-    
-      }
-
-      .cards-row {
-       
-        flex-direction:row;
-        column-gap: 5rem;
-       
-      }
-      .card {
-        background-color: blue;
-        min-width: 300px;
-    
-      }
-     
-   
-    
-  }
-  
-  @media (min-width: 1024px) {
-   
-  }
+@media (min-width: 1024px) {}

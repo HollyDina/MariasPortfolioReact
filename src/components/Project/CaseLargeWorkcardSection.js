@@ -6,11 +6,10 @@ export function CaseLargeWorkcardSection({ dataHome }) {
    const { language } = useLanguage();
   return (
     <div className='case-largeworkcard-container'> 
-   <h1>Här kan du se någa projekt</h1>
-
+   <h1 style={{fontSize:32}}>
    {language && language === "sv"
             ? "Här kan du se någa projekt"
-            : "Here you can see some projects"}
+            : "Here you can see some projects"}</h1>
       {dataHome && dataHome.map((item, index) => (
         <section className="case_content_main" key={index}>
           {index % 2 === 0 ? (

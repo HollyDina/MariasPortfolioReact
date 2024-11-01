@@ -20,7 +20,6 @@
   justify-content: center;
   background-color: rgb(255, 255, 255);
   border: none;
-
   min-width: 100px;
   max-height: 30px;
   min-height: 40px;
@@ -86,7 +85,7 @@
 
 
 .nav__item:hover{
-  background-color: rgb(107, 107, 112);
+  background-color:#9A7EC9;
   min-width: 90px;
   max-height: 25px;
   min-height: 30px;
@@ -103,7 +102,7 @@
 
 
 .nav__item2:hover{
-  background-color: rgb(107, 107, 112);
+  background-color:#9A7EC9;
   min-width: 150px;
   max-height: 55px;
   min-height: 30px;
@@ -112,47 +111,33 @@
   border-style: solid;
   border-color: rgb(0, 0, 0);
   text-decoration:underline;
-
   transition: 0.03s;
   border-radius: 4px;
   align-items: center;
 }
 
-
-
-/*
-.active-box.active{
-  width:100%;
-  height: 100%;
-  max-width: 100px;
-  min-width: 80px;
-  max-height: 8px;
-  min-height: 8px;
-  background-color: aquamarine;
+.li-menu-link{
+  list-style: none;
+  padding: 10px;
 }
 
-.active-box{
-  max-height: 30px;
-  width:100%;
-  height: 100%;
-  min-width: 30px;
-  max-height: 8px;
-  min-height: 8px;
-  background-color: black;
+.li-menu-link:hover{
+  list-style: none;
+  text-decoration: underline;
+ padding: 10px;
+  background-color: #9A7EC9;
+
+}
+.menu-link:Hover{
+  color:#ffffff;
 }
 
-
-.button-content-dropdown{
-  height: 50px;
-  max-width: 100px;
-  min-height: 90px;
-}
-*/
 
 .nav__link {
   padding: 10px 10px 10px 0px;
   font-size: 18px;
   color: rgb(0, 0, 0);
+  text-decoration: none;
 }
 
 .nav__link.active {
@@ -276,7 +261,7 @@
   padding: 0;
   margin: 0;
   border-radius: 4px;
-  background-color: rgb(160, 78, 78);
+  background-color: #9A7EC9;
   z-index: 130;
   display: flex;
 
@@ -307,6 +292,16 @@
   color: white;
 }
 
+.menu-header:hover {
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  padding: 0;
+  margin: 2px 0px 0px 10px;
+  color: rgb(0, 0, 0);
+}
+
+
 
 .menu-open1:hover{
   width: 100%;
@@ -318,7 +313,7 @@
 .menu-open3:hover{
   width: 100%;
   height: 7px;
-  background-color: #000000;
+  background-color: #ffffff;
   transform: translateY(-8px) rotate(40deg);
   border-radius: 4px;
 }
@@ -327,7 +322,7 @@
 .menu-open1 {
   width: 100%;
   height: 7px;
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
   transform: translateY(17px) rotate(-38deg);
   border-radius: 4px;
 }
@@ -339,10 +334,37 @@
 .menu-open3 {
   width: 100%;
   height: 7px;
-  background-color: #ffffff;
+   background-color: rgb(255, 255, 255);
   transform: translateY(-8px) rotate(40deg);
   border-radius: 4px;
 }
+
+
+
+
+
+.menu-open1:hover {
+  width: 100%;
+  height: 7px;
+  background-color:#9A7EC9;
+
+  transform: translateY(17px) rotate(-38deg);
+  border-radius: 4px;
+}
+
+.menu-open2:hover {
+  opacity: 0;
+}
+
+.menu-open3 :hover {
+  width: 100%;
+  height: 7px;
+  background-color:#9A7EC9;
+
+  transform: translateY(-8px) rotate(40deg);
+  border-radius: 4px;
+}
+
 
 
 .menu-close {
@@ -475,7 +497,6 @@ background-color: rgba(255, 0, 0, 0.2);*/
     padding: 0px;
     box-shadow: 0px 3px 15px rgb(0 0 0 / 0.3);
     top: 90px;
-    padding: 8px;
     min-width: 125px
    
   }

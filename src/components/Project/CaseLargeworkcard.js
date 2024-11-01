@@ -9,7 +9,7 @@ export function CaseLargeworkcard({ item }) {
   return (
 
 
-    <Link to={`/case/${item.path}`}>
+    <Link to={`/case/${item.path}`} style={{textDecoration:"none"}}>
       <div className='CaseLargeworkcard'>
         <div className='CaseLargeworkcard-img'>
           <img src={v} alt="En Telefon" className="case-image-workcard" />
@@ -18,7 +18,7 @@ export function CaseLargeworkcard({ item }) {
           <h3 className='CaseLargeworkcard-titel'>{language && language === "sv"
             ? item.headlineMainSwe && item.headlineMainSwe
             : item.headlineMainEng && item.headlineMainEng}{item.id}</h3>
-          <p> {language && language === "sv"
+          <p className='CaseLargeworkcard-description'> {language && language === "sv"
             ? item.descriptionSwe && item.descriptionSwe
             : item.descriptionEng && item.descriptionEng}</p>
         </div>

@@ -38,8 +38,9 @@ export const Test = ({ data }) => {
               {console.log(content1Item.image1, "hund4")}
            
                 {content1Item.headlineSwe || content1Item.textSwe ? (
-                     <section className="case_content_main">
+                    <>
                   {index1 % 2 === 0 ? (
+                     <section className="case_content_main2">
                     <TexImageSection 
                     headlineSwe={content1Item.headlineSwe} 
                     headlineEng={content1Item.headlineEng}
@@ -51,7 +52,9 @@ export const Test = ({ data }) => {
                      imageDescriptionEng={content1Item.imageDescriptionEn} 
                      altSwe={content1Item.altSwe} 
                      altEng={content1Item.altEng} ></TexImageSection>
+                     </section>
                   ) : (
+                    <section className="case_content_main2">
                     <TexImageSection2 
                     headlineSwe={content1Item.headlineSwe} 
                     headlineEng={content1Item.headlineEng}
@@ -63,8 +66,9 @@ export const Test = ({ data }) => {
                      imageDescriptionEng={content1Item.imageDescriptionEn} 
                      altSwe={content1Item.altSwe} 
                      altEng={content1Item.altEng} />
+                       </section>
                   )}
-                  </section>
+                  </>
                 ) : null}
           
             </React.Fragment>

@@ -2,7 +2,6 @@
 import { Routes, Route, Link, useParams } from "react-router-dom";
 import Contactpage from '../../Page/Contactpage';
 import Aboutpage from '../../Page/Aboutpage';
-import Workpage from '../../Page/Workpage';
 import Homepage from '../../Page/Homepage';
 import Casepage from '../../Page/Casepage';
 import Cases from '../../Page/Cases';
@@ -920,7 +919,6 @@ function MainMenu() {
           <Route path="/" element={<PageLayout><Homepage dataHome={dataHome} /></PageLayout>} />
           <Route path="/about" element={<PageLayout><Aboutpage data={data} /></PageLayout>} />
           <Route path="/case" element={<PageLayout><Casepage dataHome={dataHome} /></PageLayout>} />
-          <Route path="/work" element={<PageLayout><Workpage /></PageLayout>} />
           <Route path="/contact" element={<PageLayout><Contactpage /></PageLayout>} />
           <Route
             path="/case/:id" element={<PageLayout><Cases data={data} /></PageLayout>} />
