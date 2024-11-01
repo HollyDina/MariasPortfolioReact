@@ -1,5 +1,5 @@
 
-import "./work5.jpg"
+import image from "./work5.jpg"
 import { useLanguage } from '../LanguageContext';
 
 
@@ -14,23 +14,37 @@ function Contact() {
           <h1 className="contact_title" id="contact2">{language && language === "sv"
             ? "Kontakta mig"
             : "Contact me"}</h1>
-          <div className="contact_content_detail"><b>{language && language === "sv"
+        <div className="contact__container">
+          <div className="contact_content_headline">{language && language === "sv"
             ? "Hemadress:"
-            : "Home address:"}</b> &nbsp; Hallonbergsplan 18, 174 52 Sundbyberg
+            : "Home address:"}</div>
+             <div className="contact_content_detail"> &nbsp;Hallonbergsplan 18, 174 52 Sundbyberg</div> 
           </div>
-          <div className="contact_content_detail"><b>{language && language === "sv"
+
+          </div>
+          <div className="contact__container">
+          <div className="contact_content_headline">{language && language === "sv"
             ? "Mobilnummer:"
-            : "Mobile number:"}</b> &nbsp; 0762-440-246 </div>
-          <div className="contact_content_detail"><b>{language && language === "sv"
+            : "Mobile number:"}</div>
+             <div className="contact_content_detail"> &nbsp; 0762-440-246 </div>
+
+             </div>
+             <div className="contact__container">
+          <div className="contact_content_headline">{language && language === "sv"
             ? "Epost:"
-            : "Email address:"}</b> &nbsp; Mariaekmaan91@gmail.com </div>
-          <div className="contact_content_detail"><b>{language && language === "sv"
+            : "Email address:"}</div> 
+            <div className="contact_content_detail"> &nbsp; Mariaekmaan91@gmail.com </div>
+            </div>
+            <div className="contact__container">
+          <div className="contact_content_headline">{language && language === "sv"
             ? "Körkort"
-            : "Driver's license:"}</b>&nbsp; B</div>
-        </div>
+            : "Driver's license:"} </div>
+            <div className="contact_content_detail">&nbsp; B</div>
+
+            </div>
         </div>
       <div className="case_content">
-        <img src={"./work5.jpg"} alt="En Telefon" className="skills__img" />
+        <img src={image} alt="En Telefon" className="skills__img" />
 
       </div>
 
