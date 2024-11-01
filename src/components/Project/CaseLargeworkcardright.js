@@ -2,6 +2,7 @@ import React from 'react';
 import v from '../work5.jpg';
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../LanguageContext';
+import { Images } from '../Images';
 export function CaseLargeworkcardright({ item }) {
 
   const { language } = useLanguage();
@@ -19,7 +20,7 @@ export function CaseLargeworkcardright({ item }) {
               : item.descriptionEng && item.descriptionEng}</p>
           </div>
            <div className='CaseLargeworkcard-img'>
-          <img src={v} alt="En Telefon" className="case-image-workcard" />
+           <Images img={item.image1}></Images>
         </div>
       </div>
     </Link>

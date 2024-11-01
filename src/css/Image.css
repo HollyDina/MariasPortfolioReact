@@ -1,5 +1,6 @@
 .images {
-  max-width: 100%;
+max-width: 400px;
+
   height: auto; 
   display: flex;
 }
@@ -18,7 +19,7 @@
     /* Example: Adjusting the width and padding */
     width: 100%;
      max-width: 1200px; 
-   
+     min-width: 400px;
   }
   .img_container {
    

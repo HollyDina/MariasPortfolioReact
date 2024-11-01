@@ -497,7 +497,8 @@ background-color: rgba(255, 0, 0, 0.2);*/
     padding: 0px;
     box-shadow: 0px 3px 15px rgb(0 0 0 / 0.3);
     top: 90px;
-    min-width: 125px
+    min-width: 125px;
+    z-index: 44;
    
   }
 
