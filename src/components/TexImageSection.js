@@ -1,5 +1,5 @@
 
-import { Images } from "./Images";
+import { ImageLarge } from "./ImageLarge";
 import { useLanguage } from "./LanguageContext";
 export const TexImageSection = ({ headlineSwe, headlineEng, textSwe, textEng,
     img, imageDescriptionSwe, imageDescriptionEng,
@@ -10,7 +10,7 @@ export const TexImageSection = ({ headlineSwe, headlineEng, textSwe, textEng,
     return (
         <>
             <div className="case_content">
-                <Images img={img} imageDescriptionSwe={imageDescriptionSwe} imageDescriptionEng={imageDescriptionEng} altSwe={altSwe} altEng={altEng} />
+                <ImageLarge img={img} imageDescriptionSwe={imageDescriptionSwe} imageDescriptionEng={imageDescriptionEng} altSwe={altSwe} altEng={altEng} />
             </div>
             <div className="case_content">
                 <h2 className="section-title-work">

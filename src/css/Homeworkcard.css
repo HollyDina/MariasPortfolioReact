@@ -36,8 +36,19 @@
   align-items: center;
   
 }
+.Homeworkcard:hover {
+  opacity: 0.3;
+width: 100%;
+height: auto;
+z-index: 230;
+ }
 
- 
+ .Homeworkcard {
+  width: 100%;
+  height: auto;
+
+
+ }
 
 @media (min-width: 800px) {
 

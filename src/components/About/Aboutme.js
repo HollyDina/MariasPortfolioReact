@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Images } from '../Images';
+import {  ImageMedium } from '../ImageMedium';
 
 import profileImages from "../../img/ProflibildMaria.jpg";
 import { useLanguage } from '../LanguageContext';
@@ -41,7 +41,7 @@ function Aboutme() {
       <section className="case_content_main2">
 
         <div className="case_content">
-          <Images img={"Wcage.jpg"} />
+          <ImageMedium img={"Wcage.jpg"} />
           <p className="centeredText">Loopeli</p>
         </div>
         <div className="case_content">
@@ -54,7 +54,7 @@ function Aboutme() {
 
       <section className="case_content_main">
         <div className="case_content">
-          <Images
+          <ImageMedium
             img={"chris-ried-ieic5Tq8YMk-unsplash.jpg"} /*imageDescriptionSwe={} imageDescriptionEng={} altSwe={} altEng={}*/ />
           <p className="centeredText">Loopeli</p>
         </div>

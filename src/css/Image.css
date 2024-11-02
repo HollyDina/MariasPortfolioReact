@@ -1,9 +1,9 @@
-.images {
-max-width: 400px;
-
+.imageMedium {
+  width: 100%;
   height: auto; 
   display: flex;
 }
+
 
 .Imagehero{
   max-width: 100%;
@@ -11,29 +11,51 @@ max-width: 400px;
   display: flex;
 }
 
+.container_image_large {
+   max-width: 700px;
+   height: auto; 
+}
+
+
+.ImageLarge {
+  width: 100%;
+  height: auto; 
+  min-width: 100px;
+   
+  }
 
 /* For tablets */
 @media (min-width: 768px) and (max-width: 991px) {
-  .images {
+  .imageMedium {
     /* Add your tablet styles here */
     /* Example: Adjusting the width and padding */
     width: 100%;
      max-width: 1200px; 
      min-width: 400px;
   }
-  .img_container {
+  .container_image_large {
    
    
    }
+
+   .ImageLarge {
+ 
+     min-width: 500px
+    }
    
 }
 
 /* For desktop */
 @media (min-width: 992px) {
-  .images {
+  .imageMedium {
     /* Add your desktop styles here */
     /* Example: Keeping the original width and padding */
-    width: auto;
+   
     
   }
+
+  .ImageLarge {
+ 
+    min-width: 600px
+   }
 }

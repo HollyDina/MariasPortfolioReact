@@ -1,9 +1,9 @@
-import React from 'react';
-import v from '../work5.jpg';
+
 import { Link } from 'react-router-dom';
 
 import { useLanguage } from '../LanguageContext';
-import { Images } from '../Images';
+
+import { ImageLarge } from '../ImageLarge';
 export function CaseLargeworkcard({ item }) {
 
   const { language } = useLanguage();
@@ -13,7 +13,7 @@ export function CaseLargeworkcard({ item }) {
     <Link to={`/case/${item.path}`} style={{textDecoration:"none"}}>
       <div className='CaseLargeworkcard'>
         <div className='CaseLargeworkcard-img'>
-          <Images img={item.image1}></Images>
+          <ImageLarge img={item.image1}></ImageLarge>
         
           </div>
         <div className='CaseLargeworkcard-content'>

@@ -12,22 +12,22 @@
   flex-direction: column-reverse;
   text-align: start;
   border-radius: 8px;
+  transition: .5s ease;
 
 }
 .CaseLargeworkcardright:hover{
-  background-color: rgb(0, 0, 0,0.05);
   opacity: 0.6;
-  transition: 0.3s;
+  transition: .5s ease;
   color:black;
   border-radius: 4px;
-  text-decoration: underline;
+  text-decoration: underline;  
+  transition: .5s ease;
 }
 
 
 .CaseLargeworkcard :hover{
-  background-color: rgb(0, 0, 0,0.05);
-  opacity: 0.6;
-  transition: 0.3s;
+  opacity: 0.6;  
+  transition: .5s ease;
   color:black;
   border-radius: 4px;
   text-decoration: underline;

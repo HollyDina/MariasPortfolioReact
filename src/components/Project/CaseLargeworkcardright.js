@@ -1,8 +1,7 @@
-import React from 'react';
-import v from '../work5.jpg';
+
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../LanguageContext';
-import { Images } from '../Images';
+import { ImageLarge } from "../ImageLarge"
 export function CaseLargeworkcardright({ item }) {
 
   const { language } = useLanguage();
@@ -20,7 +19,7 @@ export function CaseLargeworkcardright({ item }) {
               : item.descriptionEng && item.descriptionEng}</p>
           </div>
            <div className='CaseLargeworkcard-img'>
-           <Images img={item.image1}></Images>
+           <ImageLarge img={item.image1}></ImageLarge>
         </div>
       </div>
     </Link>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLanguage } from '../LanguageContext';
 import { Link } from 'react-router-dom';
-import { Images } from '../Images';
+import { ImageMedium } from '../ImageMedium';
 export function Homeworkcard({ item }) {
 
   console.log(item.path, "finaholll", item.image1, "bild");
@@ -12,7 +12,7 @@ export function Homeworkcard({ item }) {
 
     <Link className='Homeworkcard' to={`/case/${item.path}`}>
       <div className='Homeworkcard-img-container'>
-        <Images altEng={item.altEng} altSwe={item.altSwe}
+        <ImageMedium altEng={item.altEng} altSwe={item.altSwe}
           img={item.image1} />
 
       </div>

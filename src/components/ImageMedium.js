@@ -2,7 +2,7 @@ import React from 'react';
 
 
 import { useLanguage } from './LanguageContext';
-export function Images({ img,
+export function ImageMedium({ img,
   altEng, altSwe, imageDescriptionSwe,imageDescriptionEng
 }) {
 
@@ -10,12 +10,12 @@ export function Images({ img,
 
   const { language } = useLanguage();
   return (
-    <div className="img_container">
+    <div className="container_image_medium">
       <img src={img&&img ? require(`../img/${img}`) : ''}
         alt={language && language === "sv"
           ? altSwe && altSwe
           : altEng && altEng}
-        className="images" style={{maxHeight: "300px"}}/>
+        className="imageMedium" />
 
       <p className="imageDescription">
         {language === "sv"

@@ -1,7 +1,7 @@
 import React from 'react';
 import Homeworkcardsection from '../components/Home/Homeworkcardsection';
 import About from '../components/About/Aboutme';
-import { Images } from '../components/Images';
+import { Images } from '../components/ImageMedium';
 import { WorkSection } from '../components/About/WorkSection';
 
 

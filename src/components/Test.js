@@ -5,7 +5,7 @@ import { useParams } from "react-router-dom";
 import { useLanguage } from "./LanguageContext";
 import ImageHero from "./ImageHero";
 import HeroSection from "./HeroSection";
-import { Images } from "./Images";
+import { Images } from "./ImageMedium";
 /*import berghsLogo from '../img/berghs_logo 1.svg';*/
 import {TexImageSection} from "./TexImageSection";
 import { TexImageSection2 } from "./TexImageSection2";

@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { useLanguage } from "../components/LanguageContext";
-import {Images} from "../components/Images";
+import {Images} from "../components/ImageMedium";
 import ImageHero from "../components/ImageHero";
 import HeroSection from "../components/HeroSection";
 import Test from "../components/Test";
