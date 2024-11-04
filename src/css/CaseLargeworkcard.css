@@ -6,7 +6,13 @@
 
 }
 
-
+.CaseLargeworkcard:hover{
+  opacity: 0.6;  
+  transition: .5s ease;
+  color:black;
+  border-radius: 4px;
+  text-decoration: underline;
+}
 .CaseLargeworkcardright{
   display: flex;
   flex-direction: column-reverse;
@@ -15,23 +21,9 @@
   transition: .5s ease;
 
 }
-.CaseLargeworkcardright:hover{
-  opacity: 0.6;
-  transition: .5s ease;
-  color:black;
-  border-radius: 4px;
-  text-decoration: underline;  
-  transition: .5s ease;
-}
 
 
-.CaseLargeworkcard :hover{
-  opacity: 0.6;  
-  transition: .5s ease;
-  color:black;
-  border-radius: 4px;
-  text-decoration: underline;
-}
+
 
 .card-container-row {
   display: flex;

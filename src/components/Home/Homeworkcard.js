@@ -13,7 +13,7 @@ export function Homeworkcard({ item }) {
     <Link className='Homeworkcard' to={`/case/${item.path}`}>
       <div className='Homeworkcard-img-container'>
         <ImageMedium altEng={item.altEng} altSwe={item.altSwe}
-          img={item.image1} />
+          img={item.image1}   mh={"300px"}/>
 
       </div>
       <div className='Homeworkcard-content'>

@@ -50,8 +50,8 @@ const Menu = () => {
 
   const aboutList = [
     { path: "/about", label: "Om mig" ,labelEng:"About me"},
-   /* { path: "/about", label: "Arbete" ,labelEng:"work"},
-    { path: "/about", label: "Utbildning",labelEng:"education" },*/
+    { path: "/workeducation", label: "Arbete & Utbildning" ,labelEng:"work and education" },
+   /* { path: "/about", label: "Utbildning",labelEng:"education" },*/
 
   ];
 

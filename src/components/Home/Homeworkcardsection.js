@@ -12,7 +12,6 @@ function Homeworkcardsection({ dataHome}) {
       <div className='Homeworkcard-container'>
        {dataHome&& dataHome.map((item, index) => (
           <div className='Home-container-row' key={index}>
-            {console.log(item.path, "hej")}
             {index < 4 ? (
               <Homeworkcard item={item} />
             ) : (

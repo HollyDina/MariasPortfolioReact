@@ -1,6 +1,6 @@
 
-import image from "./work5.jpg"
 import { useLanguage } from '../LanguageContext';
+import { ImageLarge } from "../ImageLarge";
 
 
 function Contact() {
@@ -43,10 +43,10 @@ function Contact() {
 
             </div>
         </div>
-      <div className="case_content">
-        <img src={image} alt="En Telefon" className="skills__img" />
-
-      </div>
+      {/*<div className="case_content">
+       /* <ImageLarge  />
+       
+      </div>*/}
 
     </section>
 

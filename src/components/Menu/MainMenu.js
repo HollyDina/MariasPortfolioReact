@@ -4,6 +4,7 @@ import Contactpage from '../../Page/Contactpage';
 import Aboutpage from '../../Page/Aboutpage';
 import Homepage from '../../Page/Homepage';
 import Casepage from '../../Page/Casepage';
+import Projectpage from '../../Page/Projectpage';
 import Cases from '../../Page/Cases';
 import Menu from './Menu';
 import { PageLayout } from '../PageLayout';
@@ -59,7 +60,7 @@ function MainMenu() {
           textSwe:
             "Jag fick i uppdrag av Loopeli att förbättra strukturen på deras webbplats för att göra den mer användarvänlig för företagsanvändare. Målet var att underlätta för dem att snabbt hitta relevant information och fatta beslut om att integrera Loopeli i sin verksamhet. Genom att analysera hur företag söker efter välfärds-hjälpmedel och användarnas feedback på appen identifierade jag förbättringsmöjligheter. Dessa insikter användes för att förbättra användarupplevelsen och göra det lättare för företag att köpa och använda Loopeli.",
           headlineEng: "Assignment on the Loopeli company",
-          textEng: ".",
+          textEng: "I was assigned by Loopeli to improve the structure of their website in order to make it more user-friendly for business users. The goal was to make it easier for them to quickly find relevant information and make informed decisions about integrating Loopeli into their operations. By analyzing how companies search for welfare aids and gathering user feedback on the app, I identified areas for improvement. These insights were used to enhance the user experience, making it simpler for businesses to purchase and use Loopeli.",
           image1: "microsoft-365-FHhbHW4vFxc-unsplash.jpg",
           altSwe: "Beskrivning på bilden",
           altEng: "Description of the images",
@@ -90,12 +91,15 @@ function MainMenu() {
           Question2: "Fråga 2: Vad vill jag uppnå med användar-testerna och intervjuerna? Svar 2:** Hur kan vi förbättra användarnas möjlighet att hitta information på webbplatsen? Kan vi underlätta snabbare beslut om produktens implementering i deras verksamhet?",
 
           textSwe3: "Innan intervjuerna genomförde jag en testintervju för att se om förändringar behövde göras i frågorna.Deltagaren hade svårt att tänka sig in i case-scenarion, så jag justerade frågorna. Frågan `Vilken typ av information behöver användarna för att besluta om att implementera produkten?`ändrades till` Vilka egenskaper ska produkten ha för att passa er verksamhet och målgrupp?` och `Vad behöver du för information för att köpa in produkten?` Användarna fick sedan leta efter egenskaperna på webbplatsen, men hade svårt att komma ihåg dem, så svaren skrevs ner. Frågorna visade sig vara avgörande för att förstå vad användarna söker och om informationen på webbplatsen var tillräcklig, även om de tog längre tid att genomföra.",
+        
+        
           headlineEng: "User Testing",
           textEng1:
-            "I decided to apply the `think aloud` method on the menu to observe users' expectations. It quickly became evident that the menu names were vaguely formulated and could be interpreted in several ways.I developed two questions as guidelines for user tests and interviews to ensure a clear focus and avoid deviations from the central topic.",
-          QuestionEng1: "Question 1: What do I want to know from the user tests and interviews? **Answer 1:** What information do users need when deciding on implementing the product? Is it available, or is essential information missing? We want to observe how users navigate various pages to seek information about Loopeli.",
-          QuestionEng2: "Question 2: What do I aim to achieve with the user tests and interviews? *Answer 2:** How can we improve users' ability to find information on the website? Can we facilitate quicker decisions regarding product implementation in their operations?",
-          textEng2: "Before the interviews, I conducted a test interview to see if any adjustments were needed in the questions. The participants had difficulty imagining themselves in case scenarios, so I modified the questions. The question ´What type of information do users need when deciding on implementing the product?´ was changed to `What features should the product have to fit your business and target audience?´ and ´What information do you need to consider purchasing the product?´ Users were then asked to look for the features on the website but found it challenging to remember them, so their answers were recorded. The questions proved essential to understanding what users are searching for and whether the information on the website was sufficient, even though the process took more time to conduct.",
+            "I decided to apply the ´think aloud` method on the menu to observe users' expectations. It quickly became evident that the menu names were vaguely formulated and could be interpreted in several ways. I developed two questions as guidelines for user tests and interviews to ensure a clear focus and avoid deviations from the central topic.",
+          QuestionEng1: "Question 1: What do I want to know from the user tests and interviews? Answer 1:** What information do users need when deciding on implementing the product? Is it available, or is essential information missing? We want to observe how users navigate various pages to seek information about Loopeli." ,
+          QuestionEng2: "Question 2: What do I aim to achieve with the user tests and interviews? **Answer 2:** How can we improve users' ability to find information on the website? Can we facilitate quicker decisions regarding product implementation in their operations?",
+          textEng2:"Before the interviews, I conducted a test interview to see if any adjustments were needed in the questions. The participants had difficulty imagining themselves in case scenarios, so I modified the questions. The question ´´What type of information do users need when deciding on implementing the product?´ was changed to ´What features should the product have to fit your business and target audience?´ and ´What information do you need to consider purchasing the product?´",
+          texEng3:" Användarna fick sedan leta efter egenskaperna på webbplatsen, men hade svårt att komma ihåg dem, så svaren skrevs ner. Frågorna visade sig vara avgörande för att förstå vad användarna söker och om informationen på webbplatsen var tillräcklig, även om de tog längre tid att genomföra.",
           image1: "work1.jpg",
           altSwe: "Beskrivning på bilden",
           altEng: "Description of the images",
@@ -173,10 +177,10 @@ function MainMenu() {
         textsection1: {
           headlineSwe: "Om Loopeli",
           textSwe:
-            "Loopeli är en enkel kommunikationstjänst/app som vänder sig till grupper som har svårt att hantera de vanligaste kommunikationssätten; till exempel Facebook, Skype eller Facetime.Loopeli-tjänsten grundades ur ett behov av enkel kommunikation i samband med en stroke i familjen. Det fanns ingen tjänst som kunde hjälpa familjen att hålla kontakten och kommunicera på ett enkelt sätt utan fysiska besök. Loopeli grundades 2019 men relanseringen i samband med Draknästet på SVT 1 i september 2021 gav företaget möjligheten att satsa mer och anställa personal. ",
+            " Loopeli är en lättanvänd kommunikationstjänst/app riktad till grupper som har svårt att använda vanliga kommunikationsverktyg, som Facebook, Skype eller Facetime. Idén till Loopeli föddes ur behovet av enkel kommunikation efter att en familjemedlem drabbats av stroke, då det saknades en tjänst som kunde underlätta kontakt utan fysiska besök. Företaget grundades 2019, men med relanseringen i SVT:s Draknästet i september 2021 fick Loopeli möjlighet att växa och anställa personal. ",
           headlineEng: "Assignment",
           textEng:
-            "I was hired by Loopeli to optimize the structure of the website and tailor it to their target audience. My focus was to gain a deeper understanding of how users interact with the website, how they navigate to find information, and to gather their thoughts and opinions. By exploring the user experience as they begin their journey with Loopeli, I aimed to identify areas for improvement.",
+            " Loopeli is an easy-to-use communication service/app designed for groups who find common communication tools like Facebook, Skype, or Facetime challenging to use. The idea for Loopeli emerged from the need for simple communication after a family member experienced a stroke, as there was no service available to facilitate contact without physical visits. The company was founded in 2019, but with its relaunch on SVT’s(swedish television) Draknästet in September 2021, Loopeli gained the opportunity to expand and hire staff.",
           image1: "Draknästet.png",
           altSwe: "Beskrivning på bilden",
           altEng: "Description of the images",
@@ -338,7 +342,7 @@ function MainMenu() {
           textSwe:
             " Efter intervjuerna samlade jag svaren i ett dokument och överförde dem till Miro på post-it-lappar. Jag numrerade intervjuerna i dokumentet och grupperade dem med samma siffra på post-it-lapparna för att underlätta spårning till de ursprungliga intervjuerna. Jag grupperade sedan lapparna för att ta bort dubbletter och skapade tre behovskartor: två för barnen (en om deras intressen och en om deras behov) och en för föräldrarna.",
           headlineEng: "Purpose",
-          textEng: " ",
+          textEng: "After the interviews, I compiled the responses in a document and transferred them to Miro on post-it notes. I numbered the interviews in the document and used the same numbers on the post-it notes to facilitate tracking back to the original interviews.I then grouped the notes to remove duplicates and created three needs maps: two for the children (one focused on their interests and one on their needs) and one for the parents.",
           image1: "Skärmbild 2023-08-22 161713.jpg",
           altSwe: "Beskrivning på bilden",
           altEng: "Description of the images",
@@ -350,7 +354,7 @@ function MainMenu() {
           textSwe:
             "I renskrivnings-dokumentet överförde jag intervjusvaren till tre behovskartor: två för barnen och en för föräldrarna. Barnen fick en karta om deras intressen och en annan om deras behov.",
           headlineEng: "Purpose",
-          textEng: " ",
+          textEng: "In the final document, I transferred the interview responses to three needs maps: two for the children and one for the parents. The children’s maps focused on their interests and their needs. ",
           image1: "behovkartaEx.jpg",
           altSwe: "Beskrivning på bilden",
           altEng: "Description of the images",
@@ -362,8 +366,8 @@ function MainMenu() {
             "Här är några av de viktigaste behoven som överfördes till prototypen",
           textSwe:
             "- Barnet behöver veta vad som ska göras efter speltiden och vill höra orsaken.- Barnet behöver förvarnas om att speltiden snart är slut.- Barnet vill vara med och bestämma aktiviteter efter speltiden.- Barnet behöver fasta regler i vardagen och kan glömma iPad-enheten när hen är aktiv och stimulerad med andra aktiviteter.",
-          headlineEng: "Purpose",
-          textEng: " ",
+          headlineEng: "Here are some of the key needs that were integrated into the prototype",
+          textEng: "The child needs to know what to do after playtime and wants to understand the reason.The child needs a warning that playtime is nearly over.The child wants to participate in choosing activities after playtime.The child needs consistent rules in daily life and can forget about the iPad when engaged and stimulated by other activities.",
           image1: "Frame 53.png",
           altSwe: "Beskrivning på bilden",
           altEng: "Description of the images",
@@ -373,9 +377,27 @@ function MainMenu() {
         textsection8: {
           headlineSwe: "Föräldars beteendertype",
           textSwe:
-            "Freestyle-föräldern säger till barnet att avsluta skärmtiden omedelbart och begränsar inte aktivt skärmtiden, vilket ofta leder till bråk vid avslut. De är mer inställda på att det blir bråk när barnet ska avsluta skärmtiden.Planerar-föräldern begränsar skärmtiden aktivt med hjälpmedel som appar eller alarmklockor som förvarnar när tiden snart är slut. Rutin-föräldern har fasta regler för när barnet får använda iPad, TV eller dator och förklarar varför skärmtiden måste avslutas. De begränsar inte aktivt skärmtiden, utan barnet har rutiner som fungerar som delmål, som att titta på skärmen tills maten är klar eller borsta tänderna. Rutin-föräldern förvarnar barnet när skärmtiden snart är slut och låter dem titta klart beroende på hur långt det är kvar av programmet eller spelet.Skiljer barnets beteendetyper Barnets beteendetyper skiljer sig åt beroende på deras intresse för iPad, TV eller dator, vilket påverkas av hur många andra aktiviteter de har. När barnet gör andra aktiviteter glömmer de bort iPaden. En annan skillnad är hur mycket barnet får bestämma själva.",
-          headlineEng: "Purpose",
-          textEng: " ",
+            "Alla föräldrar delar tre gemensamma beteenden: de hittar på fler aktiviteter, avleder med aktiviteter och försöker undvika bråk.",
+            headlineSwe2: "Freestyle-föräldern",
+            textSwe2: "säger till barnet att avsluta skärmtiden omedelbart och begränsar inte aktivt skärmtiden, vilket ofta leder till bråk vid avslut. De är mer inställda på att det blir bråk när barnet ska avsluta skärmtiden.",
+            headlineSwe3:"Planerar-föräldern",
+            textSwe3: "begränsar skärmtiden aktivt med hjälpmedel som appar eller alarmklockor som förvarnar när tiden snart är slut.",
+            headlineSwe3:"Rutin-föräldern ",
+            textSwe3: " har fasta regler för när barnet får använda iPad, TV eller dator och förklarar varför skärmtiden måste avslutas. De begränsar inte aktivt skärmtiden, utan barnet har rutiner som fungerar som delmål, som att titta på skärmen tills maten är klar eller borsta tänderna. Rutin-föräldern förvarnar barnet när skärmtiden snart är slut och låter dem titta klart beroende på hur långt det är kvar av programmet eller spelet",
+            headlineSwe3:"Skiljer barnets beteendetyper",
+            textSwe3: "Barnets beteendetyper skiljer sig åt beroende på deras intresse för iPad, TV eller dator, vilket påverkas av hur många andra aktiviteter de har. När barnet gör andra aktiviteter glömmer de bort iPaden. En annan skillnad är hur mycket barnet får bestämma själva.",
+        
+        headlineEng:"Parent Behavior Types",
+          textEng: "All parents share three common behaviors: they come up with additional activities, distract with activities, and try to avoid conflict.",
+          headlineEng1:"Freestyle Parent*",
+          textEng1: "This parent tells the child to end screen time immediately and does not actively limit screen time, which often leads to conflict at the end. They are more resigned to the fact that there will be conflict when the child has to stop screen time",
+          headlineEng2:"Planner Parent",
+          textEng2: "This parent actively limits screen time using tools like apps or alarms that warn the child when time is nearly up.",
+          headlineEng3:"Routine Parent*",
+          textEng3: "This parent has set rules for when the child can use an iPad, TV, or computer and explains why screen time must end. They do not actively limit screen time, but the child follows routines that act as benchmarks, such as watching until dinner is ready or brushing teeth. The Routine Parent warns the child when screen time is nearly over and allows them to finish depending on how much time is left in the show or game.",
+          headlineEng4:"Differences in Child Behavior Types",
+          textEng4: "Children’s behavior types vary based on their interest in iPads, TV, or computers, which is influenced by the number of other activities they have. When the child engages in other activities, they tend to forget about the iPad. Another difference is how much freedom the child has to decide for themselves.",
+         
           image1: "Frame 50.png",
           altSwe: "Tre typer av föräldrabeteenden",
           altEng: "Description of the images",
@@ -620,7 +642,7 @@ function MainMenu() {
           imageDescriptionSwe: "Bildbeskrivning",
           imageDescriptionEng: "Bildbeskrivning",
         },
-        textsection12: {
+        textsection12: { 
           headlineSwe: "Förbättringsområden",
           textSwe:
             "Det sista förbättrings området rör scenariot där studenterna misslyckas med jobbet  inte har utfört, vilket kan bero på att de upplever en ostrukturerad miljö på skolan. För att uppfylla studenternas mål att lära sig UX bör lektionerna vara tydliga. Externa lärare kan genomgå en onboarding-process för att minska missförstånd och tekniska problem. Att skapa en portfolio är en viktig del av UX-lärandet, och det skulle vara bra att införa “portfolio-dagar”  efter större inlämningar för att underlätta processen inför LIA och jobbsökande. För att förbättra relationen med studenterna bör återkoppling och proaktivt arbete prioriteras. Att investera mer i personal och lärare kan säkerställa att uppgifter är tydliga innan de delas ut och öka pedagogiken i undervisningen. Utöver dessa fyra områden kan sociala medier användas för riktad marknadsföring, möjligheten till en ettårig utbildning eller enstaka kurser kan övervägas, och tidigare studenter kan uppmanas att lämna omdömen online. Rektorn bör även be om regelbundna personalutvärderingar för att uppmuntra ärlig feedback. Slutligen kan förväntningar på studenternas beteende under lektioner, som att använda kamera och ställa frågor, klargöras i början av utbildningen.",
@@ -668,10 +690,10 @@ function MainMenu() {
         textsection1: {
           headlineSwe: "Uppdraget",
           textSwe:
-            " Jag deltog i antagningsprocessen för Berghs skola och valde att arbeta med ArtPortables webbplats. Trots företagets erfarenhet har de flera användargränssnitts-problem. För att öka försäljningen av konstverk förbättrade jag designen av köp-knappen, då den befintliga designen skapade en förvirrande användarupplevelse. Jag blev antagen till skolan men valde att tacka nej för att fokusera på mitt arbete med Loopeli.",
+            "Jag genomförde projektet som en del av en antagningsprocess för att komma in på Berghs, med fokus på att förbättra användarupplevelsen på en webbplats. Under arbetet identifierades flera problem i användargränssnittet, vilket ledde till nödvändiga designförbättringar. Genom noggrann analys och användartester avslöjades svagheter i designen, vilket resulterade i förslag på en redesign för att göra vissa funktioner mer tydliga och användarvänliga.",
           headlineEng: "Assignment",
           textEng:
-            "I participated in the admissions process for Berghs School and chose to work on ArtPortables' website. Despite the company's experience, they have several user interface issues. To increase the sales of artworks, I improved the design of the purchase button, as the existing design created a confusing user experience. I was accepted into the school but chose to decline in order to focus on my work with Loopeli.",
+            "I conducted the project as part of an admissions process for entry into Berghs, focusing on improving the user experience of a website. During the work, several user interface issues were identified, leading to necessary design improvements. Through careful analysis and user testing, design weaknesses were revealed, resulting in proposals for a redesign to make certain features clearer and more user-friendly.",
           image1: "Frame_1944.png",
           altSwe: "Rosa bakgund bild med namnet Artportable",
           altEng: "Description of the images",
@@ -919,6 +941,7 @@ function MainMenu() {
           <Route path="/" element={<PageLayout><Homepage dataHome={dataHome} /></PageLayout>} />
           <Route path="/about" element={<PageLayout><Aboutpage data={data} /></PageLayout>} />
           <Route path="/case" element={<PageLayout><Casepage dataHome={dataHome} /></PageLayout>} />
+          <Route path="/workeducation" element={<PageLayout><Projectpage /></PageLayout>} />
           <Route path="/contact" element={<PageLayout><Contactpage /></PageLayout>} />
           <Route
             path="/case/:id" element={<PageLayout><Cases data={data} /></PageLayout>} />

@@ -9,7 +9,7 @@ export function CaseLargeworkcardright({ item }) {
 
   return (
     <Link to={`/case/${item.path}`} style={{textDecoration:"none"}}>
-      <div className='CaseLargeworkcardright'>
+      <div className='CaseLargeworkcard'>
           <div className='CaseLargeworkcard-content'>
             <h3 className='CaseLargeworkcard-titel'>{language && language === "sv"
               ? item.headlineMainSwe && item.headlineMainSwe

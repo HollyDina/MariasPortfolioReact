@@ -11,12 +11,13 @@ export const TexImageSection = ({ headlineSwe, headlineEng, textSwe, textEng,
         <>
             <div className="case_content">
                 <ImageLarge img={img} imageDescriptionSwe={imageDescriptionSwe} imageDescriptionEng={imageDescriptionEng} altSwe={altSwe} altEng={altEng} />
+              
             </div>
             <div className="case_content">
                 <h2 className="section-title-work">
                     {language === "sv" ? headlineSwe : headlineEng}
                 </h2>
-                <p className="bodytext">
+              <p className="bodytext">
                     {language === "sv" ? textSwe : textEng}
                 </p>
             </div>

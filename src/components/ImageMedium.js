@@ -3,7 +3,7 @@ import React from 'react';
 
 import { useLanguage } from './LanguageContext';
 export function ImageMedium({ img,
-  altEng, altSwe, imageDescriptionSwe,imageDescriptionEng
+  altEng, altSwe, imageDescriptionSwe,imageDescriptionEng,mh
 }) {
 
 
@@ -15,7 +15,7 @@ export function ImageMedium({ img,
         alt={language && language === "sv"
           ? altSwe && altSwe
           : altEng && altEng}
-        className="imageMedium" />
+        className="imageMedium" style={{maxHeight:mh}} />
 
       <p className="imageDescription">
         {language === "sv"

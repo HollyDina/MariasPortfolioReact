@@ -25,13 +25,13 @@
   }
 
 /* For tablets */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px)  {
   .imageMedium {
     /* Add your tablet styles here */
     /* Example: Adjusting the width and padding */
     width: 100%;
-     max-width: 1200px; 
-     min-width: 400px;
+   
+    
   }
   .container_image_large {
    
@@ -56,6 +56,6 @@
 
   .ImageLarge {
  
-    min-width: 600px
+    min-width: 550px
    }
 }
