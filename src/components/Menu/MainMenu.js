@@ -85,21 +85,18 @@ function MainMenu() {
           headlineSwe: "Användartesterna",
           textSwe1:
             "Jag beslutade mig för att tillämpa `tänka högt`-metoden på menyn för att observera användarnas förväntningar. Det blev tydligt att meny-namnen var vagt formulerade och kunde tolkas på många olika sätt.",
-          textSwe2: "Jag formulerade två frågor som riktlinjer för användartester och intervjuer för att säkerställa tydlig inriktning och undvika avvikelser från det centrala ämnet.",
-          Question1:
-            "Fråga 1: Vad vill jag veta från användartesterna och intervjuerna? Svar 1:** Vilken information behöver användarna för att besluta om att implementera produkten? Finns den tillgänglig, eller saknas viktig information? Vi vill observera hur användarna navigerar på olika sidor för att söka information om Loopeli.",
-          Question2: "Fråga 2: Vad vill jag uppnå med användar-testerna och intervjuerna? Svar 2:** Hur kan vi förbättra användarnas möjlighet att hitta information på webbplatsen? Kan vi underlätta snabbare beslut om produktens implementering i deras verksamhet?",
-
-          textSwe3: "Innan intervjuerna genomförde jag en testintervju för att se om förändringar behövde göras i frågorna.Deltagaren hade svårt att tänka sig in i case-scenarion, så jag justerade frågorna. Frågan `Vilken typ av information behöver användarna för att besluta om att implementera produkten?`ändrades till` Vilka egenskaper ska produkten ha för att passa er verksamhet och målgrupp?` och `Vad behöver du för information för att köpa in produkten?` Användarna fick sedan leta efter egenskaperna på webbplatsen, men hade svårt att komma ihåg dem, så svaren skrevs ner. Frågorna visade sig vara avgörande för att förstå vad användarna söker och om informationen på webbplatsen var tillräcklig, även om de tog längre tid att genomföra.",
-        
-        
+          textSwe2:"Jag formulerade två frågor som riktlinjer för användartester och intervjuer för att säkerställa tydlig inriktning och undvika avvikelser från det centrala ämnet.",
+          textSwe3:"Fråga 1: Vad vill jag veta från användartesterna och intervjuerna? Svar 1:** Vilken information behöver användarna för att besluta om att implementera produkten? Finns den tillgänglig, eller saknas viktig information? Vi vill observera hur användarna navigerar på olika sidor för att söka information om Loopeli.",
+          textSwe4:"Fråga 2: Vad vill jag uppnå med användar-testerna och intervjuerna? Svar 2:** Hur kan vi förbättra användarnas möjlighet att hitta information på webbplatsen? Kan vi underlätta snabbare beslut om produktens implementering i deras verksamhet?",
+          textSwe5:"Innan intervjuerna genomförde jag en testintervju för att se om förändringar behövde göras i frågorna.Deltagaren hade svårt att tänka sig in i case-scenarion, så jag justerade frågorna. Frågan `Vilken typ av information behöver användarna för att besluta om att implementera produkten?`ändrades till` Vilka egenskaper ska produkten ha för att passa er verksamhet och målgrupp?` och `Vad behöver du för information för att köpa in produkten?`" ,
+          texSwe6:"Användarna fick sedan leta efter egenskaperna på webbplatsen, men hade svårt att komma ihåg dem, så svaren skrevs ner. Frågorna visade sig vara avgörande för att förstå vad användarna söker och om informationen på webbplatsen var tillräcklig, även om de tog längre tid att genomföra.",
           headlineEng: "User Testing",
-          textEng1:
-            "I decided to apply the ´think aloud` method on the menu to observe users' expectations. It quickly became evident that the menu names were vaguely formulated and could be interpreted in several ways. I developed two questions as guidelines for user tests and interviews to ensure a clear focus and avoid deviations from the central topic.",
-          QuestionEng1: "Question 1: What do I want to know from the user tests and interviews? Answer 1:** What information do users need when deciding on implementing the product? Is it available, or is essential information missing? We want to observe how users navigate various pages to seek information about Loopeli." ,
-          QuestionEng2: "Question 2: What do I aim to achieve with the user tests and interviews? **Answer 2:** How can we improve users' ability to find information on the website? Can we facilitate quicker decisions regarding product implementation in their operations?",
-          textEng2:"Before the interviews, I conducted a test interview to see if any adjustments were needed in the questions. The participants had difficulty imagining themselves in case scenarios, so I modified the questions. The question ´´What type of information do users need when deciding on implementing the product?´ was changed to ´What features should the product have to fit your business and target audience?´ and ´What information do you need to consider purchasing the product?´",
-          texEng3:" Användarna fick sedan leta efter egenskaperna på webbplatsen, men hade svårt att komma ihåg dem, så svaren skrevs ner. Frågorna visade sig vara avgörande för att förstå vad användarna söker och om informationen på webbplatsen var tillräcklig, även om de tog längre tid att genomföra.",
+          textEng1:"I decided to apply the ´think aloud` method on the menu to observe users' expectations. It quickly became evident that the menu names were vaguely formulated and could be interpreted in several ways.", 
+          textEng2:"I developed two questions as guidelines for user tests and interviews to ensure a clear focus and avoid deviations from the central topic.",
+          textEng3: "Question 1: What do I want to know from the user tests and interviews? Answer 1:** What information do users need when deciding on implementing the product? Is it available, or is essential information missing? We want to observe how users navigate various pages to seek information about Loopeli." ,
+          textEng4: "Question 2: What do I aim to achieve with the user tests and interviews? **Answer 2:** How can we improve users' ability to find information on the website? Can we facilitate quicker decisions regarding product implementation in their operations?",
+          textEng5:"Before the interviews, I conducted a test interview to see if any adjustments were needed in the questions. The participants had difficulty imagining themselves in case scenarios, so I modified the questions. The question ´What type of information do users need when deciding on implementing the product?´ was changed to ´What features should the product have to fit your business and target audience?´ and ´What information do you need to consider purchasing the product?´",
+         textEng6:"Users were then asked to look for the features on the website but found it challenging to remember them, so their answers were recorded. The questions proved essential to understanding what users are searching for and whether the information on the website was sufficient, even though the process took more time to conduct.",
           image1: "work1.jpg",
           altSwe: "Beskrivning på bilden",
           altEng: "Description of the images",
@@ -439,7 +436,7 @@ function MainMenu() {
           textEng:
             " From the data collection, I came up with two program ideas. The first was for the child to choose an activity to start screen time. The second involved the child receiving four game tickets each week, each worth 30 minutes, which could be used throughout the week. The parents would decide when the tickets could be used, and I decided to combine both ideas.",
          
-            image1: "skiss2.png",
+          image1: "skiss2.png",
           altSwe: "Beskrivning på bilden",
           altEng: "Description of the images",
           images2: "skiss2.jpg",
