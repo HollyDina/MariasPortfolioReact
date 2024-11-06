@@ -820,7 +820,7 @@ function MainMenu() {
           headlineEng: "About Uppsala Soup Kitchen",
           textEng:
             "The goal of the soup kitchens was to create a passing place for people who would’ve never met otherwise and to remove prejudices. The soup kitchens were a place to discuss the situation for the homeless of Uppsala. The goal of the soup kitchens was to highlight the problem of homelessness.",
-          image1: "Skärmbild 2023-04-14 134616.png",
+          image1: "SoppkokUppslaVidfikaBordet.png",
           altSwe: "Två glada personer står bakom ett bord fullt av smörgåsar och tallrikar.",
           altEng: "Description of the images",
           imageDescriptionSwe: "Två glada personer står bakom ett bord fullt av smörgåsar och tallrikar",
@@ -833,7 +833,7 @@ function MainMenu() {
           headlineEng: "Experiences from Uppsala Soup Kitchen",
           textEng:
             "In the beginning, we were six people planning everything together and we had clothing collections and clothing storage, transporting things away and also had contact with the media. My responsibilities were to have contact with supermarkets, tent rental, and private individuals who lent us equipment. I designed the soup kitchen's logotype, several posters and clothing collections, and organized transport by car and flatbed. During the soup kitchen, clothes and food were distributed to people who needed it. Many of the people were staying and talking. Thanks to social media, we got some big attention and commitment was created and many private individuals came to leave clothes, fruit, food, and some people even got haircuts. What I remember most from my first soup kitchens was that we felt so much joy from all the people who came and the soup kitchens were very successful. After the first soup kitchen, we got more volunteers which made everything more interesting to plan. The soup kitchens have taught me a lot about planning events and convincing companies to sponsor us. After having been active in soup kitchen Uppsala for a year, I felt it was time for others to take over. Soup kitchens in all the cities it was active in are now discontinued, and soup kitchen Uppsala lasted between the years 2013-2015.",
-          image1: "Skärmbild 2023-04-14 134413.png",
+          image1: "SoppkökUppslaArtikel.png",
           altSwe: "En artikel från uppsala tidning om soppkök.",
           altEng: "Description of the images",
           imageDescriptionSwe: "En artikel från uppsala tidning om soppkök.",
@@ -929,9 +929,9 @@ function MainMenu() {
       descriptionEng:
         "I helped organize Soppkök Uppsala, which aimed to create a meeting place for people who otherwise would not have met and to counteract prejudices. Here, the challenges of homelessness in Uppsala were discussed. Together with a team of six people, we planned clothing drives and transportation, and I was responsible for contact with supermarkets as well as designing the logo and posters. During the soup kitchen's operation, clothes and food were distributed, creating engagement and joy among the visitors. Soppkök Uppsala was active between 2013 and 2015.",
       headlineIntroSwe: "Verktyg & Metoder",
-      image1: "Frame_1944.png",
-      altSwe: "Beskrivning på bilden",
-      altEng: "Description of the images",
+      image1: "Skärmbild 2023-04-14 134654.png",
+      altSwe: "Två personer står på varsin sida av ett lakan med texten “Soppkök Uppsala”.",
+      altEng: "Two people are standing on either side of a sheet with the text“Soppkök Uppsala”",
       imageDescriptionSwe: "Bildbeskrivning",
       imageDescriptionEng: "Bildbeskrivning",
     },

@@ -20,18 +20,18 @@ function Home({ dataHome }) {
           <h1 className="hero-text"> {language && language === "sv"
             ? "Hej"
             : "Hi"}</h1>
-          <h1 className="hero-text">{language && language === "sv"
+          <h2 className="hero-text">{language && language === "sv"
             ? "Jag heter Maria Ekman"
-            : "I am Maria Ekman"}</h1>
-          <h1 className="hero-text">
+            : "I am Maria Ekman"}</h2>
+          <h3 className="hero-text">
             Ux-desginer & digital
-          </h1>
-          <h1 className="hero-text">{language && language === "sv"
+          </h3>
+          <h4 className="hero-text">{language && language === "sv"
             ? "tillgänglighetsexpert"
-            : "accessibility expert"}</h1>
+            : "accessibility expert"}</h4>
           <div className="hero-button-content">
 
-          <button className="hero-button" type="button"><a
+          <button className="hero-button" aria-label="save options" aria-expanded="false" type="button"><a
           className='a-hero-button'
             href={language && language === "sv"
               ? imageSwe 

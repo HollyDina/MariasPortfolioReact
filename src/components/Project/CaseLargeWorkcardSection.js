@@ -6,7 +6,7 @@ export function CaseLargeWorkcardSection({ dataHome }) {
    const { language } = useLanguage();
   return (
     <div className='case-largeworkcard-container'> 
-   <h1 style={{fontSize:32}}>
+   <h1 style={{fontSize:"2.5rem"}}>
    {language && language === "sv"
             ? "Här kan du se några projekt"
             : "Here you can see some projects"}</h1>

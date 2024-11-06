@@ -29,7 +29,9 @@ function MenuDropdown(props) {
     <ClickAwayListener onClickAway={handleClickAway}>
       <div>
       
-          <button className={`nav__item2 ${props.activeLink === props.path ? 'active' : ''}`} onClick={handleClick}>
+          <button aria-label={`${language === "sv" 
+        ? `visa ${props.label && props.label}` 
+        : `show ${props.labelEng &&props.labelEng }`}`} aria-expanded={open?true:false} aria-controls="down-menu-link" className={`nav__item2 ${props.activeLink === props.path ? 'active' : ''}`} onClick={handleClick}>
             <Link href
             className={`nav__link ${props.activeLink === props.path ? 'active' : ''}`} 
               to={props.path}>

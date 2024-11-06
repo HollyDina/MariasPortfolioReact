@@ -17,12 +17,12 @@ export function Homeworkcard({ item }) {
 
       </div>
       <div className='Homeworkcard-content'>
-        <h3 className='Homeworkcard-titel'>
+        <h2 className='Homeworkcard-titel'>
        
           {language && language === "sv"
             ? item.headlineMainSwe && item.headlineMainSwe
             : item.headlineMainEng && item.headlineMainEng}
-        </h3>
+        </h2>
        {/* <p>
           {language && language === "sv"
             ? item.descriptionSwe && item.descriptionSwe
