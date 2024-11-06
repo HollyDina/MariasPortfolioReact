@@ -1,22 +1,23 @@
 
-import { ImageLarge} from "./ImageLarge";
-import { useLanguage } from "./LanguageContext";
-export const TexImageSection2 = ({   headlineSwe, 
-    headlineEng, 
-    textSwe, 
-    textEng, 
-    textSwe2, 
-    textEng2, 
-    textSwe3, 
-    textEng3, 
-    textSwe4, 
-    textEng4, 
-    textSwe5, 
-    textEng5, 
-    textSwe6, 
-    textEng6, 
-    textSwe7, 
-    textEng7, 
+import { ImageLarge } from "../ImageLarge";
+import { useLanguage } from "../LanguageContext";
+export const TexImageSection = ({ headlineSwe,
+    headlineEng,
+    textSwe,
+    textEng,
+    textSwe2,
+    textEng2,
+    textSwe3,
+    textEng3,
+    textSwe4,
+    textEng4,
+    textSwe5,
+    textEng5,
+    textSwe6,
+    textEng6,
+    textSwe7,
+    textEng7,
+
     headlineSwe2,
     headlineEng2,
     headlineSwe3,
@@ -33,11 +34,10 @@ export const TexImageSection2 = ({   headlineSwe,
     imageDescriptionSwe,
     imageDescriptionEng,
     altSwe,
-    altEng  }) => {
+    altEng }) => {
 
 
     const { language } = useLanguage();
-
     const renderText = (swe, eng) => {
         const text = language === "sv" ? swe : eng;
         return text ? <p className="bodytext">{text}</p> : null;
@@ -48,9 +48,12 @@ export const TexImageSection2 = ({   headlineSwe,
         return text ? <h2 className="section-title-work">
             {language === "sv" ? headlineSwe : headlineEng}</h2> : null;
     };
-
     return (
         <>
+            <div className="case_content">
+                <ImageLarge img={img} imageDescriptionSwe={imageDescriptionSwe} imageDescriptionEng={imageDescriptionEng} altSwe={altSwe} altEng={altEng} />
+
+            </div>
             <div className="case_content">
                 <h2 className="section-title-work">
                     {language === "sv" ? headlineSwe : headlineEng}
@@ -69,14 +72,17 @@ export const TexImageSection2 = ({   headlineSwe,
                 {renderHeadline(headlineSwe7, headlineEng7)}
                 {renderText(textSwe7, textEng7)}
 
-
-            </div>
-            <div className="case_content">
-                <ImageLarge img={img} imageDescriptionSwe={imageDescriptionSwe} 
-                imageDescriptionEng={imageDescriptionEng} 
-                altSwe={altSwe} altEng={altEng} />
             </div>
         </>
 
     );
 };
+/* <Images img={content1Item.image1} imageDescriptionSwe={content1Item.imageDescriptionSwe} imageDescriptionEng={content1Item.imageDescriptionEn} altSwe={content1Item.altSwe} altEng={content1Item.altEng} />
+ */
+
+/*  <h2 className="section-title-work">
+                    {language === "sv" ? content1Item.headlineSwe : content1Item.headlineEng}
+                </h2>
+                <p className="bodytext">
+                    {language === "sv" ? content1Item.textSwe : content1Item.textEng}
+                </p> */

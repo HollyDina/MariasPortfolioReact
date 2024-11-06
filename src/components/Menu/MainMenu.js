@@ -25,6 +25,7 @@ function MainMenu() {
     imageDescriptionEng: "Bildbeskrivning",
   },*/
 
+  /* “Jobs to be done”. */
   const data = [
     {
       content1: {
@@ -62,10 +63,10 @@ function MainMenu() {
           headlineEng: "Assignment on the Loopeli company",
           textEng: "I was assigned by Loopeli to improve the structure of their website in order to make it more user-friendly for business users. The goal was to make it easier for them to quickly find relevant information and make informed decisions about integrating Loopeli into their operations. By analyzing how companies search for welfare aids and gathering user feedback on the app, I identified areas for improvement. These insights were used to enhance the user experience, making it simpler for businesses to purchase and use Loopeli.",
           image1: "microsoft-365-FHhbHW4vFxc-unsplash.jpg",
-          altSwe: "Beskrivning på bilden",
-          altEng: "Description of the images",
-          imageDescriptionSwe: "Bildbeskrivning",
-          imageDescriptionEng: "Bildbeskrivning",
+          altSwe: "Två personer sitter och diskuterar. Den ena har en skärm framför sig.",
+          altEng: "Two people are sitting and discussing. One of them has a screen in front of them.",
+          imageDescriptionSwe: "Två personer sitter och diskuterar. Den ena har en skärm framför sig.",
+          imageDescriptionEng: "Two people are sitting and discussing. One of them has a screen in front of them.",
         },
         textsection2: {
           headlineSwe: "Research",
@@ -75,33 +76,33 @@ function MainMenu() {
           textEng:
             "För att utforska användarnas tankar och beteenden använde jag semistrukturerade intervjuer och användartester. Denna metod gav en djupare förståelse för deras behov och bekräftade mina hypoteser från utvärderingen, samt identifierade ytterligare förbättringsområden för webbplatsen.",
           image1: "ResearchLooplie.png",
-          altSwe: "Beskrivning på bilden",
+          altSwe: "Miro används för att samla bilder från Loopelis nuvarande webbplats, med post-it-lappar som listar saker som behöver åtgärdas.",
           altEng: "Description of the images",
-          imageDescriptionSwe: "Bildbeskrivning",
-          imageDescriptionEng: "Bildbeskrivning",
+          imageDescriptionSwe: "Miro används för att samla bilder från Loopelis nuvarande webbplats, med post-it-lappar som listar saker som behöver åtgärdas",
+          imageDescriptionEng: "Miro is used to collect images from Loopeli's current website, with post-it notes listing tasks that need to be addressed.",
         },
 
         textsection3: {
           headlineSwe: "Användartesterna",
           textSwe1:
-            "Jag beslutade mig för att tillämpa `tänka högt`-metoden på menyn för att observera användarnas förväntningar. Det blev tydligt att meny-namnen var vagt formulerade och kunde tolkas på många olika sätt.",
+            "Jag beslutade mig för att tillämpa 'tänka högt'-metoden på menyn för att observera användarnas förväntningar. Det blev tydligt att meny-namnen var vagt formulerade och kunde tolkas på många olika sätt.",
           textSwe2:"Jag formulerade två frågor som riktlinjer för användartester och intervjuer för att säkerställa tydlig inriktning och undvika avvikelser från det centrala ämnet.",
           textSwe3:"Fråga 1: Vad vill jag veta från användartesterna och intervjuerna? Svar 1:** Vilken information behöver användarna för att besluta om att implementera produkten? Finns den tillgänglig, eller saknas viktig information? Vi vill observera hur användarna navigerar på olika sidor för att söka information om Loopeli.",
           textSwe4:"Fråga 2: Vad vill jag uppnå med användar-testerna och intervjuerna? Svar 2:** Hur kan vi förbättra användarnas möjlighet att hitta information på webbplatsen? Kan vi underlätta snabbare beslut om produktens implementering i deras verksamhet?",
-          textSwe5:"Innan intervjuerna genomförde jag en testintervju för att se om förändringar behövde göras i frågorna.Deltagaren hade svårt att tänka sig in i case-scenarion, så jag justerade frågorna. Frågan `Vilken typ av information behöver användarna för att besluta om att implementera produkten?`ändrades till` Vilka egenskaper ska produkten ha för att passa er verksamhet och målgrupp?` och `Vad behöver du för information för att köpa in produkten?`" ,
+          textSwe5:"Innan intervjuerna genomförde jag en testintervju för att se om förändringar behövde göras i frågorna.Deltagaren hade svårt att tänka sig in i case-scenarion, så jag justerade frågorna. Frågan 'Vilken typ av information behöver användarna för att besluta om att implementera produkten?'ändrades till' Vilka egenskaper ska produkten ha för att passa er verksamhet och målgrupp?' och 'Vad behöver du för information för att köpa in produkten?'" ,
           texSwe6:"Användarna fick sedan leta efter egenskaperna på webbplatsen, men hade svårt att komma ihåg dem, så svaren skrevs ner. Frågorna visade sig vara avgörande för att förstå vad användarna söker och om informationen på webbplatsen var tillräcklig, även om de tog längre tid att genomföra.",
           headlineEng: "User Testing",
-          textEng1:"I decided to apply the ´think aloud` method on the menu to observe users' expectations. It quickly became evident that the menu names were vaguely formulated and could be interpreted in several ways.", 
+          textEng1:"I decided to apply the 'think aloud' method on the menu to observe users' expectations. It quickly became evident that the menu names were vaguely formulated and could be interpreted in several ways.", 
           textEng2:"I developed two questions as guidelines for user tests and interviews to ensure a clear focus and avoid deviations from the central topic.",
           textEng3: "Question 1: What do I want to know from the user tests and interviews? Answer 1:** What information do users need when deciding on implementing the product? Is it available, or is essential information missing? We want to observe how users navigate various pages to seek information about Loopeli." ,
           textEng4: "Question 2: What do I aim to achieve with the user tests and interviews? **Answer 2:** How can we improve users' ability to find information on the website? Can we facilitate quicker decisions regarding product implementation in their operations?",
-          textEng5:"Before the interviews, I conducted a test interview to see if any adjustments were needed in the questions. The participants had difficulty imagining themselves in case scenarios, so I modified the questions. The question ´What type of information do users need when deciding on implementing the product?´ was changed to ´What features should the product have to fit your business and target audience?´ and ´What information do you need to consider purchasing the product?´",
+          textEng5:"Before the interviews, I conducted a test interview to see if any adjustments were needed in the questions. The participants had difficulty imagining themselves in case scenarios, so I modified the questions. The question 'What type of information do users need when deciding on implementing the product?' was changed to 'What features should the product have to fit your business and target audience?' and 'What information do you need to consider purchasing the product?'",
          textEng6:"Users were then asked to look for the features on the website but found it challenging to remember them, so their answers were recorded. The questions proved essential to understanding what users are searching for and whether the information on the website was sufficient, even though the process took more time to conduct.",
           image1: "work1.jpg",
           altSwe: "Beskrivning på bilden",
           altEng: "Description of the images",
-          imageDescriptionSwe: "Bildbeskrivning",
-          imageDescriptionEng: "Bildbeskrivning",
+          imageDescriptionSwe: "Det ligger dokument på bordet som innehåller text och rutor.",
+          imageDescriptionEng: "There are documents on the table containing text and boxes.",
         },
         textsection4: {
           headlineSwe: "Insamlingen av insikter",
@@ -113,8 +114,8 @@ function MainMenu() {
           image1: "LoopeliföretagSamlingavInsikter.png",
           altSwe: "Beskrivning på bilden",
           altEng: "Description of the images",
-          imageDescriptionSwe: "Bildbeskrivning",
-          imageDescriptionEng: "Bildbeskrivning",
+          imageDescriptionSwe: "Insikter från intervjuer har sammanställts, vilket ger en översikt över alla genomförda intervjuer.",
+          imageDescriptionEng: "Insights from interviews have been compiled, providing an overview of all conducted interviews.",
         },
         textsection5: {
           headlineSwe: "Nya Insikter som framkom från användar-testerna",
@@ -140,7 +141,7 @@ function MainMenu() {
           altSwe: "Nya strukturen på webbplatsen",
           altEng: "Description of the images",
           imageDescriptionSwe: "Nya strukturen på webbplatsen",
-          imageDescriptionEng: "Bildbeskrivning",
+          imageDescriptionEng: "The new structure of the website",
         },
        
       },
@@ -179,10 +180,10 @@ function MainMenu() {
           textEng:
             " Loopeli is an easy-to-use communication service/app designed for groups who find common communication tools like Facebook, Skype, or Facetime challenging to use. The idea for Loopeli emerged from the need for simple communication after a family member experienced a stroke, as there was no service available to facilitate contact without physical visits. The company was founded in 2019, but with its relaunch on SVT’s(swedish television) Draknästet in September 2021, Loopeli gained the opportunity to expand and hire staff.",
           image1: "Draknästet.png",
-          altSwe: "Beskrivning på bilden",
+          altSwe: "Alla drakar från tv-programmet 'Draknästet' poserar.",
           altEng: "Description of the images",
-          imageDescriptionSwe: "Bildbeskrivning",
-          imageDescriptionEng: "Bildbeskrivning",
+          imageDescriptionSwe: "Loopeli deltog i 'Draknästet'",
+          imageDescriptionEng: "Loopeli participated in 'Dragon's Den.",
         },
         textsection2: {
           headlineSwe: "Syftet",
@@ -205,10 +206,10 @@ function MainMenu() {
           textEng:
             "Reduce the need for support calls by identifying where users get stuck in the interface and which aspects they find difficult to understand. Analyze how users navigate Loopeli's websites to understand their behaviors and identify specific areas that can be improved in navigation. Adjust the content and design of the website to better meet the needs of the target audience and create a more relevant platform. Make it easier for users to obtain the Loopeli app on the website based on insights from user research.",
           image1: "sätta-mål-a-till-b-large 1.svg",
-          altSwe: "Beskrivning på bilden",
-          altEng: "Description of the images",
-          imageDescriptionSwe: "Bildbeskrivning",
-          imageDescriptionEng: "Bildbeskrivning",
+          altSwe: "En person funderar på hur han ska ta sig från punkt A till punkt B, och mellan A till punkt B moln rörligt svart tråd.",
+          altEng: "A person is contemplating how to get from point A to point B, where there is a moving thread between them.",
+          imageDescriptionSwe: "En person funderar på hur han ska ta sig från punkt A till punkt B, och mellan A till punkt B moln rörligt svart tråd.",
+          imageDescriptionEng: "A person is contemplating how to get from point A to point B, where there is a moving thread between them.",
         },
         textsection4: {
           headlineSwe: "Granskning av Webbplatsen",
@@ -218,9 +219,9 @@ function MainMenu() {
           textEng:
             ":I started by reviewing the website using Miro to identify potential issues and create hypotheses about any shortcomings, such as interface and navigation challenges. I also aimed to gain an overview of the website's current structure. After that, I contacted support to discuss the problems users have encountered",
           image1: "loopeliwebbplats.jpg",
-          altSwe: "Beskrivning på bilden",
+          altSwe: "Nuvarande startsida på Loopelis webbplats.",
           altEng: "Description of the images",
-          imageDescriptionSwe: "Bildbeskrivning",
+          imageDescriptionSwe: "Nuvarande startsida på Loopelis webbplats.",
           imageDescriptionEng: "Bildbeskrivning",
         },
         textsection5: {
@@ -231,9 +232,9 @@ function MainMenu() {
           textEng:
             "Task 1: You are considering using Loopeli and need to gather information to facilitate your first use of the app. This shows what type of information users seek when they first start using the Loopeli app. The results indicated that users encountered problems with the interface and needed help to move forward. After a test interview, I changed the task order and made the “think-aloud”  method for the menu the first task, as users were trying to relate to their previous website experiences. Due to difficulties in recruiting users during the summer, I used family members and colleagues of the same age as the target group.",
           image1: "work1.jpg",
-          altSwe: "Beskrivning på bilden",
+          altSwe: "Ett papper med tester ligger på bordet.",
           altEng: "Description of the images",
-          imageDescriptionSwe: "Bildbeskrivning",
+          imageDescriptionSwe: "Ett papper med tester ligger på bordet.",
           imageDescriptionEng: "Bildbeskrivning",
         },
         textsection6: {
@@ -246,8 +247,8 @@ function MainMenu() {
           image1: "Skärmbild 2023-08-25 191050.png",
           altSwe: "Beskrivning på bilden",
           altEng: "Description of the images",
-          imageDescriptionSwe: "Bildbeskrivning",
-          imageDescriptionEng: "Bildbeskrivning",
+          imageDescriptionSwe: "Tester har sammanställts i en tabell.",
+          imageDescriptionEng: "The tests have been compiled into a table.",
         },
       },
 
@@ -296,29 +297,29 @@ function MainMenu() {
         textsection2: {
           headlineSwe: "Syfte",
           textSwe:
-            "Att förstå hur föräldrar hanterar och undviker bråk med sina barn är centralt för projektet. Jag vill utmanas och lära mig mer om ´Design Thinking Process` samt få erfarenhet av att intervjua andra och få djupare insikter som UX-designer. Det är också viktigt att förstå vad barn gör när de sitter framför digitala verktyg och deras behov av skärmtid. ",
+            "Att förstå hur föräldrar hanterar och undviker bråk med sina barn är centralt för projektet. Jag vill utmanas och lära mig mer om 'Design Thinking Process' samt få erfarenhet av att intervjua andra och få djupare insikter som UX-designer. Det är också viktigt att förstå vad barn gör när de sitter framför digitala verktyg och deras behov av skärmtid. ",
           headlineEng: "Purpose",
           textEng:
-            " Understanding how parents manage and avoid conflicts with their children is central to the project. I want to challenge myself and learn more about the  ´DDesign Thinking Process´ , as well as gain experience in interviewing others and acquiring deeper insights as a UX designer. It is also important to understand what children do when they are in front of digital devices and their needs for screen time.",
+            " Understanding how parents manage and avoid conflicts with their children is central to the project. I want to challenge myself and learn more about the  'DDesign Thinking Process' , as well as gain experience in interviewing others and acquiring deeper insights as a UX designer. It is also important to understand what children do when they are in front of digital devices and their needs for screen time.",
           image1: "Helping-children-calm-down-narrow.jpg",
-          altSwe: "Beskrivning på bilden",
-          altEng: "Description of the images",
-          imageDescriptionSwe: "Bildbeskrivning",
-          imageDescriptionEng: "Bildbeskrivning",
+          altSwe: "En mamma kramar om sitt sura barn.",
+          altEng: "A mother embraces her grumpy child.",
+          imageDescriptionSwe: "En mamma kramar om sitt sura barn.",
+          imageDescriptionEng: "A mother embraces her grumpy child",
         },
 
         textsection3: {
           headlineSwe: "Målet",
           textSwe:
-            "Målet är att föräldrar ska slippa bråka om skärmtiden och att jag ska få en djupare förståelse för `Design Thinking Process` för att bli en bättre UX-designer. Jag vill lära mig vad jag bör tänka på när jag intervjuar användare för att samla nya insikter om målgruppens behov och mål, vilket ska leda till att jag kan möta deras behov med en klickbar prototyp.",
+            "Målet är att föräldrar ska slippa bråka om skärmtiden och att jag ska få en djupare förståelse för 'Design Thinking Process' för att bli en bättre UX-designer. Jag vill lära mig vad jag bör tänka på när jag intervjuar användare för att samla nya insikter om målgruppens behov och mål, vilket ska leda till att jag kan möta deras behov med en klickbar prototyp.",
           headlineEng: "Goal",
           textEng:
-            "The goal is for parents to avoid arguments about screen time and for me to gain a deeper understanding of the `Design Thinking Process` to become a better UX designer. I want to learn what to consider when interviewing users to gather new insights about the target groups' needs and goals, which will enable me to meet their needs with a clickable prototype.",
+            "The goal is for parents to avoid arguments about screen time and for me to gain a deeper understanding of the 'Design Thinking Process' to become a better UX designer. I want to learn what to consider when interviewing users to gather new insights about the target groups' needs and goals, which will enable me to meet their needs with a clickable prototype.",
           image1: "designthinkingprocess.png",
           altSwe: "Beskrivning på bilden",
           altEng: "Description of the images",
-          imageDescriptionSwe: "Bildbeskrivning",
-          imageDescriptionEng: "Bildbeskrivning",
+          imageDescriptionSwe: "Illustrerar design thing processen",
+          imageDescriptionEng: "Illustrates the design process",
         },
         textsection4: {
           headlineSwe: "Research",
@@ -327,7 +328,7 @@ function MainMenu() {
           headlineEng: "Research",
           textEng:
             "I received advice from a UX designer who had worked on the Bolibompa app about engaging with children. I read articles about screen time and research indicating that children communicate better with images. Then, I wrote the purpose of the interviews and what I wanted to achieve. I chose semi-structured qualitative interviews to allow for follow-up questions and to gain deeper insights. I interviewed parents and children in a playground and at a soccer tournament, asking for the parents' permission to interview the children. I informed them about their rights and ensured that they would remain anonymous, so no personal information was required. I used images during the interviews, but it became chaotic in the playground, so I showed the images while we talked. During the interview process, I adjusted the questions as needed and transcribed the interviews into documents to keep everything fresh in my memory.",
-          image1: "Frame_1944.png",
+          image1: "Forensic-interview-for-reported-victims-of-child-abuse-in-Smith-County-Texas-scaled-1 1.png",
           altSwe: "Beskrivning på bilden",
           altEng: "Description of the images",
           imageDescriptionSwe: "Bildbeskrivning",
@@ -411,8 +412,8 @@ function MainMenu() {
           image1: "Flöde.jpg",
           altSwe: "Använde flödesdiagram för att klargöra vyer.",
           altEng: "Description of the images",
-          imageDescriptionSwe: "Bildbeskrivning",
-          imageDescriptionEng: "Bildbeskrivning",
+          imageDescriptionSwe: "Flödesschema över vilka vyer spelet kan ha.",
+          imageDescriptionEng: "A flowchart of the possible views the game can have",
         },
         textsection10: {
           headlineSwe: "Program-research",
@@ -507,10 +508,10 @@ function MainMenu() {
           textEng:
             "At the end of the program, we were assigned to investigate the students' experience of the course I was attending. I interviewed both current and former students. CHAS Academy plans to expand in the UX field and increase the number of students by 30% within 1-3 years. Their focus is on improving the customer experience, business model, and student evaluations of the program. By making the education more competitive compared to other similar schools, CHAS Academy can stand out and strengthen its brand within the education sector, attracting more students.",
           image1: "chas.jpg",
-          altSwe: "Beskrivning på bilden",
-          altEng: "Description of the images",
-          imageDescriptionSwe: "Bildbeskrivning",
-          imageDescriptionEng: "Bildbeskrivning",
+          altSwe: "Några elever sitter vid ett bord, och på väggen finns det en skylt som säger'Chas Academy'",
+          altEng: "A few students are sitting at a table, and'Chas Academy' is displayed on the way.",
+          imageDescriptionSwe: "Några elever sitter vid ett bord, och på väggen finns det en skylt som säger'Chas Academy",
+          imageDescriptionEng: "A few students are sitting at a table, and'Chas Academy' is displayed on the way.",
         },
         textsection2: {
           headlineSwe: "Syfte",
@@ -520,10 +521,10 @@ function MainMenu() {
           textEng:
             "The purpose of this analysis is to identify and improve the customer journey for students in UX design at CHAS Academy, with the aim of increasing student satisfaction while also strengthening the academy’s business development. This involves identifying the current strengths and weaknesses of the program to explore how we can enhance the quality of the education, making it more attractive to potential students, and standing stronger against competition from similar programs.By considering students’ needs and expectations, CHAS Academy can adapt its curriculum to help students become active in the job market and create a strong connection between the program content and the demands of the workforce.",
           image1: "styrkor-svagheter.jpg",
-          altSwe: "Beskrivning på bilden",
-          altEng: "Description of the images",
-          imageDescriptionSwe: "Bildbeskrivning",
-          imageDescriptionEng: "Bildbeskrivning",
+          altSwe: "En illustration visar både svagheter och styrkor: en person lyfter en stång med tunga vikter, medan den andra personen försöker lyfta samma stång men tappar den.",
+          altEng: "An illustration shows both weaknesses and strengths: one person is lifting a barbell with heavy weights, while another person tries to lift the same barbell but drops it.",
+          imageDescriptionSwe: "En illustration visar både svagheter och styrkor: en person lyfter en stång med tunga vikter, medan den andra personen försöker lyfta samma stång men tappar den.",
+          imageDescriptionEng: "An illustration shows both weaknesses and strengths: one person is lifting a barbell with heavy weights, while another person tries to lift the same barbell but drops it.",
         },
         textsection3: {
           headlineSwe: "Mål",
@@ -533,10 +534,10 @@ function MainMenu() {
           textEng:
             "Improve the areas that have the greatest impact on customer satisfaction and business goals. Increase market share within UX education.Improve the customer experience and business model. Strengthen CHAS Academy's brand to attract more students. Increase the number of applicants for the program. Expand in the UX field and increase the number of students by 30% within 1-3 years. Enhance the quality of education. Create a more attractive educational experience that effectively meets students' needs and expectations.",
           image1: "Mål2.jpg",
-          altSwe: "Beskrivning på bilden",
-          altEng: "Description of the images",
-          imageDescriptionSwe: "Bildbeskrivning",
-          imageDescriptionEng: "Bildbeskrivning",
+          altSwe: "En trappa med klossar på varje steg, högst upp finns det pilar som pekar mot högre mål.",
+          altEng: "A staircase with blocks on each step, where at the top there are arrows pointing towards higher goals.",
+          imageDescriptionSwe: "En trappa med klossar på varje steg, högst upp finns det pilar som pekar mot högre mål.",
+          imageDescriptionEng: "A staircase with blocks on each step, where at the top there are arrows pointing towards higher goals.",
         },
 
         textsection4: {
@@ -562,8 +563,8 @@ function MainMenu() {
           image1: "kundresa hela.jpg",
           altSwe: "Kundresan inkluderar faser, mål och insikter.",
           altEng: "Description of the images",
-          imageDescriptionSwe: "Bildbeskrivning",
-          imageDescriptionEng: "Bildbeskrivning",
+          imageDescriptionSwe: "Chas academy kund-resekartan",
+          imageDescriptionEng: "Chas Academy customer journey map",
         },
         textsection6: {
           headlineSwe: "Pain points & Moments of truth",
@@ -573,10 +574,10 @@ function MainMenu() {
           textEng:
             "Student experiences encompass various “pain points”  and “moments of truth”  throughout the customer journey. Quotes from students illustrate how they feel: In the research phase, many expressed that they appreciated the blend of UX and requirements, as well as the fact that the school was founded by Chas Visual Management. Students felt that Chas had a modern vibe with a personal touch and chose YH for its practical learning format: “I want to take a practical program so I can learn for real.” Early in the journey, students had higher expectations for the school's structure, as evidenced by the frequent mention of the word “chaotic“ in each phase, as shown by the yellow stars. During the “starting school”  phase, they felt that the staff was not fully prepared. In the “content and courses”  phase, some felt that their expectations were not met: “Too much focus on requirements management” and “I want to learn Figma/UI better than what the school offers.” Others complained about unclear assignments and a lack of feedback from the school staff. In the internship phase, students noted that the school lacked an industry-connected network for internships: “Why doesn’t the school use its network to help us?” They also sensed shortcomings in the structure, feeling stressed that the LIA course started right in the middle of a major submission period. Finally, the graduation phase was perceived as chaotic: “It stresses me out that it’s not clear what needs to be submitted” and “I don’t understand what is expected of me.”",
           image1: "kundresa2.jpg",
-          altSwe: "Studerande-upplevelser: pain points och förväntningar.",
-          altEng: "Description of the images",
-          imageDescriptionSwe: "Bildbeskrivning",
-          imageDescriptionEng: "Bildbeskrivning",
+          altSwe: "Ett diagram visar studenternas upplevelser, som inkluderar olika 'pain points' och 'moments of truth' under kundresan",
+          altEng: "A diagram shows the students' experiences, including various 'pain points' and 'moments of truth' throughout the customer journey.",
+          imageDescriptionSwe: "Ett diagram visar studenternas upplevelser, som inkluderar olika 'pain points' och 'moments of truth' under kundresan.",
+          imageDescriptionEng: "A diagram shows the students' experiences, including various 'pain points' and 'moments of truth' throughout the customer journey.",
         },
         textsection7: {
           headlineSwe: "Chas Academy nuvarande affärsmodell på UX-området",
@@ -588,10 +589,10 @@ function MainMenu() {
           image1: "första.jpg",
           altSwe: "Beskrivning på bilden",
           altEng: "Description of the images",
-          imageDescriptionSwe: "Bildbeskrivning",
-          imageDescriptionEng: "Bildbeskrivning",
+          imageDescriptionSwe: "Chas Academys nuvarande affärsmodell inom UX-området",
+          imageDescriptionEng: "Chas Academy's current business model in the UX field.",
         },
-        textsection8: {
+       /* textsection8: {
           headlineSwe: "",
           headlineEng: "",
           textSwe: " “” ",
@@ -601,13 +602,15 @@ function MainMenu() {
           altEng: "Description of the images",
           imageDescriptionSwe: "Bildbeskrivning",
           imageDescriptionEng: "Bildbeskrivning",
-        },
+        },*/
         textsection9: {
           headlineSwe: "Blandningen av UX-design och krav",
           textSwe:
             "Det fanns missförstånd kring fördelningen av UX-design och krav. Jag föreslår att vi klargör utbildningens namn, som “UX-designer och Kravhanterare” , för att ändra studenternas “Jobs to be done”. ",
-          headlineEng: "The mix of UX design and requirements",
-          textEng:
+   
+          textSwe2:"Eleverna hade felaktiga förväntningar på fördelningen mellan UX-design och kravhantering. Vi föreslår att tydliggöra detta genom att justera utbildningsnamnet, exempelvis till “UX-designer och Kravhanterare”, för att påverka studenternas “Jobs to be Done”. Alternativt kan kursplanen ses över för att omfördela innehållet och därigenom justera värdeerbjudandet. En tydligare fördelning mellan UX-design och kravhantering, genom justering av utbildningsnamn eller kursplan, föreslås för att bättre möta studenternas “Jobs to be Done”.",
+                headlineEng: "The mix of UX design and requirements", 
+                textEng:
             "There were misunderstandings regarding the distribution of UX design and requirements. I suggest clarifying the program's name as “UX Designer and Requirements Manager” to change the students “Jobs to be done.”",
           image1: "krav och ux.jpg",
           altSwe: "Beskrivning på bilden",
@@ -625,6 +628,8 @@ function MainMenu() {
           image1: "Branschnara.jpg",
           altSwe: "Diagram visar hur Chas Visual kan maximera Chas Academy's potential.",
           altEng: "Description of the images",
+          imageDescriptionSwe:"Chas ska integrera sin branschnära verksamhet i skolan.",
+          imageDescriptionEng:"Chas will integrate its industry-related operations into the school."
         },
         textsection11: {
           headlineSwe: "Praktisk utbildning",
@@ -636,8 +641,8 @@ function MainMenu() {
           image1: "Praktisk utbildning.jpg",
           altSwe: "Beskrivning på bilden",
           altEng: "Description of the images",
-          imageDescriptionSwe: "Bildbeskrivning",
-          imageDescriptionEng: "Bildbeskrivning",
+          imageDescriptionSwe: "Chas kan uppfylla värdeerbjudandet för att få mer praktisk utbildning.",
+          imageDescriptionEng: "Chas will integrate its industry-related operations into the school.",
         },
         textsection12: { 
           headlineSwe: "Förbättringsområden",
@@ -678,11 +683,11 @@ function MainMenu() {
           textToolsEng4: "Behovskarta",
           textToolsEng5: "Affinity Diagramming",
           textToolsEng6: "User Testing",
-          image1: "berghs_logo.svg",
+          image1: "berghs_logo_color.png",
           altSwe: "Svart backgrund med texten Berghs School of Communication",
           altEng: "Description of the images",
           imageDescriptionSwe: "Bildbeskrivning", 
-          imageDescriptionSwe: "Bildbeskrivning",
+          imageDescriptionEng: "Bildbeskrivning",
         },
         textsection1: {
           headlineSwe: "Uppdraget",
@@ -691,10 +696,11 @@ function MainMenu() {
           headlineEng: "Assignment",
           textEng:
             "I conducted the project as part of an admissions process for entry into Berghs, focusing on improving the user experience of a website. During the work, several user interface issues were identified, leading to necessary design improvements. Through careful analysis and user testing, design weaknesses were revealed, resulting in proposals for a redesign to make certain features clearer and more user-friendly.",
-          image1: "Frame_1944.png",
+          image1: "artportable_cover.jpg",
           altSwe: "Rosa bakgund bild med namnet Artportable",
           altEng: "Description of the images",
-          imageDescriptionSwe: "Bildbeskrivning", imageDescriptionSwe: "Bildbeskrivning",
+          imageDescriptionSwe: "Bildbeskrivning", 
+          imageDescriptionEng: "Bildbeskrivning",
         },
         textsection2: {
           headlineSwe: "Hypotes",
@@ -703,11 +709,11 @@ function MainMenu() {
           headlineEng: "Hypotes",
           textEng:
             "I assumed that users had difficulty understanding the function of the room button. To help Artportable increase sales on its website, they should consider a redesign that encourages more purchases.",
-          image1: "Frame_1944.png",
+          image1: "hypotesen.png",
           altSwe: "Beskrivning på bilden",
           altEng: "Description of the images",
           imageDescriptionSwe: "Bildbeskrivning",
-           imageDescriptionSwe: "Bildbeskrivning",
+           imageDescriptionEng: "Bildbeskrivning",
         },
         textsection3: {
           headlineSwe: "Research",
@@ -719,21 +725,21 @@ function MainMenu() {
           image1: "Skärmbild 2023-04-04 234051 1.png",
           altSwe: "samling av olika bilder på andra liknande lösningar",
           altEng: "Description of the images",
-          imageDescriptionSwe: "Bildbeskrivning", 
-          imageDescriptionSwe: "Bildbeskrivning",
+          imageDescriptionSwe: "En sammanställning av analyserade konkurrerande webbplatser.", 
+          imageDescriptionEng: "A compilation of analyzed competing websites.",
         },
         textsection4: {
           headlineSwe: "Några av de mest betydelsefulla användartestare",
           textSwe:
-            "Tester visade att många användare missförstod ikonen för ´köpförfrågan´ och ofta missade den helt. Jag gjorde därför knappen lika stor som konstverket och ändrade texten till ´lägg i varukorgen ´. För att öka köpen på webbplatsen lade jag till en röd kundvagnsikon på köpknappen, vilket uppmuntrade fler att klicka, medan svart användes för att ge kontrast utan att ändra det övergripande färgschemat.",
+            "Tester visade att många användare missförstod ikonen för 'köpförfrågan' och ofta missade den helt. Jag gjorde därför knappen lika stor som konstverket och ändrade texten till 'lägg i varukorgen '. För att öka köpen på webbplatsen lade jag till en röd kundvagnsikon på köpknappen, vilket uppmuntrade fler att klicka, medan svart användes för att ge kontrast utan att ändra det övergripande färgschemat.",
           headlineEng: "Some of the most significant user tests",
           textEng:
-            "Tests showed that many users misunderstood the ´purchase inquiry´ icon and often missed it entirely. To address this, I made the button the same size as the artwork and changed the label to ´add to cart´. To further boost purchases on the site, I added a red shopping cart icon to the button, encouraging clicks, while using black for contrast without altering the overall color scheme.",
-          image1: "Frame_1944.png",
+            "Tests showed that many users misunderstood the 'purchase inquiry' icon and often missed it entirely. To address this, I made the button the same size as the artwork and changed the label to 'add to cart'. To further boost purchases on the site, I added a red shopping cart icon to the button, encouraging clicks, while using black for contrast without altering the overall color scheme.",
+          image1: "usability-testing-methods_eg69g0f.jpg",
           altSwe: "Beskrivning på bilden",
           altEng: "Description of the images",
           imageDescriptionSwe: "Bildbeskrivning", 
-          imageDescriptionSwe: "Bildbeskrivning",
+          imageDescriptionEng: "Bildbeskrivning",
         },
         textsection5: {
           headlineSwe: "Rumfunktionen lösning",
@@ -742,27 +748,29 @@ function MainMenu() {
           headlineEng: "Room Function Solution",
           textEng:
             "The pink room button with a text description led to a page where users could test the painting in different room settings, but they didn’t understand the purpose of the button or what would happen when they clicked on it. The button displayed a slideshow of the painting in various rooms. The solution was to make the function visible and clear from the start, which made it easier to understand.",
-          image1: "Frame 834.png",
+            image1: "Rumfunktionenbåda.png",
+            image2: "Frame 834.png",
           altSwe: "Nuvarnde lösningen",
           altEng: "Description of the images",
-          image1: "Frame 872 (1).png",
           altSwe: "Första förslaget på rumfunktion",
           altEng: "Description of the images",
-          imageDescriptionSwe: "Bildbeskrivning", imageDescriptionSwe: "Bildbeskrivning",
+          imageDescriptionSwe: "Bildbeskrivning", 
+          imageDescriptionEng: "Bildbeskrivning",
 
         },
         textsection6: {
           headlineSwe: " Inskiter om Lägg i varukorgen samt lösningen",
-          textSwe: "Tester visade att många användare missförstod ikonen för `köpförfrågan` och ofta missade den helt. Jag gjorde därför knappen lika stor som konstverket och ändrade texten till `lägg i varukorgen`. För att öka köpen på webbplatsen lade jag till en röd kundvagnsikon på köpknappen, vilket uppmuntrade fler att klicka, medan svart användes för att ge kontrast utan att ändra det övergripande färgschemat.",
+          textSwe: "Tester visade att många användare missförstod ikonen för 'köpförfrågan' och ofta missade den helt. Jag gjorde därför knappen lika stor som konstverket och ändrade texten till 'lägg i varukorgen'. För att öka köpen på webbplatsen lade jag till en röd kundvagnsikon på köpknappen, vilket uppmuntrade fler att klicka, medan svart användes för att ge kontrast utan att ändra det övergripande färgschemat.",
           headlineEng: "Add to Cart Solution",
-          textEng: "Tests showed that many users misunderstood the `purchase inquiry´ icon and often missed it entirely. To address this, I made the button the same size as the artwork and changed the label to `add to cart´. To further boost purchases on the site, I added a red shopping cart icon to the button, encouraging clicks, while using black for contrast without altering the overall color scheme.",
-          image1: "Frame 850.png",
+          textEng: "Tests showed that many users misunderstood the 'purchase inquiry' icon and often missed it entirely. To address this, I made the button the same size as the artwork and changed the label to 'add to cart'. To further boost purchases on the site, I added a red shopping cart icon to the button, encouraging clicks, while using black for contrast without altering the overall color scheme.",
+          image1: "Laggivarukorgen.png",
           altSwe: "Nuvarnde lösningen",
           altEng: "Description of the images",
-          image1: "Frame 850.png",
+          image2: "Frame 850.png",
           altSwe: "Första förslaget på rumfunktion",
           altEng: "Description of the images",
-          imageDescriptionSwe: "Bildbeskrivning", imageDescriptionSwe: "Bildbeskrivning",
+          imageDescriptionSwe: "Bildbeskrivning",
+           imageDescriptionEng: "Bildbeskrivning",
         },
         textsection7: {
           headlineSwe: "Om användartester",
@@ -771,10 +779,11 @@ function MainMenu() {
           headlineEng: "About user testing",
           textEng:
             " I created the prototype and used the 'think-aloud' method. The test results were documented in Miro, showing where changes were needed. The product list only needed to be tested twice, and almost all information was removed, except for the design change for 'Add to cart.' The room button was changed from a link with the text 'show rooms with your environment' to a slideshow of room environments. To clarify, a guide could be added to explain how the slideshow works.",
-          image1: "Frame_1944.png",
+          image1:"Girl-thinking.jpg",
           altSwe: "Beskrivning på bilden",
           altEng: "Description of the images",
-          imageDescriptionSwe: "Bildbeskrivning", imageDescriptionSwe: "Bildbeskrivning",
+          imageDescriptionSwe: "Bildbeskrivning",
+           imageDescriptionEng: "Bildbeskrivning",
         },
       },
       content6: {
@@ -952,7 +961,7 @@ export default MainMenu;
 
 //* https://codesandbox.io/p/sandbox/hamburger-menu-css-animation-react-u9vit?file=%2Fsrc%2FMenuButton.js%3A18%2C3*/
 /*export const ProductDetails = () => {
-      <Link to={`/case/${id}`}>View Details</Link>
+      <Link to={'/case/${id}'}>View Details</Link>
   }
       
   https://stackademic.com/blog/practical-steps-on-how-to-apply-the-useparams-hook-of-react-router-5cd43a2106b2

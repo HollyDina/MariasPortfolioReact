@@ -5,7 +5,7 @@ import { useLanguage } from "../components/LanguageContext";
 import {Images} from "../components/ImageMedium";
 import ImageHero from "../components/ImageHero";
 import HeroSection from "../components/HeroSection";
-import Test from "../components/Test";
+import Test from "../components/Project/DisplayOneProject";
 export const Cases = ({data}) => { 
 
   const { id } = useParams();
