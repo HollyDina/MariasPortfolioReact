@@ -29,9 +29,7 @@ function MenuDropdown(props) {
     <ClickAwayListener onClickAway={handleClickAway}>
       <div>
       
-          <button aria-label={`${language === "sv" 
-        ? `visa ${props.label && props.label}` 
-        : `show ${props.labelEng &&props.labelEng }`}`} aria-expanded={open?true:false} aria-controls="down-menu-link" className={`nav__item2 ${props.activeLink === props.path ? 'active' : ''}`} onClick={handleClick}>
+          <div  className={`nav__item2 ${props.activeLink === props.path ? 'active' : ''}`} onClick={handleClick}>
             <Link href
             className={`nav__link ${props.activeLink === props.path ? 'active' : ''}`} 
               to={props.path}>
@@ -41,12 +39,10 @@ function MenuDropdown(props) {
                     ? props.label && props.label
                     : props.labelEng && props.labelEng}
             </Link>
-
-
             <div className='icon-arrow-button-container'>
               <img onClick={handleClick} src={open && `${props.activeLink === props.path ? ImageW  : Image}`? ImageW : Image} alt="En Telefon" className={!open ? "icon-arrow-button" : "icon-arrow-button-rote"} />
             </div>
-          </button>
+          </div>
      
         {open ? (
           props.path === "/about" ?

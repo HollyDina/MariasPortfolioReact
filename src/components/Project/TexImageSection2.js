@@ -5,8 +5,8 @@ export const TexImageSection2 = ({   headlineSwe,
     headlineEng, 
     textSwe, 
     textEng, 
-    textSwe2, 
-    textEng2, 
+    textSwe1, 
+    textEng1, 
     textSwe3, 
     textEng3, 
     textSwe4, 
@@ -17,8 +17,8 @@ export const TexImageSection2 = ({   headlineSwe,
     textEng6, 
     textSwe7, 
     textEng7, 
-    headlineSwe2,
-    headlineEng2,
+    headlineSwe1,
+    headlineEng1,
     headlineSwe3,
     headlineEng3,
     headlineSwe4,
@@ -45,19 +45,19 @@ export const TexImageSection2 = ({   headlineSwe,
 
     const renderHeadline = (swe, eng) => {
         const text = language === "sv" ? swe : eng;
-        return text ? <h2 className="section-title-work">
-            {language === "sv" ? headlineSwe : headlineEng}</h2> : null;
+        return text ? <h1 className="section-title-work">
+            {language === "sv" ? headlineSwe : headlineEng}</h1> : null;
     };
 
     return (
         <>
             <div className="case_content">
-                <h2 className="section-title-work">
+                <h1 className="section-title-work">
                     {language === "sv" ? headlineSwe : headlineEng}
-                </h2>
+                </h1>
                 {renderText(textSwe, textEng)}
-                {renderHeadline(headlineSwe2, headlineEng2)}
-                {renderText(textSwe2, textEng2)}
+                {renderHeadline(headlineSwe1, headlineEng1)}
+                {renderText(textSwe1, textEng1)}
                 {renderHeadline(headlineSwe3, headlineEng3)}
                 {renderText(textSwe3, textEng3)}
                 {renderHeadline(headlineSwe4, headlineEng4)}

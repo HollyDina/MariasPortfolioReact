@@ -109,35 +109,62 @@ background-color: rgb(251, 251, 251);
   min-height: 44px;
   min-width: 162px;
   font-size: 14px;
-  max-width: 250px;
+  max-width: 270px;
+  display: flex;
+  justify-content: center;
 
 }
 .a-hero-button{
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255)!important;
   text-decoration: none;
+  min-height: 44px;
+  min-width: 162px;
+  max-width: 270px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.a-hero-button:hover{
+  color: rgb(255, 255, 255);
+  text-decoration:underline;
+  min-height: 44px;
+  min-width: 162px;
+  max-width: 270px;
+  display: flex;
+  align-items: center;
 }
 
 .hero-button:hover{
+  margin-bottom: 10px;
+  background-color:#9A7EC9;
+  color: white;
+  border-radius: 4px; 
+  align-items: center;
+  text-decoration: none;
   width: 100%;
   min-height: 44px;
   min-width: 162px;
   font-size: 14px;
-  max-width: 250px;
-  background-color:#9A7EC9;
-  color:black;
-  text-decoration:underline;
-
+  max-width: 270px;
+  display: flex;
+  justify-content: center;
 }
 
-.a-hero-button:hover{
-  color: rgb(0, 0, 0);
+.a-hero-button:visited{
+  color: rgb(255, 255, 255) !important;
   text-decoration:underline;
-  width: 100%;
-  
+  min-height: 44px;
+  min-width: 162px;
+  max-width: 270px;
+  display: flex;
+  align-items: center;
 }
+
+
 
 .hero-button:visited{
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   min-height: 44px;
   min-width: 44px;

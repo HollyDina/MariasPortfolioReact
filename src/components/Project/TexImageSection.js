@@ -45,8 +45,8 @@ export const TexImageSection = ({ headlineSwe,
 
     const renderHeadline = (swe, eng) => {
         const text = language === "sv" ? swe : eng;
-        return text ? <h2 className="section-title-work">
-            {language === "sv" ? headlineSwe : headlineEng}</h2> : null;
+        return text ? <h1 className="section-title-work">
+            {language === "sv" ? headlineSwe : headlineEng}</h1> : null;
     };
     return (
         <>
@@ -55,9 +55,9 @@ export const TexImageSection = ({ headlineSwe,
 
             </div>
             <div className="case_content">
-                <h2 className="section-title-work">
+                <h1 className="section-title-work">
                     {language === "sv" ? headlineSwe : headlineEng}
-                </h2>
+                </h1>
                 {renderText(textSwe, textEng)}
                 {renderHeadline(headlineSwe2, headlineEng2)}
                 {renderText(textSwe2, textEng2)}
@@ -80,9 +80,9 @@ export const TexImageSection = ({ headlineSwe,
 /* <Images img={content1Item.image1} imageDescriptionSwe={content1Item.imageDescriptionSwe} imageDescriptionEng={content1Item.imageDescriptionEn} altSwe={content1Item.altSwe} altEng={content1Item.altEng} />
  */
 
-/*  <h2 className="section-title-work">
+/*  <h1 className="section-title-work">
                     {language === "sv" ? content1Item.headlineSwe : content1Item.headlineEng}
-                </h2>
+                </h1>
                 <p className="bodytext">
                     {language === "sv" ? content1Item.textSwe : content1Item.textEng}
                 </p> */

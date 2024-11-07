@@ -8,6 +8,7 @@ import { useLanguage } from '../components/LanguageContext';
 import profileImage from "../img/ProflibildMaria.jpg";
 import imageSwe from '../img/Maria-Ekman-Cv-SV-2024.pdf';
 import imageEng from '../img/Maria-Ekman-CV-personligt-brev-Ux-designer-2024-eng.pdf';
+import { Link } from 'react-router-dom';
 function Home({ dataHome }) {
 
 
@@ -31,20 +32,21 @@ function Home({ dataHome }) {
             : "accessibility expert"}</h4>
           <div className="hero-button-content">
 
-          <div className="hero-button"style={{minWidth: "44px", minHeight: "44px"}}><a
-          className='a-hero-button'
-            href={language && language === "sv"
+          <div className="hero-button">
+            <a  className='a-hero-button' href={language && language === "sv"
               ? imageSwe 
               :  imageEng} download="Maria-Ekman-Cv-2024.pdf">    
               
               {language && language === "sv"
               ? "Ladda ner personligt brev och CV"
               : "Download personal letter & CV"} </a></div> 
-            <button className="hero-button" type="button" ><a>
+             <button className="hero-button" type="button">
+              <Link to="/contact" className="a-hero-button">
               {language && language === "sv"
                 ? "Kontakta mig"
-                : "Contact me"}
-            </a></button>
+                : "Contact me"} 
+            </Link>
+           </button>
             <LanguageSelectors flexdirection={"column"}/>
           </div>
           <div className="hero-social-content">

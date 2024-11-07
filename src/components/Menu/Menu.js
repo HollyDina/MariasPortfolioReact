@@ -85,10 +85,10 @@ const Menu = () => {
 
   return (
     <nav id="menu">
-      <ul className="menu-content-desktop"> {/*Desktop */}
+      <div className="menu-content-desktop"> {/*Desktop */}
 
         {menuList.map((item) => (
-          <li key={item.path} className="menu-li">
+          <div key={item.path} className="menu-li">
             {item.component === MenuDropdown ? (
 
               <MenuDropdown
@@ -119,15 +119,15 @@ const Menu = () => {
               </div>
 
             )}
-          </li>
-        ))}
-        <li className="textMaria">
-          <div className='textMaria-content'>
-            <LanguageSelectors flexdirection={"row"} margin1={"15px 4px 0px 0px"}/>
-            <span className='maria'>Maria Ekman</span>
           </div>
-        </li>
-      </ul>
+        ))}
+        <div className="Language-main">
+          <div className='Language-content'>
+            <LanguageSelectors flexdirection={"row"} margin1={"15px 4px 0px 0px"}/>
+           
+          </div>
+        </div>
+      </div>
 
 
 
@@ -148,10 +148,10 @@ const Menu = () => {
         contentLabel="Example Modal"
         ariaHideApp={false}
       >
-        <ul className='menu_content'>
+        <div className='menu_content'>
 
           {menuList.map((item) => (
-            <li key={item.path} className="menu-li">
+            <div key={item.path} className="menu-li">
               {item.component === MenuDropdown ? (
 
                 <MenuDropdown
@@ -180,11 +180,11 @@ const Menu = () => {
 
                 </div>
               )}
-            </li>
+            </div>
           ))}
 
-          <li className="menu-li"><LanguageSelectors flexdirection={"column"} margin1={"0px 0px 0px 4px"}/></li>
-        </ul>
+          <div className="menu-li"><LanguageSelectors flexdirection={"column"} margin1={"0px 0px 0px 4px"}/></div>
+        </div>
       </Modal>
 
 

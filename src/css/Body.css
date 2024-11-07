@@ -1,14 +1,16 @@
 
 body {
-  font-size: 14px;
+  font-size: 1rem;
   }
   
-  a:hover {
-    text-decoration:none;
-  }
+
 
   a:visited {
     color: rgb(0, 0, 0);
+  }
+
+  a:link {
+    color: rgb(0, 0, 0); /* Färg på länkar som inte har klickats på */
   }
 
   p {

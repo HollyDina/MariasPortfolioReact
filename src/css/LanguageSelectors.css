@@ -20,11 +20,10 @@
    display: none;
 
 }
+.CaseLargeworkcard-description{
 
-
-.label-LanguageSelectors{
-    margin-bottom: 4px;
 }
+
 
 
 @media (min-width: 600px) {
@@ -36,10 +35,7 @@
 
 
 @media (min-width:924px) {
-    .textMaria {
-        font-weight: 900;
-        font-size: 38px;
-        padding: 8px;
+    .Language-main {
         text-align: center;
         list-style-type: none;
         display: flex;
@@ -48,16 +44,13 @@
     
     }
     
-    .textMaria-content {
+    .Language-content {
         display: flex;
         margin-right: 40px;
     
     }
     
-    .maria {
-        margin-left: 40px;
-    
-    }
+  
 
 }
 

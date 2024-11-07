@@ -1,8 +1,10 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+import {Link} from "react-router-dom";
 import {  ImageMedium } from '../ImageMedium';
-
 import profileImages from "../../img/ProflibildMaria.jpg";
 import { useLanguage } from '../LanguageContext';
+import imageSwe from '../../img/Maria-Ekman-Cv-SV-2024.pdf';
+import imageEng from '../../img/Maria-Ekman-CV-personligt-brev-Ux-designer-2024-eng.pdf';
 function Aboutme() {
 
 
@@ -39,17 +41,28 @@ function Aboutme() {
           </div>
         </div>
         <div className="case_content">
-          <h2 className="section-title-work">  {language === "sv" ? "Mitt namn är Maria Ekman":"My name is Maria Ekman"}</h2>
+          <h1 className="section-title-work">  {language === "sv" ? "Mitt namn är Maria Ekman":"My name is Maria Ekman"}</h1>
           <p className="bodytext">
           {language === "sv" ? aboutMeList.aboutMeSwe:aboutMeList.aboutMeEng}
 
            
           </p>
           <div className="hero-button-content">
-            <button className="hero-button" type="button"><a>{language === "sv" ? "Ladda ned personlig brev & CV":"Download personal letter & CV"}
-              </a></button>
-            <button className="hero-button" type="button"><a> {language === "sv" ? "Kontakta me":"Contact me "}
-            </a></button>
+          <div className="hero-button">
+            <a  className='a-hero-button' href={language && language === "sv"
+              ? imageSwe 
+              :  imageEng} download="Maria-Ekman-Cv-2024.pdf">    
+              
+              {language && language === "sv"
+              ? "Ladda ner personligt brev och CV"
+              : "Download personal letter & CV"} </a></div> 
+            <button className="hero-button" type="button">
+              <Link to="/contact" className="a-hero-button">
+              {language && language === "sv"
+                ? "Kontakta mig"
+                : "Contact me"} 
+            </Link>
+            </button>
           </div>
         </div>
       </section>
@@ -60,8 +73,8 @@ function Aboutme() {
           <p className="centeredText">Wcage</p>
         </div>
         <div className="case_content">
-          <h2 className="section-title-work">
-          {language === "sv" ? "Jag utvecklat min Portfolio med Fokusering på WCAG":"I have developed my portfolio with a focus on WCAG"}</h2>
+          <h1 className="section-title-work">
+          {language === "sv" ? "Jag utvecklat min Portfolio med Fokusering på WCAG":"I have developed my portfolio with a focus on WCAG"}</h1>
           <p className="bodytext">
           {language === "sv" ? aboutMeList.projectDescriptionSwe :aboutMeList.projectDescriptionEng}
           </p>
@@ -75,7 +88,7 @@ function Aboutme() {
           <p className="centeredText">       {language === "sv" ? "Programering"   :"Programming"}</p>
         </div>
         <div className="case_content">
-          <h2 className="section-title-work"> {language === "sv" ? "Fördelarna att arbeta med UX och Frontend":"The advantages of working with UX and frontend"}</h2>
+          <h1 className="section-title-work"> {language === "sv" ? "Fördelarna att arbeta med UX och Frontend":"The advantages of working with UX and frontend"}</h1>
           <p className="bodytext">
         
           {language === "sv" ? aboutMeList.keyQualitiesSwe :aboutMeList.  keyQualitiesEng}

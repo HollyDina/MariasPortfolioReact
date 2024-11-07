@@ -1,5 +1,5 @@
 
-import { Routes, Route, Link, useParams } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Contactpage from '../../Page/Contactpage';
 import Aboutpage from '../../Page/Aboutpage';
 import Homepage from '../../Page/Homepage';
@@ -854,10 +854,10 @@ function MainMenu() {
         "I was tasked by Loopeli to improve the structure of their company page to make it more user-friendly for corporate users and facilitate their decision to integrate Loopeli. Through a UX review, I identified interface issues and user needs through interviews and testing.",
       headlineIntroSwe: "Verktyg & Metoder",
       image1: "Frame_1944.png",
-      altSwe: "Beskrivning på bilden",
-      altEng: "Description of the images",
-      imageDescriptionSwe: "Bildbeskrivning",
-      imageDescriptionEng: "Bildbeskrivning",
+      altSwe: "Loopeli-logotypen mot en grön bakgrund.",
+      altEng: "Loopeli logo on a green background.",
+      imageDescriptionSwe: "Loopeli-logotypen",
+      imageDescriptionEng: "The Loopeli logo",
     },
     {
       path: 2,
@@ -872,7 +872,7 @@ function MainMenu() {
       altSwe: "Beskrivning på bilden",
       altEng: "Description of the images",
       imageDescriptionSwe: "Bildbeskrivning",
-      imageDescriptionEng: "Bildbeskrivning",
+      imageDescriptionEng: "The Loopeli logo",
     },
     {
       path: 3,
@@ -899,10 +899,10 @@ function MainMenu() {
         "The project at CHAS Academy is conducting an analysis to improve the student experience and business model within the UX program. They plan to increase the number of students by 30% within 1-3 years by making the program more competitive and enhancing the customer journey. The study is based on interviews with current and former students, identifying both strengths and areas for improvement, such as a clearer structure, better feedback, and more practical training. The goal is to increase student satisfaction, create a stronger connection to the job market, and strengthen CHAS Academy's brand.",
       headlineIntroSwe: "Verktyg & Metoder",
       image1: "chas-academy-emblem.png",
-      altSwe: "Beskrivning på bilden",
+      altSwe: "CHAS Academy-logotypen har texten “CHAS Academy” i mitten av en cirkel, omgiven av blå blad med både en svart och blå kantlinje.",
       altEng: "Description of the images",
-      imageDescriptionSwe: "Bildbeskrivning",
-      imageDescriptionEng: "Bildbeskrivning",
+      imageDescriptionSwe: "chas academy logo",
+      imageDescriptionEng: "chas academy logo",
     },
     {
       path: 5,
@@ -915,10 +915,10 @@ function MainMenu() {
         "The project explored an admissions process focused on a website where the user experience could be improved. Throughout the work, several user interface issues were identified, leading to necessary design enhancements. Through a thorough review and user testing, weaknesses in the design were revealed, resulting in suggestions for a redesign to make certain features clearer and more user-friendly.",
       headlineIntroSwe: "Verktyg & Metoder",
       image1: "berghs_logo.svg",
-      altSwe: "Beskrivning på bilden",
-      altEng: "Description of the images",
-      imageDescriptionSwe: "Bildbeskrivning",
-      imageDescriptionEng: "Bildbeskrivning",
+      altSwe: "Berghs logo",
+      altEng: "DBerghs logo",
+      imageDescriptionSwe: "Berghs logo",
+      imageDescriptionEng: "Berghs logo",
     },
     {
       path: 6,

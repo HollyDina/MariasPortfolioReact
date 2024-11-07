@@ -7,8 +7,8 @@ import ImageHero from "../ImageHero";
 import HeroSection from "../HeroSection";
 import { Images } from "../ImageMedium";
 /*import berghsLogo from '../img/berghs_logo 1.svg';*/
-import { TexImageSection } from "./TexImageSection";
-import { TexImageSection2 } from "./TexImageSection2";
+import { TexImageSection } from "../Project/TexImageSection";
+import { TexImageSection2 } from "../Project/TexImageSection2";
 export const DisplayOneProject = ({ data }) => {
   console.log(data, "data");
 

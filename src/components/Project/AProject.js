@@ -21,11 +21,11 @@ const AProject = ({data}) => {
           {index % 2 === 0 ? (
             <>
               <div className="case_content">
-                <h2 className="section-title-work">
+                <h1 className="section-title-work">
                   {language && language === "sv"
                     ? item.headlineSwe && item.headlineSwe
                     : item.headlineEng && item.headlineEng}
-                </h2>
+                </h1>
                 <p className="bodytext">
                   {language && language === "sv"
                     ? item.textSwe && item.textSwe
@@ -44,11 +44,11 @@ const AProject = ({data}) => {
                 <p className="centeredText">Loopeli</p>
               </div>
               <div className="case_content">
-                <h2 className="section-title-work">
+                <h1 className="section-title-work">
                   {language && language === "sv"
                     ? item.headlineSwe && item.headlineSwe
                     : item.headlineEng && item.headlineEng}
-                </h2>
+                </h1>
                 <p className="bodytext">
                   {language && language === "sv"
                     ? item.textSwe && item.textSwe
