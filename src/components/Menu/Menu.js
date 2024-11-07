@@ -123,7 +123,7 @@ const Menu = () => {
         ))}
         <li className="textMaria">
           <div className='textMaria-content'>
-            <LanguageSelectors />
+            <LanguageSelectors flexdirection={"row"} margin1={"15px 4px 0px 0px"}/>
             <span className='maria'>Maria Ekman</span>
           </div>
         </li>
@@ -183,7 +183,7 @@ const Menu = () => {
             </li>
           ))}
 
-          <li className="menu-li"><LanguageSelectors /></li>
+          <li className="menu-li"><LanguageSelectors flexdirection={"column"} margin1={"0px 0px 0px 4px"}/></li>
         </ul>
       </Modal>
 

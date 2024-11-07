@@ -19,7 +19,7 @@
   text-align: start;
   border-radius: 8px;
   transition: .5s ease;
-
+flex-direction: column;
 }
 
 
@@ -44,6 +44,7 @@
   height: auto;
   max-width: 550px;
   width: 100%;
+
 }
 
 .CaseLargeworkcard-content {

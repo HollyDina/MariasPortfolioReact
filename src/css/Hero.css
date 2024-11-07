@@ -102,14 +102,14 @@ background-color: rgb(251, 251, 251);
   margin-bottom: 10px;
   background-color: black;
   color: white;
-  border-radius: 4px;
-  min-height: 44px;
-  min-width: 44px;
-  max-width: 260px;
-  font-size: 14px;
-  min-width: 130px;
+  border-radius: 4px; 
   align-items: center;
   text-decoration: none;
+  width: 100%;
+  min-height: 44px;
+  min-width: 162px;
+  font-size: 14px;
+  max-width: 250px;
 
 }
 .a-hero-button{
@@ -118,25 +118,29 @@ background-color: rgb(251, 251, 251);
 }
 
 .hero-button:hover{
-  min-height: 40px;
-  max-width: 260px;
+  width: 100%;
+  min-height: 44px;
+  min-width: 162px;
   font-size: 14px;
+  max-width: 250px;
   background-color:#9A7EC9;
   color:black;
   text-decoration:underline;
- 
 
 }
 
 .a-hero-button:hover{
   color: rgb(0, 0, 0);
   text-decoration:underline;
+  width: 100%;
   
 }
 
 .hero-button:visited{
   color: rgb(0, 0, 0);
   text-decoration: none;
+  min-height: 44px;
+  min-width: 44px;
 }
 
 @media (min-width: 600px) {
