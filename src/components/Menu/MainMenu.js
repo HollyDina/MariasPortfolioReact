@@ -52,8 +52,8 @@ function MainMenu() {
           image1: "Frame_1944.png",
           altSwe: "Loopeli företags logotyp",
           altEng: "Description of the images",
-          imageDescriptionSwe: "Bildbeskrivning",
-          imageDescriptionEng: "Bildbeskrivning",
+          imageDescriptionSwe: "Loopeli företags logotyp",
+          imageDescriptionEng: "Loopeli company logo",
         },
 
         textsection1: {
@@ -169,8 +169,8 @@ function MainMenu() {
           image1: "Loopeligreen.png",
           altSwe: "Beskrivning på bilden",
           altEng: "Description of the images",
-          imageDescriptionSwe: "Bildbeskrivning",
-          imageDescriptionEng: "Bildbeskrivning",
+          imageDescriptionSwe: "Loopeli företags logotyp",
+          imageDescriptionEng: "Loopeli company logo",
         },
         textsection1: {
           headlineSwe: "Om Loopeli",
