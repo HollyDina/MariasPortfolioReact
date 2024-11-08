@@ -124,11 +124,11 @@ function MainMenu() {
           headlineEng: "New Insights Gained from User Testing ",
           textEng:
             "Corporate users had difficulty identifying which page they were on and which they had previously visited. They encountered challenges in completing tasks due to excessive and overwhelming text, as well as unexpected information appearing on the wrong pages. At the same time, the website received positive feedback for its professional appearance and the inviting images of people.",
-          image1: "Frame_1944.png",
+          image1: "BehovskartaLoopeliföretag.jpg",
           altSwe: "Beskrivning på bilden",
           altEng: "Description of the images",
-          imageDescriptionSwe: "Bildbeskrivning",
-          imageDescriptionEng: "Bildbeskrivning",
+          imageDescriptionSwe: "Behovskarta",
+          imageDescriptionEng: "Needs map",
         },
         textsection6: {
           headlineSwe: "Utveckling av Ny Struktur och Designförslag",
