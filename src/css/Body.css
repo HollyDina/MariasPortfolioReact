@@ -16,3 +16,8 @@ body {
   p {
     line-height: 1.5;
   }
+
+  .max300{
+    max-width: 300px;
+  
+  }

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useLanguage } from "./LanguageContext";
-export const LazyImage = ({ src, altEng, altSwe , classname, imageDescriptionSwe,imageDescriptionEng }) => {
+export const LazyImage = ({ src, altEng, altSwe, classname, imageDescriptionSwe, imageDescriptionEng }) => {
 
   const { language } = useLanguage();
   const [isVisible, setIsVisible] = useState(false);
@@ -37,25 +37,25 @@ export const LazyImage = ({ src, altEng, altSwe , classname, imageDescriptionSwe
   }, [isVisible, src]);
 
   return (
-   <div className="container_image_medium">
-    <img
-      src={imageSrc&&imageSrc? require(`../img/${src}`) : ''}
-      alt={language && language === "sv"
-        ? altSwe && altSwe
-        : altEng && altEng}
-      className={classname}
-      data-src={src}
-      loading="lazy"
-     
-      
-    />
- <p className="imageDescription">
-      {language === "sv"
-        ? imageDescriptionSwe
-        : imageDescriptionEng}
-    </p>
+    <div className="container_image_medium">
+      <img
+        src={imageSrc && imageSrc ? require(`../img/${src}`) : ''}
+        alt={language && language === "sv"
+          ? altSwe && altSwe
+          : altEng && altEng}
+        className={classname}
+        data-src={src}
+        loading="lazy"
 
-  </div>
+
+      />
+      <p className="imageDescription">
+        {language === "sv"
+          ? imageDescriptionSwe
+          : imageDescriptionEng}
+      </p>
+
+    </div>
 
   );
 };

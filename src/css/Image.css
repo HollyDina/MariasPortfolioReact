@@ -1,3 +1,10 @@
+.imageMediumHomeworkcard {
+  width: 100%;
+  height: auto; 
+  display: flex;
+  max-height: 300px;
+}
+
 .imageMedium {
   width: 100%;
   height: auto; 
@@ -26,7 +33,15 @@
 
 /* For tablets */
 @media (min-width: 768px)  {
-  .imageMedium {
+  .imageMediumHomeworkcard {
+    /* Add your tablet styles here */
+    /* Example: Adjusting the width and padding */
+    width: 100%;
+   
+    
+  }
+
+  .imageMedium{
     /* Add your tablet styles here */
     /* Example: Adjusting the width and padding */
     width: 100%;

@@ -3,9 +3,7 @@ import ImageHero from "./ImageHero";
 import { useLanguage } from "./LanguageContext";
 function HeroSection({ content1Item }) {
   const { language } = useLanguage();
-  console.log(content1Item, "bild,,", content1Item.image1, "content1Item content1Item");
-
-
+  
   const toolFields = Object.keys(content1Item).filter((key) =>
     language === "sv" ? key.startsWith("textToolsSwe") : key.startsWith("textToolsEng")
   );
@@ -28,11 +26,7 @@ function HeroSection({ content1Item }) {
           <h1>{language === "sv" ? content1Item.headlineMainSwe : content1Item.headlineMainEng}</h1>
         </div>
       </div>
-
-
       <div class="case_content_main">
-
-
         <div className="case_content">
           <h2 className="section-title-work">{language === "sv" ?
            content1Item.headlineRoleSwe : content1Item.headlineRoleEng}
@@ -43,8 +37,6 @@ function HeroSection({ content1Item }) {
               {content1Item[fieldKey]}
             </p>
           ))}
-
-
         </div>
         <div className="case_content">
           <h2 className="section-title-work">

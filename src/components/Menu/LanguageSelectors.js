@@ -11,8 +11,8 @@ export const LanguageSelectors = ({ flexdirection,margin1}) => {
               : "Change language"}
       </label>
       <select className="hero-button" id="Language" style={{maxWidth:"100px",padding:"16px"}} value={language} onChange={(e) => toggleLanguage(e.target.value)}>
-        <option style={{backgroundColor:"white"}} value="sv">Svenska</option>
-        <option style={{backgroundColor:"white"}}  value="en">English</option>
+        <option style={{backgroundColor:"white",color:"black"}} value="sv">Svenska</option>
+        <option style={{backgroundColor:"white",color:"black"}}  value="en">English</option>
       </select>
       </div>
     );

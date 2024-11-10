@@ -2,19 +2,15 @@ import React from 'react';
 import { useLanguage } from '../LanguageContext';
 import { Link } from 'react-router-dom';
 import { ImageMedium } from '../ImageMedium';
+import { LazyImage } from '../LazyImage';
 export function Homeworkcard({ item }) {
-
-  console.log(item.path, "finaholll", item.image1, "bild");
-
-
   const { language } = useLanguage();
   return (
 
     <Link className='Homeworkcard' to={`/case/${item.path}`}>
       <div className='Homeworkcard-img-container'>
-        <ImageMedium altEng={item.altEng} altSwe={item.altSwe}
-          img={item.image1}   mh={"300px"}/>
-
+       <LazyImage  classname="imageMediumHomeworkcard" src={item.image1} altSwe={item.altSwe
+       } altEng={item.altEng}/>
       </div>
       <div className='Homeworkcard-content'>
         <h2 className='Homeworkcard-titel'>
