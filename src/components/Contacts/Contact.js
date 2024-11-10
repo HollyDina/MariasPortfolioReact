@@ -46,7 +46,7 @@ function Contact() {
        
       <div className="case_content">
         <LazyImage
-          src={"chris-ried-ieic5Tq8YMk-unsplash.jpg"} classname="about-img"/>
+          src={"pavan-trikutam-71CjSSB83Wo-unsplash.jpg"} classname="about-img"/>
       </div>
     </section>
 

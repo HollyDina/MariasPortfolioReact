@@ -4,9 +4,6 @@ import { WorkSection } from '../components/About/WorkSection';
 
 function Projectpage() {
 
-
-  
-
   const education = [
     {
       titleEng: "UX designer and requirement competence program",

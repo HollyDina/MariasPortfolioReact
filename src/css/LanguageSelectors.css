@@ -15,6 +15,12 @@
    
     
 }
+.conatiner-LanguageSelectors{
+    display: flex;
+    min-width: 200px;
+
+}
+
 
 .maria {
    display: none;
