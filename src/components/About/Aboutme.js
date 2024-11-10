@@ -1,21 +1,13 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import {  ImageMedium } from '../ImageMedium';
-import profileImages from "../../img/ProflibildMaria.jpg";
+import {  LazyImage } from '../LazyImage';
 import { useLanguage } from '../LanguageContext';
-import imageSwe from '../../img/Maria-Ekman-Cv-SV-2024.pdf';
+import imageSwe from '../../img/Maria-Ekman-CV-personligt-brev-Ux-designer-2024.pdf';
 import imageEng from '../../img/Maria-Ekman-CV-personligt-brev-Ux-designer-2024-eng.pdf';
 function Aboutme() {
 
 
   const  aboutMeList = {
-    headlineSwe: "Erfarenheter från Soppkök Uppsala",
-    headlineEng: "Experiences from Uppsala Soup Kitchen",
-    image1: "Skärmbild 2023-04-14 134413.png",
-    altSwe: "En artikel från uppsala tidning om soppkök.",
-    altEng: "Description of the images",
-    imageDescriptionSwe: "En artikel från uppsala tidning om soppkök.",
-    imageDescriptionEng: "Bildbeskrivning",
     projectDescriptionSwe: "Jag har utvecklat en webbplats med React och CSS som är tillgänglig för alla genom att följa WCAG-standarder. Dessa riktlinjer förbättrar inte bara tillgängligheten för personer med funktionsnedsättningar, utan bidrar även till en intuitiv och lättnavigerad upplevelse för alla användare, samt en snabbare laddningstid. Om en webbplats är svår att använda och inte lättnavigerad, ökar risken att användare vänder sig till konkurrenter. Genom att säkerställa en inkluderande webbmiljö blir webbplatsen mer anpassad för personer med nedsatt syn, hörsel, rörlighet eller kognitiva utmaningar.",
     projectDescriptionEng: "I have developed a website with React and CSS that is accessible to everyone by following WCAG standards. These guidelines not only improve accessibility for people with disabilities but also contribute to an intuitive and easy-to-navigate experience for all users, as well as faster loading times. If a website is difficult to use and not easy to navigate, users are more likely to turn to competitors. By ensuring an inclusive web environment, the website becomes better suited for people with visual, auditory, mobility, or cognitive challenges.",
     keyQualitiesSwe: "Mina viktigaste egenskaper är min beslutsamhet, att jag är målinriktad och ständigt nyfiken. Jag tycker att dessa drag gör att jag verkligen kan förena användarcentrerad design med en gedigen teknisk förståelse för frontendutveckling i min roll. Jag brinner för att skapa gränssnitt som inte bara är estetiskt tilltalande, utan också intuitiva. Det är en utmaning jag älskar – att gräva djupare och verkligen förstå hur vi kan implementera lösningar på ett effektivt sätt i webbapplikationer. Genom mina erfarenheter inom både UX-design och frontendutveckling har jag fått en helhetsbild av hur designbeslut påverkar både användarupplevelsen och de tekniska lösningarna. Jag trivs verkligen i tvärfunktionella team, där jag kan kommunicera och dela mina designidéer på ett tydligt och engagerande sätt med både tekniska och icke-tekniska kollegor. Att samarbeta och skapa tillsammans är något jag verkligen värdesätter!",
@@ -24,24 +16,35 @@ function Aboutme() {
     aboutMeEng: "And I am a UX designer currently working for a company called Loopeli. When I develop and design for a website, I focus on whether the page benefits both the user and the company in the long run. My experience as a support worker has given me a deeper understanding of people and how to best meet their needs, which is something I will truly benefit from in my role as a UX designer. I have also learned to build trust with individuals who may not always be feeling well. My strengths as a UX designer are my curiosity and my ability to empathize with others' thoughts and feelings. This makes it easier for me to identify weaknesses and strengths in websites. I am familiar with tools like Figma, Framer, Sketch, Photoshop, and Illustrator. I have a basic understanding of programming, which has provided me with insight into how developers think and how to build a component. In my free time, I spend time with my friends, play football, and train CrossFit."
   };
   
+ 
+  const  aboutMe = {
+    headlineSwe: "Mitt namn är Maria Ekman",
+    headlineEng: "My name is Maria Ekman",
+    HeroImage: "ProflibildMaria.jpg",
+    altSwe: "En profil bild på Maria.",
+    altEng: "A profile picture of Maria",
+    personalLetterButtonEng:"Download personal letter & CV",
+    personalLetterButtonSwe:"Ladda ner personligt brev och CV",
+    ContactEng: "Contact me",
+    ContactSwe: "Kontakta mig",
+  };
+  
+
 
 
 
   const { language } = useLanguage();
 
-
   return (
     <section className="case-section-main" id="work2">
       <section className="case_content_main">
         <div className="case_content">
-          <div className="about-img-container">
-            <img className="" style={{ maxWidth: "450px", width: "100%" }} src={profileImages} alt={language && language === "sv"
-              ? "En profil bild på Maria"
-              : "A profile picture of Maria"} />
+          <div className="about-imageSrc-container">
+            <LazyImage classname="about-img" src={aboutMe.HeroImage} altSwe="En profil bild på Maria" altEng="A profile picture of Maria" />
           </div>
         </div>
         <div className="case_content">
-          <h1 className="section-title-work">  {language === "sv" ? "Mitt namn är Maria Ekman":"My name is Maria Ekman"}</h1>
+          <h1 className="section-title-work">{language === "sv" ? aboutMe.headlineSwe: aboutMe.headlineEng} </h1>
           <p className="bodytext">
           {language === "sv" ? aboutMeList.aboutMeSwe:aboutMeList.aboutMeEng}
 
@@ -51,16 +54,16 @@ function Aboutme() {
           <div className="hero-button">
             <a  className='a-hero-button' href={language && language === "sv"
               ? imageSwe 
-              :  imageEng} download="Maria-Ekman-Cv-2024.pdf">    
+              : imageEng} download="Maria-Ekman-Cv-2024.pdf">    
               
               {language && language === "sv"
-              ? "Ladda ner personligt brev och CV"
-              : "Download personal letter & CV"} </a></div> 
+              ? aboutMe.personalLetterButtonSwe
+              : aboutMe.personalLetterButtonEng} </a></div> 
             <button className="hero-button" type="button">
               <Link to="/contact" className="a-hero-button">
               {language && language === "sv"
-                ? "Kontakta mig"
-                : "Contact me"} 
+                ? aboutMe.ContactSwe
+               :aboutMe.ContactEng} 
             </Link>
             </button>
           </div>
@@ -69,7 +72,7 @@ function Aboutme() {
       <section className="case_content_main2">
 
         <div className="case_content">
-          <ImageMedium img={"Wcage.jpg"} />
+          <LazyImage src={"Wcage.jpg"} classname="about-img" />
           <p className="centeredText">Wcage</p>
         </div>
         <div className="case_content">
@@ -83,15 +86,15 @@ function Aboutme() {
 
       <section className="case_content_main">
         <div className="case_content">
-          <ImageMedium
-            img={"chris-ried-ieic5Tq8YMk-unsplash.jpg"} /*imageDescriptionSwe={} imageDescriptionEng={} altSwe={} altEng={}*/ />
-          <p className="centeredText">       {language === "sv" ? "Programering"   :"Programming"}</p>
+          <LazyImage
+          src={"chris-ried-ieic5Tq8YMk-unsplash.jpg"} classname="about-img"/>
+          <p className="centeredText">       {language === "sv" ? "Programering":"Programming"}</p>
         </div>
         <div className="case_content">
           <h1 className="section-title-work"> {language === "sv" ? "Fördelarna att arbeta med UX och Frontend":"The advantages of working with UX and frontend"}</h1>
           <p className="bodytext">
         
-          {language === "sv" ? aboutMeList.keyQualitiesSwe :aboutMeList.  keyQualitiesEng}
+          {language === "sv" ? aboutMeList.keyQualitiesSwe :aboutMeList.keyQualitiesEng}
           </p>
         </div>
 
