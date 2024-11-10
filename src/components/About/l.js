@@ -1,1 +1,0 @@
-titleSwe, startSwe, endSwe, institutionSwe, skills1Swe, skills2Swe, skills3Swe, skills4Swe, skills5Swe, skills6Swe, skills7Swe, imgIcon,headlineSwe,headlineSwe

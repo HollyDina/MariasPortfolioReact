@@ -1,6 +1,7 @@
 
 import { useLanguage } from '../LanguageContext';
 import { ImageLarge } from "../ImageLarge";
+import { LazyImage } from '../LazyImage';
 
 
 function Contact() {
@@ -43,11 +44,11 @@ function Contact() {
 
             </div>
         </div>
-      {/*<div className="case_content">
-       /* <ImageLarge  />
        
-      </div>*/}
-
+      <div className="case_content">
+        <LazyImage
+          src={"chris-ried-ieic5Tq8YMk-unsplash.jpg"} classname="about-img"/>
+      </div>
     </section>
 
   );
