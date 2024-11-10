@@ -38,12 +38,12 @@ const Menu = () => {
   ];
 
   const caseList = [
-    { path: '/case/1', label: "Loopeli:s företagsida",labelEng:"Project" },
-    { path: '/case/2', label: "Loopeli:s Privatsida",labelEng:"Project" },
-    { path: '/case/3', label: "Examensarbete",labelEng:"Project" },
+    { path: '/case/1', label: "Loopeli:s företagsida",labelEng:"Loopeli's Business Page" },
+    { path: '/case/2', label: "Loopeli:s Privatsida",labelEng:"Loopeli's Private Page" },
+    { path: '/case/3', label: "Examensarbete",labelEng:"Thesis" },
     { path: '/case/4', label: "Chas academy",labelEng:"Chas academy" },
-    { path: '/case/5', label: "Berghs",labelEng:"Berghs" },
-    { path: '/case/6', label: "Soppkök Uppsala",labelEng:"Project" },
+    { path: '/case/5', label: "Berghs school of communication",labelEng:"Berghs school of communication" },
+    { path: '/case/6', label: "Soppkök Uppsala",labelEng:"Soup Kitchen Uppsala" },
   ];
 
 
