@@ -31,6 +31,7 @@ function MainMenu() {
       content1: {
         id: 1,
         intro: {
+          tabIndex:"1",
           headlineMainSwe: "Uppdraget på Loopeli:s företagssida",
           headlineRoleSwe: "Roll",
           textRoleSwe: "Ux-designer",
@@ -57,6 +58,7 @@ function MainMenu() {
         },
 
         textsection1: {
+          tabIndex:"2",
           headlineSwe: "Uppdraget på loopeli:s företagssida",
           textSwe:
             "Jag fick i uppdrag av Loopeli att förbättra strukturen på deras webbplats för att göra den mer användarvänlig för företagsanvändare. Målet var att underlätta för dem att snabbt hitta relevant information och fatta beslut om att integrera Loopeli i sin verksamhet. Genom att analysera hur företag söker efter välfärds-hjälpmedel och användarnas feedback på appen identifierade jag förbättringsmöjligheter. Dessa insikter användes för att förbättra användarupplevelsen och göra det lättare för företag att köpa och använda Loopeli.",
@@ -69,6 +71,7 @@ function MainMenu() {
           imageDescriptionEng: "Two people are sitting and discussing. One of them has a screen in front of them.",
         },
         textsection2: {
+          tabIndex:"3",
           headlineSwe: "Research",
           textSwe:
             "Jag genomförde en UX-review av webbplatsen för att identifiera gränssnittsproblem och jämföra med konkurrenter. Utvärderingen visade att användare hade svårt att navigera och att det fanns överflödig text som inte effektivt tjänade sitt syfte.",
@@ -83,6 +86,7 @@ function MainMenu() {
         },
 
         textsection3: {
+          tabIndex:"4",
           headlineSwe: "Användartesterna",
           textSwe1:
             "Jag beslutade mig för att tillämpa 'tänka högt'-metoden på menyn för att observera användarnas förväntningar. Det blev tydligt att meny-namnen var vagt formulerade och kunde tolkas på många olika sätt.",
@@ -105,6 +109,7 @@ function MainMenu() {
           imageDescriptionEng: "There are documents on the table containing text and boxes.",
         },
         textsection4: {
+          tabIndex:"6",
           headlineSwe: "Insamlingen av insikter",
           textSwe:
             "Alla intervjuer dokumenterades och sammanställdes i en fil, som överfördes till en tabell i Miro. Det tydliggjordes vilka deltagare som lyckades med sina uppgifter och vilka som inte gjorde det. Jag grupperade liknande anteckningar, tog bort dubbletter och sammanställde allt i en behovskarta för att visualisera resultaten samt skapade personas. Därefter presenterades resultaten för produktägaren. ",
@@ -118,6 +123,7 @@ function MainMenu() {
           imageDescriptionEng: "Insights from interviews have been compiled, providing an overview of all conducted interviews.",
         },
         textsection5: {
+          tabIndex:"7",
           headlineSwe: "Nya Insikter som framkom från användar-testerna",
           textSwe:
             "Företagsanvändare hade problem med att identifiera vilken sida de var på och vilken de hade besökt tidigare. De stötte på svårigheter med att utföra uppgifterna på grund av överflödig och överväldigande text, samt oväntad information som dök upp på fel sidor. Samtidigt fick webbplatsen positiv feedback för sitt professionella utseende och de inbjudande bilderna på människor",
@@ -131,6 +137,7 @@ function MainMenu() {
           imageDescriptionEng: "Needs map",
         },
         textsection6: {
+          tabIndex:"8",
           headlineSwe: "Utveckling av Ny Struktur och Designförslag",
           textSwe:
             "Efter användartester och intervjuer utvecklades en ny struktur som fick feedback från projektägaren. En uppdaterad version har nu tagits fram för implementering. Jag skapar designförslag och ett designsystem för att förbättra användarvänligheten. Uppgifterna dokumenteras som user stories i Miro, där både nuvarande och ny design presenteras för att underlätta för utvecklare och produktägare. Därefter genomförs användartester för att säkerställa att strukturen och designen förstås, och justeringar görs vid behov. ",
@@ -148,6 +155,7 @@ function MainMenu() {
       content2: {
         id: 2,
         intro: {
+          tabIndex:"1",
           headlineMainSwe: "Loopeli:s privatsida",
           headlineRoleSwe: "Roll",
           textRoleSwe: "Ux-designer",
@@ -173,6 +181,7 @@ function MainMenu() {
           imageDescriptionEng: "Loopeli company logo",
         },
         textsection1: {
+          tabIndex:"2",
           headlineSwe: "Om Loopeli",
           textSwe:
             " Loopeli är en lättanvänd kommunikationstjänst/app riktad till grupper som har svårt att använda vanliga kommunikationsverktyg, som Facebook, Skype eller Facetime. Idén till Loopeli föddes ur behovet av enkel kommunikation efter att en familjemedlem drabbats av stroke, då det saknades en tjänst som kunde underlätta kontakt utan fysiska besök. Företaget grundades 2019, men med relanseringen i SVT:s Draknästet i september 2021 fick Loopeli möjlighet att växa och anställa personal. ",
@@ -186,6 +195,7 @@ function MainMenu() {
           imageDescriptionEng: "Loopeli participated in 'Dragon's Den.",
         },
         textsection2: {
+          tabIndex:"3",
           headlineSwe: "Syftet",
           textSwe:
             "Syftet med användartester är att få insikt om hur användare interagerar/ navigerar genom webbplatserna och för att verkligen kunna identifiera användbarhetsproblem, förstå användarnas behov och förbättra användarupplevelsen där med optimering av webbplatsens struktur och design. Vi bedömde också det övergripande intrycket av Loopeli som företag bland användare för att stärka varumärkets koppling och identifiera förbättringsområden.",
@@ -199,6 +209,7 @@ function MainMenu() {
           imageDescriptionEng: "Bildbeskrivning",
         },
         textsection3: {
+          tabIndex:"5",
           headlineSwe: "Mål",
           textSwe:
             "Minska behovet av supportsamtal genom att ta reda på var användare fastnar i gränssnittet och vilka aspekter de har svårt att förstå.Analysera hur användare navigerar på Loopelis webbplatser för att förstå deras beteenden och hitta specifika områden som kan förbättras i navigeringen. Justera innehållet och designen på webbplatsen för att bättre möta målgruppens behov och skapa en mer relevant plattform.Gör det lättare för användare att skaffa Loopeli-appen på webbplatsen baserat på insikter från användarundersökningar.",
@@ -212,6 +223,7 @@ function MainMenu() {
           imageDescriptionEng: "A person is contemplating how to get from point A to point B, where there is a moving thread between them.",
         },
         textsection4: {
+          tabIndex:"6",
           headlineSwe: "Granskning av Webbplatsen",
           textSwe:
             "Jag inledde genom att granska webbplatsen med hjälp av Miro för att identifiera potentiella problem och skapa hypoteser om eventuella brister, såsom gränssnitts- och navigation utmaningar. Även få en överblick av webbplatsens dåvarande struktur. Därefter hade jag kontakt med supporten för att diskutera vilka problem användarna har stött på. ",
@@ -225,6 +237,7 @@ function MainMenu() {
           imageDescriptionEng: "Bildbeskrivning",
         },
         textsection5: {
+          tabIndex:"7",
           headlineSwe: "Användar-testerna",
           textSwe:
             "Uppgift 1: Du överväger att använda Loopeli och ska samla information för att underlätta ditt första användande av appen. Detta visar vilken typ av information användare söker när de först börjar använda Loopeli-appen. Resultaten visade att användarna hade problem med gränssnittet och behövde hjälp för att komma vidare. Efter en testintervju ändrade jag uppgiftsordningen och gjorde “tänka högt”-metoden för menyn som första uppgiften, då användarna försökte koppla till tidigare webbplatsupplevelser. På grund av svårigheter att rekrytera användare under sommaren, använde jag familjemedlemmar och kollegor i samma ålder som målgruppen.",
@@ -238,6 +251,7 @@ function MainMenu() {
           imageDescriptionEng: "Bildbeskrivning",
         },
         textsection6: {
+          tabIndex:"8",
           headlineSwe: "Insamling av insikter och lösningsförslag",
           textSwe:
             "Efter intervjun sammanställdes resultaten i ett dokument och på en Miro-tavla för att visualisera behovskartan samt skapa två personas: en för äldre användare och en för yngre. De äldre användarna scrollade inte för att leta efter information, medan de yngre var mer aktiva i sitt sökande. Många användare kände sig osäkra på vilken sida de befann sig på, och texterna upplevdes som för långa, vilket ledde till att de missade viktiga instruktioner. När de väl hade skapat ett konto visste de inte hur de skulle gå vidare",
@@ -255,6 +269,7 @@ function MainMenu() {
       content3: {
         id: 3,
         intro: {
+          tabIndex:"1",
           headlineMainSwe: "Examensarbete",
           headlineRoleSwe: "Roll",
           textRoleSwe: "Ux-designer",
@@ -282,6 +297,7 @@ function MainMenu() {
           imageDescriptionEng: "Bildbeskrivning",
         },
         textsection1: {
+          tabIndex:"2",
           headlineSwe: "Bakgrund",
           textSwe:
             "Flertalet läkare och hälsoinstitut rekommenderar att barn under sju år bör använda digitala enheter högst en timme per dag. Det är ofta svårt att få barnen att slita sig från skärmen, vilket kan leda till konflikter, eftersom de vill ha mer av det roliga. Samtidigt finns mycket lärorikt på surfplattan och telefonen, och barn kan hamna utanför sociala sammanhang om de inte får skärmtid. Det pågår en ständig debatt om hur mycket skärmtid barn bör ha. Jag ville starta ett projekt för att bli mer säker på design thinking-processen, inspirerad av en väns problem med att få sina barn att slita sig från skärmen.",
@@ -295,6 +311,7 @@ function MainMenu() {
           imageDescriptionEng: "Bildbeskrivning",
         },
         textsection2: {
+          tabIndex:"3",
           headlineSwe: "Syfte",
           textSwe:
             "Att förstå hur föräldrar hanterar och undviker bråk med sina barn är centralt för projektet. Jag vill utmanas och lära mig mer om 'Design Thinking Process' samt få erfarenhet av att intervjua andra och få djupare insikter som UX-designer. Det är också viktigt att förstå vad barn gör när de sitter framför digitala verktyg och deras behov av skärmtid. ",
@@ -309,6 +326,7 @@ function MainMenu() {
         },
 
         textsection3: {
+          tabIndex:"4",
           headlineSwe: "Målet",
           textSwe:
             "Målet är att föräldrar ska slippa bråka om skärmtiden och att jag ska få en djupare förståelse för 'Design Thinking Process' för att bli en bättre UX-designer. Jag vill lära mig vad jag bör tänka på när jag intervjuar användare för att samla nya insikter om målgruppens behov och mål, vilket ska leda till att jag kan möta deras behov med en klickbar prototyp.",
@@ -322,6 +340,7 @@ function MainMenu() {
           imageDescriptionEng: "Illustrates the design process",
         },
         textsection4: {
+          tabIndex:"5",
           headlineSwe: "Research",
           textSwe:
             "Jag fick tips från en UX-designer som arbetat med Bolibompa-appen om att arbeta med barn. Jag läste artiklar om skärmtid och forskning om att barn kommunicerar bättre med bilder. Sedan skrev jag syftet med intervjuerna och vad jag ville uppnå. Jag valde semi-strukturerade kvalitativa intervjuer för att kunna ställa följdfrågor och få djupare insikter. Jag intervjuade föräldrar och barn i en lekpark och en fotbollscup, där jag bad om föräldrarnas tillåtelse att intervjua barnen. Jag informerade om deras rättigheter och att de skulle vara anonyma, så inga personuppgifter behövdes. Jag använde bilder under intervjuerna, men i lekparken blev det stökigt, så jag visade bilderna medan vi pratade. Under intervjuprocessen justerade jag frågorna vid behov och renskrev intervjuerna i dokument för att ha allt färskt i minnet.",
@@ -336,6 +355,7 @@ function MainMenu() {
 
         },
         textsection5: {
+          tabIndex:"6",
           headlineSwe: "Insamling av intervjuerna",
           textSwe:
             " Efter intervjuerna samlade jag svaren i ett dokument och överförde dem till Miro på post-it-lappar. Jag numrerade intervjuerna i dokumentet och grupperade dem med samma siffra på post-it-lapparna för att underlätta spårning till de ursprungliga intervjuerna. Jag grupperade sedan lapparna för att ta bort dubbletter och skapade tre behovskartor: två för barnen (en om deras intressen och en om deras behov) och en för föräldrarna.",
@@ -348,6 +368,7 @@ function MainMenu() {
           imageDescriptionEng: "Bildbeskrivning",
         },
         textsection6: {
+          tabIndex:"7",
           headlineSwe: "Behovskarta",
           textSwe:
             "I renskrivnings-dokumentet överförde jag intervjusvaren till tre behovskartor: två för barnen och en för föräldrarna. Barnen fick en karta om deras intressen och en annan om deras behov.",
@@ -360,6 +381,7 @@ function MainMenu() {
           imageDescriptionEng: "Bildbeskrivning",
         },
         textsection7: {
+          tabIndex:"8",
           headlineSwe:
             "Här är några av de viktigaste behoven som överfördes till prototypen",
           textSwe:
@@ -373,6 +395,7 @@ function MainMenu() {
           imageDescriptionEng: "Bildbeskrivning",
         },
         textsection8: {
+          tabIndex:"9",
           headlineSwe: "Föräldars beteendertype",
           textSwe:
             "Alla föräldrar delar tre gemensamma beteenden: de hittar på fler aktiviteter, avleder med aktiviteter och försöker undvika bråk.",
@@ -403,6 +426,7 @@ function MainMenu() {
           imageDescriptionEng: "Bildbeskrivning",
         },
         textsection9: {
+          tabIndex:"10",
           headlineSwe: "Flödesdiagram",
           textSwe:
             "Jag valde att använda flödesdiagram eftersom jag var osäker på vilka vyer som behövdes i prototypen. Genom att skissa och skapa två olika förslag på flödesdiagram blev det tydligare för mig vilka vyer som krävdes. Slutflödet innebar att barnet skulle hämta biljetter, välja en aktivitet och sedan starta skärmtiden.",
@@ -416,6 +440,7 @@ function MainMenu() {
           imageDescriptionEng: "A flowchart of the possible views the game can have",
         },
         textsection10: {
+          tabIndex:"11",
           headlineSwe: "Program-research",
           textSwe:
             "Jag använde rött i gränssnittet eftersom färgen drar till sig uppmärksamhet och ökar klickfrekvensen. Efter att ha läst om hur färger påverkar beteende, valde jag även könsneutrala färger för hi-fi-prototypen för att tilltala alla.",
@@ -430,6 +455,7 @@ function MainMenu() {
           imageDescriptionEng: "Bildbeskrivning",
         },
         textsection11: {
+          tabIndex:"11",
           headlineSwe: "Programideér",
           textSwe:
             "Från datainsamlingen kom jag fram till två programidéer. Den första var att barnet skulle välja en aktivitet för att starta skärmtiden. Den andra innebar att barnet varje vecka fick hämta ut fyra spelbiljetter på 30 minuter vardera, som kunde användas under veckan. Föräldrarna fick bestämma när biljetterna skulle användas, och jag beslutade att slå ihop de båda idéerna.",
@@ -447,6 +473,7 @@ function MainMenu() {
           imageDescriptionEng: "Bildbeskrivning",
         },
         textsection12: {
+          tabIndex:"12",
           headlineSwe: "Användar-testerna",
           textSwe:
             "Jag började med low-fi-skisser och övergick till hi-fi-prototyper för att testa barns reaktioner på färger och rörelse. Det är svårt för barn att föreställa sig appar på papper under användartester, så jag justerade prototypen i realtid. Under testerna upptäckte jag att flera barn aldrig använt en dator, vilket gjorde testerna svåra och skrämmande för dem. På grund av tekniska problem kunde jag inte genomföra fler tester. Totalt gjordes 5 användartester på barn (3-9 år) och 8 på vuxna, då föräldrar var mer datorvana.",
@@ -460,6 +487,7 @@ function MainMenu() {
           imageDescriptionEng: "Bildbeskrivning",
         },
         textsection13: {
+          tabIndex:"13",
           headlineSwe: "Slutresultat",
           textSwe:
             "Jag har genomfört det jag planerat och är nöjd med resultatet och mitt arbete. Det finns bara hi-fi-prototyper för desktop, inte mobil, på grund av tidsbrist. Ljud saknades i appen, så jag ersatte det med texter och pratbubblor. Jag är inte helt nöjd med menyn, då användarna hade svårt att navigera. Nästa steg är att förbättra menyn och designa de sista vyerna. Projektet har tagit tid, och i efterhand hade ett mindre projekt varit lättare att hantera ensam.",
@@ -478,6 +506,7 @@ function MainMenu() {
       content4: {
         id: 4,
         intro: {
+          tabIndex:"1",
           headlineMainSwe: "Chas academy",
           headlineRoleSwe: "Roll",
           textRoleSwe: "Service designer\nUser Research",
@@ -501,6 +530,7 @@ function MainMenu() {
           imageDescriptionEng: "Bildbeskrivning",
         },
         textsection1: {
+          tabIndex:"2",
           headlineSwe: "Uppdrag av Chas academy",
           textSwe:
             "I slutet av programmet fick vi i uppgift att undersöka studenternas upplevelse av kursen jag deltog i. Jag intervjuade både nuvarande och tidigare studenter. CHAS Academy planerar att expandera inom UX-området och öka antalet studenter med 30% inom 1-3 år. Deras fokus är att förbättra kundupplevelsen, affärsmodellen och studenternas utvärderingar av programmet. Genom att göra utbildningen mer konkurrenskraftig jämfört med andra liknande skolor kan CHAS Academy sticka ut och stärka sitt varumärke inom utbildningssektorn, för att locka fler studenter.",
@@ -514,6 +544,7 @@ function MainMenu() {
           imageDescriptionEng: "A few students are sitting at a table, and'Chas Academy' is displayed on the way.",
         },
         textsection2: {
+          tabIndex:"3",
           headlineSwe: "Syfte",
           textSwe:
             "Syftet med denna analys är att identifiera och förbättra kundresan för studenter inom UX-design på CHAS Academy, med målet att öka studenternas tillfredsställelse och samtidigt stärka akademins affärsutveckling. Detta innebär att identifiera utbildningens nuvarande styrkor och svagheter för att utforska hur vi kan förbättra kvaliteten på utbildningen och göra den mer attraktiv för potentiella studenter, samt stå starkare i konkurrensen med liknande utbildningar.Genom att beakta studenternas behov och förväntningar kan CHAS Academy anpassa sin utbildning för att hjälpa studenter att bli aktiva på arbetsmarknaden och skapa en stark koppling mellan utbildningens innehåll och arbetsmarknadens behov.",
@@ -527,6 +558,7 @@ function MainMenu() {
           imageDescriptionEng: "An illustration shows both weaknesses and strengths: one person is lifting a barbell with heavy weights, while another person tries to lift the same barbell but drops it.",
         },
         textsection3: {
+          tabIndex:"4",
           headlineSwe: "Mål",
           textSwe:
             "Förbättra de områden som har störst påverkan på kundnöjdhet och affärsmål. Öka marknadsandelen inom UX-utbildningar.Förbättra kundupplevelsen och affärsmodellen.Stärka CHAS Academys varumärke för att attrahera fler studenter. Öka antalet sökande till utbildningen.Expandera inom UX-området och öka antalet elever med 30% inom 1-3 år.Höja kvaliteten på utbildningen. Skapa en mer attraktiv utbildningsupplevelse som effektivt tillgodoser studenternas behov och förväntningar.",
@@ -541,6 +573,7 @@ function MainMenu() {
         },
 
         textsection4: {
+          tabIndex:"5",
           headlineSwe: "Research & analys",
           textSwe:
             "Efter intervjuerna analyserade jag svaren för att hitta samband. Studenterna önskade främst att lära sig UX-design och få kravkompetens. Deras kontext när de började studera varierade, vilket kräver mer data för att identifiera samband.Jag har prioriterat och färgkodat resultaten, där 'Bli antagen' visade sig vara högt prioriterat, vilket har fungerat bra tack vare sen ansökan. Ett mål som CHAS inte levererar på är 'Bli trygg i att bygga prototyper,' då studenterna upplever varierande resultat.De gråa lapparna indikerar mål som behöver mer data för att bedöma CHAS:s prestation. Jag har identifierat utmaningar som studenterna möter samt problematiska områden.",
@@ -554,6 +587,7 @@ function MainMenu() {
           imageDescriptionEng: "Bildbeskrivning",
         },
         textsection5: {
+          tabIndex:"6",
           headlineSwe: "Kund-resekartan",
           textSwe:
             "Kundrese-kartan visar de olika faserna i kundresan, som börjar med att man upptäcker UX och finner det intressant. Nästa steg är att undersöka och forska för att hitta rätt skola, följt av ansökan och antagning, innan man påbörjar utbildningen.Fasen ' går i skolan'  delas upp i tre underkategorier: “Innehåll och kurser”, “lärare” samt “kommunikation och socialt”, vilket är viktigt att förstå separat. Dessa faser pågår parallellt, vilket illustreras med en cirkulär pil. Nästa fas praktiken och därefter examinationen, vilket förhoppningsvis leder till ett jobb.I den vänstra kolumnen finns rubriker som beskriver interaktioner, mål, touchpoints (illustrerade med ikoner) samt positiva och negativa tankar från intervjudeltagare. Jag har också skapat en känslokurva som visar vilka faser som varit positiva och vilka som varit mindre bra, avslutat med insikter och möjligheter.",
@@ -567,6 +601,7 @@ function MainMenu() {
           imageDescriptionEng: "Chas Academy customer journey map",
         },
         textsection6: {
+          tabIndex:"7",
           headlineSwe: "Pain points & Moments of truth",
           textSwe:
             "Studerande-upplevelser innefattar olika “pain points” och “moments of truth” under kundresan. Citat från eleverna visar hur de känner:I undersökningsfasen uttryckte många att de gillade blandningen av UX och krav, samt att skolan grundades av Chas Visual Management.Eleverna tyckte att Chas kändes modernt med en personlig touch och valde YH för den praktiska lärandeformen: “Jag vill gå en praktisk utbildning så jag kan lära mig på riktigt”.Tidigt i resan hade studenterna högre förväntningar på skolans struktur, vilket framgick av att ordet “rörigt”  ofta nämndes i varje fas, vilket de gula stjärnorna visar. . I “börja skolan-fasen” av skolan kände de att personalen inte var helt förberedd.Under “innehåll-och-kurser”-fasen upplevde vissa att förväntningarna inte höll måttet: “För mycket fokus på kravhantering” och “Jag vill lära mig Figma/UI bättre än skolan erbjuder”. Andra klagade på otydliga uppgifter och bristande återkoppling från skolans personal.I praktikfasen noterade studenterna att skolan saknade ett branschnära nätverk för praktikplatser: “Varför använder inte skolan sitt nätverk för att hjälpa oss?”. De kände också av brister i strukturen, med stress över att LIA-kursen startade mitt under en stor inlämning.Slutligen upplevdes examensfasen som rörig: “Det stressar mig att det inte är tydligt vad som ska lämnas in” och “Jag förstår inte vad som förväntas av mig”",
@@ -580,6 +615,7 @@ function MainMenu() {
           imageDescriptionEng: "A diagram shows the students' experiences, including various 'pain points' and 'moments of truth' throughout the customer journey.",
         },
         textsection7: {
+          tabIndex:"8",
           headlineSwe: "Chas Academy nuvarande affärsmodell på UX-området",
           textSwe:
             "Här är min uppfattning av Chas Academys nuvarande affärsmodell på UX-området, det innehåller en del brister. Här är förbättringsmöjligheter och var i affärsmodellen de har en inverkan.",
@@ -604,6 +640,7 @@ function MainMenu() {
           imageDescriptionEng: "Bildbeskrivning",
         },*/
         textsection9: {
+          tabIndex:"9",
           headlineSwe: "Blandningen av UX-design och krav",
           textSwe:
             "Det fanns missförstånd kring fördelningen av UX-design och krav. Jag föreslår att vi klargör utbildningens namn, som “UX-designer och Kravhanterare” , för att ändra studenternas “Jobs to be done”. ",
@@ -619,6 +656,7 @@ function MainMenu() {
           imageDescriptionEng: "Bildbeskrivning",
         },
         textsection10: {
+          tabIndex:"10",
           headlineSwe: "Branschnära",
           textSwe:
             "Trots att Chas Academy är skapad av ett branschbolag utnyttjas dess potential inte fullt ut.En möjlighet är att använda kontakter från Chas Visual Management och ledningsgruppen. Eleverna kan till exempel lösa verkliga case från Chas Visual Management, vilket är viktigt för deras erfarenhet och framtida portfolio.Chas Visual Management kan även erbjuda praktikplatser och eventuellt anställningar efter utbildningen. De och deras kunder kan också fungera som en kanal för att promota skolan på sina hemsidor.",
@@ -632,6 +670,7 @@ function MainMenu() {
           imageDescriptionEng:"Chas will integrate its industry-related operations into the school."
         },
         textsection11: {
+          tabIndex:"11",
           headlineSwe: "Praktisk utbildning",
           textSwe:
             "Många studenter förväntade sig en mer praktisk utbildning än vad som erbjöds. För att uppfylla värdeerbjudandet om praktisk utbildning kan ni skapa en övningsbank för studenterna. Samarbeten med utvecklarna i klassen kan ge erfarenhet av teamarbete, och frekventa Figma-lektioner kan vara fördelaktiga. Utökat samarbete med partners kan också bidra till lärorika och verklighetsanknutna övningar och föreläsningar för att förstå hur metoder och teorier tillämpas i praktiken.",
@@ -645,6 +684,7 @@ function MainMenu() {
           imageDescriptionEng: "Chas will integrate its industry-related operations into the school.",
         },
         textsection12: { 
+          tabIndex:"12",
           headlineSwe: "Förbättringsområden",
           textSwe:
             "Det sista förbättrings området rör scenariot där studenterna misslyckas med jobbet  inte har utfört, vilket kan bero på att de upplever en ostrukturerad miljö på skolan. För att uppfylla studenternas mål att lära sig UX bör lektionerna vara tydliga. Externa lärare kan genomgå en onboarding-process för att minska missförstånd och tekniska problem. Att skapa en portfolio är en viktig del av UX-lärandet, och det skulle vara bra att införa “portfolio-dagar”  efter större inlämningar för att underlätta processen inför LIA och jobbsökande. För att förbättra relationen med studenterna bör återkoppling och proaktivt arbete prioriteras. Att investera mer i personal och lärare kan säkerställa att uppgifter är tydliga innan de delas ut och öka pedagogiken i undervisningen. Utöver dessa fyra områden kan sociala medier användas för riktad marknadsföring, möjligheten till en ettårig utbildning eller enstaka kurser kan övervägas, och tidigare studenter kan uppmanas att lämna omdömen online. Rektorn bör även be om regelbundna personalutvärderingar för att uppmuntra ärlig feedback. Slutligen kan förväntningar på studenternas beteende under lektioner, som att använda kamera och ställa frågor, klargöras i början av utbildningen.",
@@ -663,6 +703,7 @@ function MainMenu() {
         id: 5,
 
         intro: {
+          tabIndex:"1",
           headlineMainSwe: "Berghs School of Communication",
           headlineRoleSwe: "Roll",
           textRoleSwe: "Ux-designer",
@@ -690,6 +731,7 @@ function MainMenu() {
           imageDescriptionEng: "Bildbeskrivning",
         },
         textsection1: {
+          tabIndex:"2",
           headlineSwe: "Uppdraget",
           textSwe:
             "Jag genomförde projektet som en del av en antagningsprocess för att komma in på Berghs, med fokus på att förbättra användarupplevelsen på en webbplats. Under arbetet identifierades flera problem i användargränssnittet, vilket ledde till nödvändiga designförbättringar. Genom noggrann analys och användartester avslöjades svagheter i designen, vilket resulterade i förslag på en redesign för att göra vissa funktioner mer tydliga och användarvänliga.",
@@ -703,6 +745,7 @@ function MainMenu() {
           imageDescriptionEng: "Bildbeskrivning",
         },
         textsection2: {
+          tabIndex:"3",
           headlineSwe: "Hypotes",
           textSwe:
             "Jag antog att användarna hade svårt att förstå rumknappens funktion. För att Artportable ska kunna öka försäljningen på sin webbplats bör de överväga en redesign som uppmuntrar till fler köp.",
@@ -716,6 +759,7 @@ function MainMenu() {
            imageDescriptionEng: "Bildbeskrivning",
         },
         textsection3: {
+          tabIndex:"4",
           headlineSwe: "Research",
           textSwe:
             "Jag genomförde en UX-granskning för att identifiera svagheter på webbplatsen, förbereda intervjuer och användartester. Jag studerade färgers påverkan och designprinciper, analyserade konkurrerande webbplatser och samlade insikter i Miro. Jag förberedde kvalitativa intervjufrågor och användartester, där deltagarna använde 'tänka högt'-metoden. Resultaten sammanställdes i Miro för att identifiera förbättringsområden och föreslå designändringar.",
@@ -729,6 +773,7 @@ function MainMenu() {
           imageDescriptionEng: "A compilation of analyzed competing websites.",
         },
         textsection4: {
+          tabIndex:"5",
           headlineSwe: "Några av de mest betydelsefulla användartestare",
           textSwe:
             "Tester visade att många användare missförstod ikonen för 'köpförfrågan' och ofta missade den helt. Jag gjorde därför knappen lika stor som konstverket och ändrade texten till 'lägg i varukorgen '. För att öka köpen på webbplatsen lade jag till en röd kundvagnsikon på köpknappen, vilket uppmuntrade fler att klicka, medan svart användes för att ge kontrast utan att ändra det övergripande färgschemat.",
@@ -742,6 +787,7 @@ function MainMenu() {
           imageDescriptionEng: "Bildbeskrivning",
         },
         textsection5: {
+          tabIndex:"6",
           headlineSwe: "Rumfunktionen lösning",
           textSwe:
             " Rosa rums-knappen med textbeskrivning ledde till en sida där man kunde testa tavlan i olika rumsmiljöer, men användarna förstod inte knappens syfte eller vad som skulle hända när de klickade på den. Knappen visade ett bildspel med tavlan i olika rum. Lösningen blev att göra funktionen mer synlig och tydlig från början, vilket gjorde den lättare att förstå.",
@@ -759,6 +805,7 @@ function MainMenu() {
 
         },
         textsection6: {
+          tabIndex:"7",
           headlineSwe: " Inskiter om Lägg i varukorgen samt lösningen",
           textSwe: "Tester visade att många användare missförstod ikonen för 'köpförfrågan' och ofta missade den helt. Jag gjorde därför knappen lika stor som konstverket och ändrade texten till 'lägg i varukorgen'. För att öka köpen på webbplatsen lade jag till en röd kundvagnsikon på köpknappen, vilket uppmuntrade fler att klicka, medan svart användes för att ge kontrast utan att ändra det övergripande färgschemat.",
           headlineEng: "Add to Cart Solution",
@@ -773,6 +820,7 @@ function MainMenu() {
            imageDescriptionEng: "Bildbeskrivning",
         },
         textsection7: {
+          tabIndex:"8",
           headlineSwe: "Om användartester",
           textSwe:
             "Jag skapade prototypen och använde “tänka högt”-metoden. Testresultaten dokumenterades i Miro, vilket visade var ändringar behövdes. Produktlistan behövde endast testas två gånger, och nästan all info togs bort, förutom designändringen för “lägg i varukorgen”.Rumsknappen ändrades från en länk med texten “visa rum med din miljö” till ett bildspel med rumsmiljöer. För att förtydliga kan en guide läggas till som förklarar hur bildspelet fungerar.",
@@ -789,6 +837,7 @@ function MainMenu() {
       content6: {
         id: 6,
         intro: {
+          tabIndex:"1",
           headlineMainSwe: "Soppkök Uppsala",
           headlineRoleSwe: "Roll",     
           textRoleSwe: "Projektledare",
@@ -808,12 +857,13 @@ function MainMenu() {
           textToolsEng4: "Transport",
           textToolsEng5: "Equipment management",
           image1: "SoppkökUppsala.png",
-          altSwe: "En artikel om soppkök uppsala",
-          altEng: "Description of the images",
-          imageDescriptionSwe: "Bildbeskrivning",
-          imageDescriptionEng: "Bildbeskrivning",
+          altSwe: "Soppkök Uppsala organisations logotyp",
+          altEng: "Soup kitchen Uppsala organizations logo",
+          imageDescriptionSwe: "Soppkök Uppsala organisations logotypo",
+          imageDescriptionEng: "Soup kitchen Uppsala organizations logo",
         },
         textsection1: {
+          tabIndex:"2",
           headlineSwe: "Om Soppkök Uppsala",
           textSwe:
             "Soppkökets mål var att det skulle vara en mötesplats för människor som annars inte skulle träffas och ta bort sina eventuella fördomar. Soppköken är en politisk aktion för att lyfta frågan om hemlösas situation, en fråga som annars inte ges särskilt mycket utrymme i samhällsdebatten. Därför var Soppköken endast till för att organisera enstaka möten med målet att belysa problematiken kring hemlösheten och skulle inte vara ett permanent soppkök, då det finns andra institutioner som gör detta med mer resurser och oftare.",
@@ -827,6 +877,7 @@ function MainMenu() {
           imageDescriptionEng: "Bildbeskrivning",
         },
         textsection2: {
+          tabIndex:"3",
           headlineSwe: "Erfarenheter från Soppkök Uppsala",
           textSwe:
             "Vi var sex personer som startade Soppkök Uppsala och inför soppköken var det mycket som behövde planeras, som att ha möten med volontärer och söka tillstånd, hålla i klädinsamlingar och klädförvaring, transportera bort saker samt ha kontakt med media. Jag hade ansvar för matbutiker, uthyrningsfirmor och privatpersoner som lånade ut utrustning. Jag designade även Soppkökets nya logga och flera affischer, jag höll i klädinsamlingar och ordnade transport med bil och flak. Via sociala medier och engagemang skapades uppmärksamhet vilket ledde till att många kom och gjorde allt från att lämna kläder, hygienprodukter och frukt, till att laga mat och klippa hår. Under soppköken delades det ut kläder, smörgåsar, kaffe och soppa till behövande. Många stannade kvar länge för att samtala och för den goda stämningen. Det jag minns mest från vårt första soppkök var att vi kände mycket glädje från alla människor som besökte soppköket och att det blev väldigt lyckat. Vi fick fler personer att bli intresserade av att planera soppköket. Efter att ha varit aktiv i Soppkök Uppsala under ett år kände jag att det var dags för andra att ta över. Soppkök i alla städer är nu tyvärr nedlagda och Soppkök Uppsala varade mellan åren 2013-2015.",
@@ -916,7 +967,7 @@ function MainMenu() {
       headlineIntroSwe: "Verktyg & Metoder",
       image1: "berghs_logo.svg",
       altSwe: "Berghs logo",
-      altEng: "DBerghs logo",
+      altEng: "Berghs logo",
       imageDescriptionSwe: "Berghs logo",
       imageDescriptionEng: "Berghs logo",
     },
@@ -932,8 +983,9 @@ function MainMenu() {
       image1: "Skärmbild 2023-04-14 134654.png",
       altSwe: "Två personer står på varsin sida av ett lakan med texten “Soppkök Uppsala”.",
       altEng: "Two people are standing on either side of a sheet with the text“Soppkök Uppsala”",
-      imageDescriptionSwe: "Bildbeskrivning",
-      imageDescriptionEng: "Bildbeskrivning",
+      imageDescriptionSwe: "Två personer står på varsin sida av ett lakan med texten “Soppkök Uppsala”.",
+      imageDescriptionEng: "Two people are standing on either side of a sheet with the text“Soppkök Uppsala”",
+
     },
   ];
 

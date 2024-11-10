@@ -44,7 +44,7 @@ function Aboutme() {
           </div>
         </div>
         <div className="case_content">
-          <h1 className="section-title-work">{language === "sv" ? aboutMe.headlineSwe: aboutMe.headlineEng} </h1>
+          <h1 className="section-title-work" tabIndex="6"> {language === "sv" ? aboutMe.headlineSwe: aboutMe.headlineEng} </h1>
           <p className="bodytext">
           {language === "sv" ? aboutMeList.aboutMeSwe:aboutMeList.aboutMeEng}
 
@@ -52,14 +52,14 @@ function Aboutme() {
           </p>
           <div className="hero-button-content">
           <div className="hero-button">
-            <a  className='a-hero-button' href={language && language === "sv"
+            <a  className='a-hero-button'  tabIndex="7" href={language && language === "sv"
               ? imageSwe 
               : imageEng} download="Maria-Ekman-Cv-2024.pdf">    
               
               {language && language === "sv"
               ? aboutMe.personalLetterButtonSwe
               : aboutMe.personalLetterButtonEng} </a></div> 
-            <button className="hero-button" type="button">
+            <button className="hero-button"  tabIndex="8" type="button">
               <Link to="/contact" className="a-hero-button">
               {language && language === "sv"
                 ? aboutMe.ContactSwe
@@ -72,11 +72,11 @@ function Aboutme() {
       <section className="case_content_main2">
 
         <div className="case_content">
-          <LazyImage src={"Wcage.jpg"}  classname2="container_image_medium" classname="about-img" />
+          <LazyImage src={"Wcage.jpg"}   classname2="container_image_medium" classname="about-img" />
           <p className="centeredText">Wcage</p>
         </div>
         <div className="case_content">
-          <h1 className="section-title-work">
+          <h1 className="section-title-work"  tabIndex="9">
           {language === "sv" ? "Jag utvecklat min Portfolio med Fokusering på WCAG":"I have developed my portfolio with a focus on WCAG"}</h1>
           <p className="bodytext">
           {language === "sv" ? aboutMeList.projectDescriptionSwe :aboutMeList.projectDescriptionEng}
@@ -91,7 +91,7 @@ function Aboutme() {
           <p className="centeredText">       {language === "sv" ? "Programering":"Programming"}</p>
         </div>
         <div className="case_content">
-          <h1 className="section-title-work"> {language === "sv" ? "Fördelarna att arbeta med UX och Frontend":"The advantages of working with UX and frontend"}</h1>
+          <h1 className="section-title-work" tabIndex="10">{language === "sv" ? "Fördelarna att arbeta med UX och Frontend":"The advantages of working with UX and frontend"}</h1>
           <p className="bodytext">
         
           {language === "sv" ? aboutMeList.keyQualitiesSwe :aboutMeList.keyQualitiesEng}

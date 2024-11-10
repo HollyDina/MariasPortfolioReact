@@ -27,31 +27,31 @@ const Menu = () => {
     };
   }, []);
 
- 
+
 
 
   const menuList = [
-    { path: '/', label: 'Startsida', labelEng: 'Startpage' },
-    { path: '/about', label: "Om mig", labelEng: 'About me',  component: MenuDropdown },
-    { path: '/case', label: 'Projekt',labelEng:"Project", component: MenuDropdown },
-    { path: '/contact', label: 'Kontakt', labelEng:"Contact"},
+    { path: '/', label: 'Startsida', labelEng: 'Startpage', tabIndex: "1" },
+    { path: '/about', label: "Om mig", labelEng: 'About me', tabIndex: "2", component: MenuDropdown },
+    { path: '/case', label: 'Projekt', labelEng: "Project", tabIndex: "3", component: MenuDropdown },
+    { path: '/contact', label: 'Kontakt', labelEng: "Contact", tabIndex: "4" },
   ];
 
   const caseList = [
-    { path: '/case/1', label: "Loopeli:s företagsida",labelEng:"Loopeli's Business Page" },
-    { path: '/case/2', label: "Loopeli:s Privatsida",labelEng:"Loopeli's Private Page" },
-    { path: '/case/3', label: "Examensarbete",labelEng:"Thesis" },
-    { path: '/case/4', label: "Chas academy",labelEng:"Chas academy" },
-    { path: '/case/5', label: "Berghs school of communication",labelEng:"Berghs school of communication" },
-    { path: '/case/6', label: "Soppkök Uppsala",labelEng:"Soup Kitchen Uppsala" },
+    { path: '/case/1', label: "Loopeli:s företagsida", labelEng: "Loopeli's Business Page" },
+    { path: '/case/2', label: "Loopeli:s Privatsida", labelEng: "Loopeli's Private Page" },
+    { path: '/case/3', label: "Examensarbete", labelEng: "Thesis" },
+    { path: '/case/4', label: "Chas academy", labelEng: "Chas academy" },
+    { path: '/case/5', label: "Berghs school of communication", labelEng: "Berghs school of communication" },
+    { path: '/case/6', label: "Soppkök Uppsala", labelEng: "Soup Kitchen Uppsala" },
   ];
 
 
 
   const aboutList = [
-    { path: "/about", label: "Om mig" ,labelEng:"About me"},
-    { path: "/workeducation", label: "Arbete & Utbildning" ,labelEng:"work and education" },
- 
+    { path: "/about", label: "Om mig", labelEng: "About me" },
+    { path: "/workeducation", label: "Arbete & Utbildning", labelEng: "work and education" },
+
 
   ];
 
@@ -98,11 +98,12 @@ const Menu = () => {
                 caseList={caseList}
                 aboutList={aboutList}
                 activeLink={activeLink}
+                tabIndex={item.tabIndex}
               />
             ) : (
 
 
-              <div className={`nav__item ${activeLink === item.path ? 'active' : ''}`}>
+              <div tabIndex={item.tabIndex} className={`nav__item ${activeLink === item.path ? 'active' : ''}`}>
 
                 <Link
                   href
@@ -121,18 +122,19 @@ const Menu = () => {
             )}
           </div>
         ))}
-        <div className="Language-main">
+        {window.location.pathname === '/' ? (
+          null
+        ) : (<div className="Language-main">
           <div className='Language-content'>
-            <LanguageSelectors flexdirection={"row"} margin1={"15px 4px 0px 0px"}/>
-           
+            <LanguageSelectors tabIndex="5" flexdirection={"row"} margin1={"15px 4px 0px 0px"} />
           </div>
-        </div>
+        </div>)}
       </div>
 
 
 
       {/*mobil */}
-      <button onClick={!modalIsOpen ? openModal : closeModal} className="hamburger-menu">
+      <button tabIndex="1" onClick={!modalIsOpen ? openModal : closeModal} className="hamburger-menu">
         <div className="hamburger-menu">
           <span className={!modalIsOpen ? "menu-close" : "menu-open1"}></span>
           <span className={!modalIsOpen ? "menu-close" : "menu-open2"}></span>
@@ -161,10 +163,11 @@ const Menu = () => {
                   caseList={caseList}
                   aboutList={aboutList}
                   activeLink={activeLink}
+                  tabIndex={item.tabIndex}
                 />
 
               ) : (
-                <div className={`nav__item ${activeLink === item.path ? 'active' : ''}`}>
+                <div tabIndex={item.tabIndex} className={`nav__item ${activeLink === item.path ? 'active' : ''}`}>
 
                   <Link
                     href
@@ -172,10 +175,10 @@ const Menu = () => {
                     to={item.path}
 
                   >
-                  
+
                     {language && language === "sv"
-                    ? item.label && item.label
-                    : item.labelEng && item.labelEng}
+                      ? item.label && item.label
+                      : item.labelEng && item.labelEng}
                   </Link>
 
                 </div>
@@ -183,7 +186,7 @@ const Menu = () => {
             </div>
           ))}
 
-          <div className="menu-li"><LanguageSelectors flexdirection={"column"} margin1={"0px 0px 0px 4px"}/></div>
+          <div className="menu-li"><LanguageSelectors flexdirection={"column"} margin1={"0px 0px 0px 4px"} /></div>
         </div>
       </Modal>
 

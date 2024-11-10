@@ -1,7 +1,7 @@
 
 import {LazyImage} from '../LazyImage';
 import { useLanguage } from "../LanguageContext";
-export const TexImageSection = ({ headlineSwe,
+export const TexImageSection = ({ tabIndex, headlineSwe,
     headlineEng,
     textSwe,
     textEng,
@@ -17,7 +17,6 @@ export const TexImageSection = ({ headlineSwe,
     textEng6,
     textSwe7,
     textEng7,
-
     headlineSwe2,
     headlineEng2,
     headlineSwe3,
@@ -36,6 +35,11 @@ export const TexImageSection = ({ headlineSwe,
     altSwe,
     altEng }) => {
 
+    const renderHeadline = (swe, eng) => {
+        const text = language === "sv" ? swe : eng;
+        return text ? <h1 className="section-title-work">
+            {language === "sv" ? headlineSwe : headlineEng}</h1> : null;
+    };
 
     const { language } = useLanguage();
     const renderText = (swe, eng) => {
@@ -43,11 +47,6 @@ export const TexImageSection = ({ headlineSwe,
         return text ? <p className="bodytext">{text}</p> : null;
     };
 
-    const renderHeadline = (swe, eng) => {
-        const text = language === "sv" ? swe : eng;
-        return text ? <h1 className="section-title-work">
-            {language === "sv" ? headlineSwe : headlineEng}</h1> : null;
-    };
     return (
         <>
             <div className="case_content">
@@ -58,7 +57,7 @@ export const TexImageSection = ({ headlineSwe,
                     classname2="container_image_large" classname="ImageLarge" />
             </div>
             <div className="case_content">
-                <h1 className="section-title-work">
+                <h1 className="section-title-work" tabIndex={tabIndex}> 
                     {language === "sv" ? headlineSwe : headlineEng}
                 </h1>
                 {renderText(textSwe, textEng)}
