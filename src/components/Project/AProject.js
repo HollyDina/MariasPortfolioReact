@@ -8,10 +8,6 @@ import HeroSection from "../HeroSection";
 const AProject = ({data}) => {
   
   const { language } = useLanguage();
-
-
-  console.log(language, "language");
-  console.log(data, "AProject ?");
   
   return (
     <div className="main-content">

@@ -1,6 +1,5 @@
 
 import { useLanguage } from '../LanguageContext';
-import { ImageLarge } from "../ImageLarge";
 import { LazyImage } from '../LazyImage';
 
 

@@ -40,7 +40,7 @@ function Aboutme() {
       <section className="case_content_main">
         <div className="case_content">
           <div className="about-imageSrc-container">
-            <LazyImage classname="about-img" src={aboutMe.HeroImage} altSwe="En profil bild på Maria" altEng="A profile picture of Maria" />
+            <LazyImage classname="about-img" classname2="container_image_medium"  src={aboutMe.HeroImage} altSwe="En profil bild på Maria" altEng="A profile picture of Maria" />
           </div>
         </div>
         <div className="case_content">
@@ -72,7 +72,7 @@ function Aboutme() {
       <section className="case_content_main2">
 
         <div className="case_content">
-          <LazyImage src={"Wcage.jpg"} classname="about-img" />
+          <LazyImage src={"Wcage.jpg"}  classname2="container_image_medium" classname="about-img" />
           <p className="centeredText">Wcage</p>
         </div>
         <div className="case_content">
@@ -86,8 +86,8 @@ function Aboutme() {
 
       <section className="case_content_main">
         <div className="case_content">
-          <LazyImage
-          src={"chris-ried-ieic5Tq8YMk-unsplash.jpg"} classname="about-img"/>
+          <LazyImage 
+          src={"chris-ried-ieic5Tq8YMk-unsplash.jpg"} classname2="container_image_medium" classname="about-img"/>
           <p className="centeredText">       {language === "sv" ? "Programering":"Programming"}</p>
         </div>
         <div className="case_content">

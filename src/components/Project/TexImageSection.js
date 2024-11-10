@@ -1,5 +1,5 @@
 
-import { ImageLarge } from "../ImageLarge";
+import {LazyImage} from '../LazyImage';
 import { useLanguage } from "../LanguageContext";
 export const TexImageSection = ({ headlineSwe,
     headlineEng,
@@ -51,8 +51,11 @@ export const TexImageSection = ({ headlineSwe,
     return (
         <>
             <div className="case_content">
-                <ImageLarge img={img} imageDescriptionSwe={imageDescriptionSwe} imageDescriptionEng={imageDescriptionEng} altSwe={altSwe} altEng={altEng} />
-
+            <LazyImage
+                    src={img} imageDescriptionSwe={imageDescriptionSwe}
+                    imageDescriptionEng={imageDescriptionEng}
+                    altSwe={altSwe} altEng={altEng}
+                    classname2="container_image_large" classname="ImageLarge" />
             </div>
             <div className="case_content">
                 <h1 className="section-title-work">
@@ -77,12 +80,3 @@ export const TexImageSection = ({ headlineSwe,
 
     );
 };
-/* <Images img={content1Item.image1} imageDescriptionSwe={content1Item.imageDescriptionSwe} imageDescriptionEng={content1Item.imageDescriptionEn} altSwe={content1Item.altSwe} altEng={content1Item.altEng} />
- */
-
-/*  <h1 className="section-title-work">
-                    {language === "sv" ? content1Item.headlineSwe : content1Item.headlineEng}
-                </h1>
-                <p className="bodytext">
-                    {language === "sv" ? content1Item.textSwe : content1Item.textEng}
-                </p> */

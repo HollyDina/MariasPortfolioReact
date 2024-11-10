@@ -2,8 +2,7 @@
 import { Link } from 'react-router-dom';
 
 import { useLanguage } from '../LanguageContext';
-
-import { ImageLarge } from '../ImageLarge';
+import {LazyImage} from '../LazyImage';
 export function CaseLargeworkcard({ item }) {
 
   const { language } = useLanguage();
@@ -13,8 +12,7 @@ export function CaseLargeworkcard({ item }) {
     <Link to={`/case/${item.path}`} style={{textDecoration:"none"}}>
       <div className='CaseLargeworkcard'>
         <div className='CaseLargeworkcard-img'>
-          <ImageLarge img={item.image1}></ImageLarge>
-        
+         <LazyImage src={item.image1} classname2="container_image_large" classname="ImageLarge" />
           </div>
         <div className='CaseLargeworkcard-content'>
           <h1 className='CaseLargeworkcard-titel'>{language && language === "sv"
