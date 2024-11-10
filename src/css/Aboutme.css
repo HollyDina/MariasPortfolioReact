@@ -2,6 +2,7 @@
 .about-img{
   width: 100%;
   height: auto;
+  max-width: 450px;
 }
 
 .main-content-case{
@@ -10,3 +11,4 @@
   width: 100%;
   max-width: 1200px; 
 }
+
