@@ -21,3 +21,13 @@ body {
     max-width: 300px;
   
   }
+
+  .section-title-work{
+    font-size: 2rem;
+  }
+
+  :focus {
+    outline: 3px solid #4CAF50; /* Grön ram, justera färg efter behov */
+    outline-offset: 3px;
+    border-radius: 4px
+  }
