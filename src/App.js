@@ -2,7 +2,7 @@
 import './App.css';
 import Casepage from './Page/Casepage';
 import Aboutpage from './Page/Aboutpage';
-
+import { useEffect } from 'react';
 import Contactpage from './Page/Contactpage';
 import Homepage from './Page/Homepage';
 import Footer from './components/Footer';
@@ -25,7 +25,21 @@ import './css/LanguageSelectors.css';
 import './css/Body.css';
 
 function App() {
+  useEffect(() => {
+    // Skapa och lägg till <link> för att förladda bilden
+    const link = document.createElement("link");
+    link.rel = "preload";
+    link.as = "image";
+    link.href = "https://cdn.example.com/hero-image.jpg";
+    link.type = "image/jpeg";
+    
+    document.head.appendChild(link);
 
+    // Rensa upp <link> när komponenten avmonteras
+    return () => {
+      document.head.removeChild(link);
+    };
+  }, []);
 
   
 

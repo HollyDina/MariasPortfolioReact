@@ -23,7 +23,7 @@ function HeroSection({ content1Item }) {
         imageDescriptionSwe={content1Item.imageDescriptionSwe} imageDescriptionEng={content1Item.imageDescriptionEng} />
       <div class="case_content_main" style={{ justifyContent: 'flex-start' }}>
         <div className="hero-headline-container">
-          <h1>{language === "sv" ? content1Item.headlineMainSwe : content1Item.headlineMainEng}</h1>
+          <h1 className="section-title-work">{language === "sv" ? content1Item.headlineMainSwe : content1Item.headlineMainEng}</h1>
         </div>
       </div>
       <div class="case_content_main">
