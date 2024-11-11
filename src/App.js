@@ -1,10 +1,6 @@
 
 import './App.css';
-import Casepage from './Page/Casepage';
-import Aboutpage from './Page/Aboutpage';
 import { useEffect } from 'react';
-import Contactpage from './Page/Contactpage';
-import Homepage from './Page/Homepage';
 import Footer from './components/Footer';
 import Menu from './components/Menu/MainMenu';
 import './css/Menu.css';
