@@ -8,7 +8,7 @@ export function CaseLargeworkcardright({ item }) {
 
 
   return (
-    <Link to={`/case/${item.path}`} style={{textDecoration:"none"}}>
+    <Link to={`/case/${item.path}`} style={{textDecoration:"none"}} tabIndex={item.tabIndex2}>
       <div className='CaseLargeworkcard'>
           <div className='CaseLargeworkcard-content'>
             <h1 className='CaseLargeworkcard-titel'>{language && language === "sv"

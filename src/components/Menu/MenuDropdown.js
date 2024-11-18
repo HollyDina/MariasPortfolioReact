@@ -28,7 +28,7 @@ function MenuDropdown(props) {
     <ClickAwayListener onClickAway={handleClickAway}>
       <div>
       
-          <div tabIndex={props.tabIndex} className={`nav__item2 ${props.activeLink === props.path ? 'active' : ''}`} onClick={handleClick}>
+          <li tabIndex={props.tabIndex} className={`nav__item2 ${props.activeLink === props.path ? 'active' : ''}`} onClick={handleClick}>
             <Link href 
             className={`nav__link ${props.activeLink === props.path ? 'active' : ''}`} 
               to={props.path}>
@@ -37,11 +37,12 @@ function MenuDropdown(props) {
               {language && language === "sv"
                     ? props.label && props.label
                     : props.labelEng && props.labelEng}
-            </Link>
+          
             <div className='icon-arrow-button-container'>
               <img onClick={handleClick} src={open && `${props.activeLink === props.path ? ImageW  : Image}`? ImageW : Image} alt="En Telefon" className={!open ? "icon-arrow-button" : "icon-arrow-button-rote"} />
             </div>
-          </div>
+            </Link>
+          </li>
      
         {open ? (
           props.path === "/about" ?

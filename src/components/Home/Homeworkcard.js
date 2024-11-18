@@ -7,7 +7,7 @@ export function Homeworkcard({ item }) {
   const { language } = useLanguage();
   return (
 
-    <Link className='Homeworkcard' to={`/case/${item.path}`}>
+    <Link className='Homeworkcard' to={`/case/${item.path}`}  tabIndex={item.tabIndex}>
       <div className='Homeworkcard-img-container'>
        <LazyImage  classname="imageMediumHomeworkcard" src={item.image1} altSwe={item.altSwe
        } altEng={item.altEng}/>

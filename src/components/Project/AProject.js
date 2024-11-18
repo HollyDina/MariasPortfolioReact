@@ -27,7 +27,6 @@ const AProject = ({data}) => {
                 </p>
               </div>
               <div className="case_content">
-                <Images src={item} />
                 <LazyImage src={"Wcage.jpg"}  classname2="container_image_medium" classname="about-img" />
                
               </div>

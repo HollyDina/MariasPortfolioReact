@@ -31,7 +31,7 @@ function MainMenu() {
       content1: {
         id: 1,
         intro: {
-          tabIndex:"6",
+          tabIndex:7,
           headlineMainSwe: "Uppdraget på Loopeli:s företagssida",
           headlineRoleSwe: "Roll",
           textRoleSwe: "Ux-designer",
@@ -58,7 +58,7 @@ function MainMenu() {
         },
 
         textsection1: {
-          tabIndex:"7",
+          tabIndex:8,
           headlineSwe: "Uppdraget på loopeli:s företagssida",
           textSwe:
             "Jag fick i uppdrag av Loopeli att förbättra strukturen på deras webbplats för att göra den mer användarvänlig för företagsanvändare. Målet var att underlätta för dem att snabbt hitta relevant information och fatta beslut om att integrera Loopeli i sin verksamhet. Genom att analysera hur företag söker efter välfärds-hjälpmedel och användarnas feedback på appen identifierade jag förbättringsmöjligheter. Dessa insikter användes för att förbättra användarupplevelsen och göra det lättare för företag att köpa och använda Loopeli.",
@@ -71,7 +71,7 @@ function MainMenu() {
           imageDescriptionEng: "Two people are sitting and discussing. One of them has a screen in front of them.",
         },
         textsection2: {
-          tabIndex:"8",
+          tabIndex:9,
           headlineSwe: "Research",
           textSwe:
             "Jag genomförde en UX-review av webbplatsen för att identifiera gränssnittsproblem och jämföra med konkurrenter. Utvärderingen visade att användare hade svårt att navigera och att det fanns överflödig text som inte effektivt tjänade sitt syfte.",
@@ -86,7 +86,7 @@ function MainMenu() {
         },
 
         textsection3: {
-          tabIndex:"9",
+          tabIndex:10,
           headlineSwe: "Användartesterna",
           textSwe1:
             "Jag beslutade mig för att tillämpa 'tänka högt'-metoden på menyn för att observera användarnas förväntningar. Det blev tydligt att meny-namnen var vagt formulerade och kunde tolkas på många olika sätt.",
@@ -109,7 +109,7 @@ function MainMenu() {
           imageDescriptionEng: "There are documents on the table containing text and boxes.",
         },
         textsection4: {
-          tabIndex:"10",
+          tabIndex:11,
           headlineSwe: "Insamlingen av insikter",
           textSwe:
             "Alla intervjuer dokumenterades och sammanställdes i en fil, som överfördes till en tabell i Miro. Det tydliggjordes vilka deltagare som lyckades med sina uppgifter och vilka som inte gjorde det. Jag grupperade liknande anteckningar, tog bort dubbletter och sammanställde allt i en behovskarta för att visualisera resultaten samt skapade personas. Därefter presenterades resultaten för produktägaren. ",
@@ -123,7 +123,7 @@ function MainMenu() {
           imageDescriptionEng: "Insights from interviews have been compiled, providing an overview of all conducted interviews.",
         },
         textsection5: {
-          tabIndex:"11",
+          tabIndex:12,
           headlineSwe: "Nya Insikter som framkom från användar-testerna",
           textSwe:
             "Företagsanvändare hade problem med att identifiera vilken sida de var på och vilken de hade besökt tidigare. De stötte på svårigheter med att utföra uppgifterna på grund av överflödig och överväldigande text, samt oväntad information som dök upp på fel sidor. Samtidigt fick webbplatsen positiv feedback för sitt professionella utseende och de inbjudande bilderna på människor",
@@ -137,7 +137,7 @@ function MainMenu() {
           imageDescriptionEng: "Needs map",
         },
         textsection6: {
-          tabIndex:"12",
+          tabIndex:13,
           headlineSwe: "Utveckling av Ny Struktur och Designförslag",
           textSwe:
             "Efter användartester och intervjuer utvecklades en ny struktur som fick feedback från projektägaren. En uppdaterad version har nu tagits fram för implementering. Jag skapar designförslag och ett designsystem för att förbättra användarvänligheten. Uppgifterna dokumenteras som user stories i Miro, där både nuvarande och ny design presenteras för att underlätta för utvecklare och produktägare. Därefter genomförs användartester för att säkerställa att strukturen och designen förstås, och justeringar görs vid behov. ",
@@ -507,6 +507,7 @@ function MainMenu() {
         id: 4,
         intro: {
           tabIndex:"6",
+          tabIndex2:"7",
           headlineMainSwe: "Chas academy",
           headlineRoleSwe: "Roll",
           textRoleSwe: "Service designer\nUser Research",
@@ -531,6 +532,7 @@ function MainMenu() {
         },
         textsection1: {
           tabIndex:"7",
+          tabIndex2:"8",
           headlineSwe: "Uppdrag av Chas academy",
           textSwe:
             "I slutet av programmet fick vi i uppgift att undersöka studenternas upplevelse av kursen jag deltog i. Jag intervjuade både nuvarande och tidigare studenter. CHAS Academy planerar att expandera inom UX-området och öka antalet studenter med 30% inom 1-3 år. Deras fokus är att förbättra kundupplevelsen, affärsmodellen och studenternas utvärderingar av programmet. Genom att göra utbildningen mer konkurrenskraftig jämfört med andra liknande skolor kan CHAS Academy sticka ut och stärka sitt varumärke inom utbildningssektorn, för att locka fler studenter.",
@@ -545,6 +547,7 @@ function MainMenu() {
         },
         textsection2: {
           tabIndex:"8",
+          tabIndex2:"9",
           headlineSwe: "Syfte",
           textSwe:
             "Syftet med denna analys är att identifiera och förbättra kundresan för studenter inom UX-design på CHAS Academy, med målet att öka studenternas tillfredsställelse och samtidigt stärka akademins affärsutveckling. Detta innebär att identifiera utbildningens nuvarande styrkor och svagheter för att utforska hur vi kan förbättra kvaliteten på utbildningen och göra den mer attraktiv för potentiella studenter, samt stå starkare i konkurrensen med liknande utbildningar.Genom att beakta studenternas behov och förväntningar kan CHAS Academy anpassa sin utbildning för att hjälpa studenter att bli aktiva på arbetsmarknaden och skapa en stark koppling mellan utbildningens innehåll och arbetsmarknadens behov.",
@@ -559,7 +562,8 @@ function MainMenu() {
         },
         textsection3: {
           tabIndex:"9",
-          headlineSwe: "Mål",
+          tabIndex2:"10",
+                    headlineSwe: "Mål",
           textSwe:
             "Förbättra de områden som har störst påverkan på kundnöjdhet och affärsmål. Öka marknadsandelen inom UX-utbildningar.Förbättra kundupplevelsen och affärsmodellen.Stärka CHAS Academys varumärke för att attrahera fler studenter. Öka antalet sökande till utbildningen.Expandera inom UX-området och öka antalet elever med 30% inom 1-3 år.Höja kvaliteten på utbildningen. Skapa en mer attraktiv utbildningsupplevelse som effektivt tillgodoser studenternas behov och förväntningar.",
           headlineEng: "The Goal",
@@ -990,13 +994,84 @@ function MainMenu() {
   ];
 
 
+  const dataHome2 = [
+    {
+      tabIndex: "11",
+      tabIndex2:"8",
+      path: 1,
+      headlineMainSwe: "Loopelis företagssida",
+      descriptionSwe:
+        "Jag fick i uppdrag av Loopeli att förbättra strukturen på deras företagssida för att göra den mer användarvänlig för företagsanvändare och underlätta deras beslut att integrera Loopeli. Genom en UX-review identifierade jag gränssnittsproblem och användarnas behov genom intervjuer och test.",
+      headlineMainEng: "Loopeli's Company Page",
+      descriptionEng:
+        "I was tasked by Loopeli to improve the structure of their company page to make it more user-friendly for corporate users and facilitate their decision to integrate Loopeli. Through a UX review, I identified interface issues and user needs through interviews and testing.",
+      headlineIntroSwe: "Verktyg & Metoder",
+      image1: "Frame_1944.png",
+      altSwe: "Loopeli-logotypen mot en grön bakgrund.",
+      altEng: "Loopeli logo on a green background.",
+      imageDescriptionSwe: "Loopeli-logotypen",
+      imageDescriptionEng: "The Loopeli logo",
+    },
+    { tabIndex: "12",
+      tabIndex2:"9",
+      path: 2,
+      headlineMainSwe: "Loopelis privatsida",
+      descriptionSwe:
+        "Projektet syftar till att minska behovet av supportsamtal genom att identifiera hinder i Loopelis privatsida och analysera användarnas navigering. Genom att justera innehåll och design ska man bättre möta målgruppens behov och underlätta för dem att skaffa Loopeli-appen. Användartester har genomförts för att samla insikter om användarbeteenden och skapa personas, vilket hjälper till att anpassa webbplatsens struktur för att förbättra användarupplevelsen.",
+      headlineMainEng: "Loopeli's Private Page",
+      descriptionEng:
+        "The project aims to reduce the need for support calls by identifying obstacles on Loopeli's private page and analyzing user navigation. By adjusting content and design, it seeks to better meet the needs of the target audience and facilitate their acquisition of the Loopeli app. User tests have been conducted to gather insights into user behaviors and create personas, which helps tailor the website's structure to improve the user experience.",
+      headlineIntroSwe: "Verktyg & Metoder",
+      image1: "Loopeligreen.png",
+      altSwe: "Beskrivning på bilden",
+      altEng: "Description of the images",
+      imageDescriptionSwe: "Bildbeskrivning",
+      imageDescriptionEng: "The Loopeli logo",
+    },
+    {
+      tabIndex: "13",
+      tabIndex2:"10",
+      path: 3,
+      headlineMainSwe: "Examensarbete som handlar om skärmtid för barn",
+      descriptionSwe:
+        "Projektet fokuserade på att analysera barns skärmtid och hur föräldrar kan undvika konflikter kring detta. Genom intervjuer med föräldrar och barn identifierades olika behov, som att barn vill ha tydliga regler och vara med och bestämma aktiviteter efter skärmtiden. Två programidéer togs fram: ett där barnet får välja en aktivitet för att starta skärmtiden, och ett där barnet får spel biljetter som kan användas under veckan. Prototypen testades på både barn och vuxna, med justeringar baserade på deras feedback. ",
+      headlineMainEng: "Thesis focusing on screen time for children",
+      descriptionEng:
+        "The project focused on analyzing children's screen time and how parents can avoid conflicts related to it. Through interviews with parents and children, various needs were identified, such as children wanting clear rules and to be involved in choosing activities after screen time. Two program ideas were developed: one where the child selects an activity to start their screen time, and another where the child receives game tickets that can be used throughout the week. The prototype was tested on both children and adults, with adjustments made based on their feedback.",
+      headlineIntroSwe: "Verktyg & Metoder",
+      image1: "spel4.png",
+      altSwe: "Beskrivning på bilden",
+      altEng: "Description of the images",
+      imageDescriptionSwe: "Bildbeskrivning",
+      imageDescriptionEng: "Bildbeskrivning",
+    },
+    {tabIndex: "14",
+      tabIndex2:"11",
+      path: 4,
+      headlineMainSwe: "Uppdraget på CHAS Academy",
+      descriptionSwe:
+        "Uppdraget på CHAS Academy genomför en analys för att förbättra studentupplevelsen och affärsmodellen inom UX-utbildningen. De planerar att öka antalet studenter med 30% inom 1-3 år genom att göra utbildningen mer konkurrenskraftig och förbättra kundresan. Studien baseras på intervjuer med nuvarande och tidigare studenter, och har identifierat både styrkor och områden som behöver förbättras, som tydligare struktur, bättre återkoppling och mer praktisk träning. Målet är att öka studenternas nöjdhet, skapa en starkare koppling till arbetsmarknaden och stärka CHAS",
+      headlineMainEng: "Assignment at CHAS Academy",
+      descriptionEng:
+        "The project at CHAS Academy is conducting an analysis to improve the student experience and business model within the UX program. They plan to increase the number of students by 30% within 1-3 years by making the program more competitive and enhancing the customer journey. The study is based on interviews with current and former students, identifying both strengths and areas for improvement, such as a clearer structure, better feedback, and more practical training. The goal is to increase student satisfaction, create a stronger connection to the job market, and strengthen CHAS Academy's brand.",
+      headlineIntroSwe: "Verktyg & Metoder",
+      image1: "chas-academy-emblem.png",
+      altSwe: "CHAS Academy-logotypen har texten “CHAS Academy” i mitten av en cirkel, omgiven av blå blad med både en svart och blå kantlinje.",
+      altEng: "Description of the images",
+      imageDescriptionSwe: "chas academy logo",
+      imageDescriptionEng: "chas academy logo",
+    },
+   
+  ];
+
+
   return (
 
     <div className='Nav-bar'>
       <LanguageProvider>
         <Menu />
         <Routes>
-          <Route path="/" element={<PageLayout><Homepage dataHome={dataHome} /></PageLayout>} />
+          <Route path="/" element={<PageLayout><Homepage dataHome2={dataHome2} /></PageLayout>} />
           <Route path="/about" element={<PageLayout><Aboutpage data={data} /></PageLayout>} />
           <Route path="/case" element={<PageLayout><Casepage dataHome={dataHome} /></PageLayout>} />
           <Route path="/workeducation" element={<PageLayout><Projectpage /></PageLayout>} />

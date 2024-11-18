@@ -1,17 +1,17 @@
 import React from 'react';
 import { Homeworkcard } from './Homeworkcard';
-function Homeworkcardsection({ dataHome}) {
+function Homeworkcardsection({ dataHome2}) {
   const isVisible = false;
  
   return (
    <div className='Homeworkcard-container-main'>
       <div className='Homeworkcard-container'>
-       {dataHome&& dataHome.map((item, index) => (
+       {dataHome2&& dataHome2.map((item, index) => (
           <div className='Home-container-row' key={index}>
             {index < 4 ? (
               <Homeworkcard item={item} />
             ) : (
-              isVisible && (
+              !isVisible && (
                 
                   <Homeworkcard item={item} />
               

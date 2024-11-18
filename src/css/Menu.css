@@ -179,6 +179,9 @@
   font-size: 18px;
   color: rgb(0, 0, 0);
   text-decoration: none;
+  flex-direction: row;
+  display: flex;
+
 
 }
 
@@ -261,7 +264,7 @@
   flex-direction: row;
   padding-left: 5px;
   justify-content: center;
-  min-height: 42px;
+  
 }
 
 

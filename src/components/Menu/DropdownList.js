@@ -7,20 +7,20 @@ function DropdownList(props) {
 
   const { language } = useLanguage();
   return (
-    <div>
+   
  
-    {<div className='down-menu-link'>
+    <ul className='down-menu-link '>
     
           {props.list.map((item, index) => (
-            <div className="li-menu-link"
+            <li className="li-menu-link"
             key={index}>
               <Link className="menu-link" href to={item.path}> {language && language === "sv"
                     ? item.label &&item.label
                     : item.labelEng && item.labelEng} </Link> 
-            </div>
+            </li>
           ))}
-        </div>}
-    </div>
+        </ul>
+   
   );
 }
 

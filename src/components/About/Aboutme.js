@@ -14,6 +14,8 @@ function Aboutme() {
     keyQualitiesEng: "My key qualities are determination, goal-orientedness, and a constant curiosity. I believe these traits allow me to truly combine user-centered design with a solid technical understanding of frontend development in my role. I'm passionate about creating interfaces that are not only aesthetically pleasing but also intuitive. I love the challenge of digging deeper to understand how we can implement solutions effectively in web applications. Through my experiences in both UX design and frontend development, I have gained a comprehensive view of how design decisions impact both user experience and technical solutions. I genuinely thrive in cross-functional teams, where I can communicate and share my design ideas clearly and engagingly with both technical and non-technical colleagues. Collaborating and creating together is something I truly value!",
     aboutMeSwe: "Och jag är en UX-designer som för närvarande arbetar för ett företag som heter Loopeli. När jag utvecklar och designar för en webbplats fokuserar jag på om sidan gynnar både användaren och företaget på lång sikt. Min erfarenhet som boendestödjare har gett mig en djupare förståelse för människor och hur jag bäst kan möta deras behov, vilket är något jag verkligen kommer att dra nytta av i min roll som UX-designer. Jag har också lärt mig att skapa förtroende hos individer som kanske inte alltid mår bra. Mina styrkor som UX-designer är min nyfikenhet och min förmåga att sätta mig in i andras tankar och känslor. Det gör det lättare för mig att se webbplatsers svagheter och styrkor. Jag är van vid att hantera program som Figma, Framer, Sketch, Photoshop och Illustrator. Jag har en förståelse för programmering, vilket har gett mig insikt i hur utvecklare tänker och hur man bygger en komponent. På min fritid tillbringar jag tid med mina vänner, spelar fotboll och tränar crossfit.",
     aboutMeEng: "And I am a UX designer currently working for a company called Loopeli. When I develop and design for a website, I focus on whether the page benefits both the user and the company in the long run. My experience as a support worker has given me a deeper understanding of people and how to best meet their needs, which is something I will truly benefit from in my role as a UX designer. I have also learned to build trust with individuals who may not always be feeling well. My strengths as a UX designer are my curiosity and my ability to empathize with others' thoughts and feelings. This makes it easier for me to identify weaknesses and strengths in websites. I am familiar with tools like Figma, Framer, Sketch, Photoshop, and Illustrator. I have a basic understanding of programming, which has provided me with insight into how developers think and how to build a component. In my free time, I spend time with my friends, play football, and train CrossFit."
+  
+  
   };
   
  
@@ -59,20 +61,20 @@ function Aboutme() {
               {language && language === "sv"
               ? aboutMe.personalLetterButtonSwe
               : aboutMe.personalLetterButtonEng} </a></div> 
-            <button className="hero-button"  tabIndex="8" type="button">
+            <div className="hero-button"  tabIndex="8" type="button">
               <Link to="/contact" className="a-hero-button">
               {language && language === "sv"
                 ? aboutMe.ContactSwe
                :aboutMe.ContactEng} 
             </Link>
-            </button>
+            </div>
           </div>
         </div>
       </section>
       <section className="case_content_main2">
 
-        <div className="case_content">
-          <LazyImage src={"Wcage.jpg"}   classname2="container_image_medium" classname="about-img" />
+        <div className="case_content">{/* kolla påtecten alt */}
+          <LazyImage src={"Wcage.jpg"}   altEng={"Has the text Wacage which has four icons"} altSwe={"Har texten Wacage som har fyra iconer"} classname2="container_image_medium" classname="about-img" />
           <p className="centeredText">Wcage</p>
         </div>
         <div className="case_content">
@@ -83,11 +85,12 @@ function Aboutme() {
           </p>
         </div>
       </section>
+     
 
       <section className="case_content_main">
-        <div className="case_content">
+        <div className="case_content">{/* kolla påtecten alt */}
           <LazyImage 
-          src={"chris-ried-ieic5Tq8YMk-unsplash.jpg"} classname2="container_image_medium" classname="about-img"/>
+          src={"chris-ried-ieic5Tq8YMk-unsplash.jpg"} altEng={"Screen with a black background displaying code with numbers in different colors."} altSwe={"Skärm med svart bakgrund som visar kod med siffror i olika färger."}classname2="container_image_medium" classname="about-img"/>
           <p className="centeredText">       {language === "sv" ? "Programering":"Programming"}</p>
         </div>
         <div className="case_content">

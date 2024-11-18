@@ -31,10 +31,10 @@ const Menu = () => {
 
 
   const menuList = [
-    { path: '/', label: 'Startsida', labelEng: 'Startpage', tabIndex: "1" },
-    { path: '/about', label: "Om mig", labelEng: 'About me', tabIndex: "2", component: MenuDropdown },
-    { path: '/case', label: 'Projekt', labelEng: "Project", tabIndex: "3", component: MenuDropdown },
-    { path: '/contact', label: 'Kontakt', labelEng: "Contact", tabIndex: "4" },
+    { path: '/', label: 'Startsida', labelEng: 'Startpage', tabIndex: "2" },
+    { path: '/about', label: "Om mig", labelEng: 'About me', tabIndex: "3", component: MenuDropdown },
+    { path: '/case', label: 'Projekt', labelEng: "Project", tabIndex: "4", component: MenuDropdown },
+    { path: '/contact', label: 'Kontakt', labelEng: "Contact", tabIndex: "5" },
   ];
 
   const caseList = [
@@ -103,7 +103,9 @@ const Menu = () => {
             ) : (
 
 
-              <div tabIndex={item.tabIndex} className={`nav__item ${activeLink === item.path ? 'active' : ''}`}>
+
+
+              <li tabIndex={item.tabIndex} className={`nav__item ${activeLink === item.path ? 'active' : ''}`}>
 
                 <Link
                   href
@@ -117,16 +119,18 @@ const Menu = () => {
                     : item.labelEng && item.labelEng}
                 </Link>
 
-              </div>
+             </li>
 
             )}
+              
           </div>
+
         ))}
         {window.location.pathname === '/' ? (
           null
         ) : (<div className="Language-main">
           <div className='Language-content'>
-            <LanguageSelectors tabIndex="5" flexdirection={"row"} margin1={"15px 4px 0px 0px"} />
+            <LanguageSelectors tabIndex={"5"} flexdirection={"row"} margin1={"15px 4px 0px 0px"} />
           </div>
         </div>)}
       </div>
@@ -134,7 +138,7 @@ const Menu = () => {
 
 
       {/*mobil */}
-      <button tabIndex="1" onClick={!modalIsOpen ? openModal : closeModal} className="hamburger-menu">
+      <button tabIndex="2" onClick={!modalIsOpen ? openModal : closeModal} className="hamburger-menu">
         <div className="hamburger-menu">
           <span className={!modalIsOpen ? "menu-close" : "menu-open1"}></span>
           <span className={!modalIsOpen ? "menu-close" : "menu-open2"}></span>
@@ -153,7 +157,7 @@ const Menu = () => {
         <div className='menu_content'>
 
           {menuList.map((item) => (
-            <div key={item.path} className="menu-li">
+            <ul key={item.path} className="menu-li">
               {item.component === MenuDropdown ? (
 
                 <MenuDropdown
@@ -167,7 +171,7 @@ const Menu = () => {
                 />
 
               ) : (
-                <div tabIndex={item.tabIndex} className={`nav__item ${activeLink === item.path ? 'active' : ''}`}>
+                <li tabIndex={item.tabIndex} className={`nav__item ${activeLink === item.path ? 'active' : ''}`}>
 
                   <Link
                     href
@@ -181,12 +185,12 @@ const Menu = () => {
                       : item.labelEng && item.labelEng}
                   </Link>
 
-                </div>
+                </li>
               )}
-            </div>
+            </ul>
           ))}
 
-          <div className="menu-li"><LanguageSelectors flexdirection={"column"} margin1={"0px 0px 0px 4px"} /></div>
+          <div className="menu-li"><LanguageSelectors flexdirection={"column"} tabIndex={"6"} margin1={"0px 0px 0px 4px"} /></div>
         </div>
       </Modal>
 
