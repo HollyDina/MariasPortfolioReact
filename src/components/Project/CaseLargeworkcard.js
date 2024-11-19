@@ -12,7 +12,8 @@ export function CaseLargeworkcard({ item }) {
     <Link to={`/case/${item.path}`} style={{textDecoration:"none"}} tabIndex={item.tabIndex2}>
       <div className='CaseLargeworkcard'>
         <div className='CaseLargeworkcard-img'>
-         <LazyImage src={item.image1} classname2="container_image_large" classname="ImageLarge" />
+         <LazyImage src={item.image1} altSwe={item.altSwe
+       } altEng={item.altEng} classname2="container_image_large" classname="ImageLarge" />
           </div>
         <div className='CaseLargeworkcard-content'>
           <h1 className='CaseLargeworkcard-titel' >{language && language === "sv"

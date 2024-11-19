@@ -26,7 +26,7 @@ function MenuDropdown(props) {
     /*menu-dropdown-button'*/
 
     <ClickAwayListener onClickAway={handleClickAway}>
-      <div>
+      <ul>
       
           <li tabIndex={props.tabIndex} className={`nav__item2 ${props.activeLink === props.path ? 'active' : ''}`} onClick={handleClick}>
             <Link href 
@@ -53,7 +53,7 @@ function MenuDropdown(props) {
           null)
         }
 
-     </div>
+     </ul>
     </ClickAwayListener>
 
   );

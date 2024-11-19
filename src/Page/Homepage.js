@@ -46,7 +46,7 @@ function Home({ dataHome2 }) {
             : aboutMeList.heroTextEng1}</h1>
           <h2 className="hero-text">{language && language === "sv"
             ? aboutMeList.heroTextSwe2
-            : aboutMeList. heroTextEng2}</h2>
+            : aboutMeList.heroTextEng2}</h2>
           <h3 className="hero-text">
             Ux-desginer & digital
           </h3>
@@ -55,7 +55,7 @@ function Home({ dataHome2 }) {
             : aboutMeList.heroTextEng3}</h4>
           <div className="hero-button-content">
 
-            <div className="hero-button"tabIndex="6">
+            <div className="hero-button" tabIndex="6">
               <a className='a-hero-button' style={{ outline:"none"}} href={language && language === "sv"
                 ? imageSwe
                 : imageEng} download="Maria-Ekman-Cv-2024.pdf">

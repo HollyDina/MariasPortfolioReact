@@ -45,8 +45,9 @@ function Contact() {
         </div>
        
       <div className="case_content">
-        <LazyImage
-          src={"pavan-trikutam-71CjSSB83Wo-unsplash.jpg"} classname="about-img"/>
+        <LazyImage /*rätt på eng och sv allt*/
+          src={"pavan-trikutam-71CjSSB83Wo-unsplash.jpg"} altSwe={"Tre vägtelefoner som sitter på väggen"
+          } altEng={"Three wall-mounted telephones."} classname="about-img"/>
       </div>
     </section>
 

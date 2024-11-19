@@ -18,27 +18,43 @@ export const TexImageSection = ({ tabIndex, headlineSwe,
     textSwe7,
     textEng7,
     headlineSwe2,
+    headlineSwe3,  
+    headlineSwe4,  
+     headlineSwe6,    
+     headlineSwe7,
     headlineEng2,
-    headlineSwe3,
-    headlineEng3,
-    headlineSwe4,
+     headlineEng3,
     headlineEng4,
     headlineSwe5,
     headlineEng5,
-    headlineSwe6,
     headlineEng6,
-    headlineSwe7,
     headlineEng7,
     img,
+    img2,
     imageDescriptionSwe,
     imageDescriptionEng,
     altSwe,
-    altEng }) => {
+    altEng ,
 
+    imageDescriptionSwe2,
+    imageDescriptionEng2,
+    altSwe2,
+    altEng2
+
+
+}) => {
+
+    
+console.log(   imageDescriptionSwe2,
+    imageDescriptionEng2,
+    altSwe2,
+    altEng2 , "333333"
+
+)
     const renderHeadline = (swe, eng) => {
         const text = language === "sv" ? swe : eng;
-        return text ? <h1 className="section-title-work">
-            {language === "sv" ? headlineSwe : headlineEng}</h1> : null;
+        return text ? <h1 className="section-title-work" tabIndex={tabIndex}>
+             {text} </h1> : null;
     };
 
     const { language } = useLanguage();
@@ -50,16 +66,34 @@ export const TexImageSection = ({ tabIndex, headlineSwe,
     return (
         <>
             <div className="case_content">
-            <LazyImage
-                    src={img} imageDescriptionSwe={imageDescriptionSwe}
+            {img && (
+                <LazyImage
+                    src={img}
+                    imageDescriptionSwe={imageDescriptionSwe}
                     imageDescriptionEng={imageDescriptionEng}
-                    altSwe={altSwe} altEng={altEng}
-                    classname2="container_image_large" classname="ImageLarge" />
+                    altSwe={altSwe}
+                    altEng={altEng}
+                    classname2="container_image_large"
+                    classname="ImageLarge"
+                />
+            )}
+
+                {img2?(
+                    <LazyImage
+                        src={img2}
+                        imageDescriptionSwe={imageDescriptionSwe2}
+                        imageDescriptionEng={imageDescriptionEng2}
+                        altSwe={altSwe2}
+                        altEng={altEng2}
+                        classname2="container_image_large"
+                        classname="ImageLarge"
+                    />
+                ):(
+                null)}
+  
             </div>
             <div className="case_content">
-                <h1 className="section-title-work" tabIndex={tabIndex}> 
-                    {language === "sv" ? headlineSwe : headlineEng}
-                </h1>
+            { renderHeadline(headlineSwe, headlineEng)}
                 {renderText(textSwe, textEng)}
                 {renderHeadline(headlineSwe2, headlineEng2)}
                 {renderText(textSwe2, textEng2)}

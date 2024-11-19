@@ -54,10 +54,16 @@ export const DisplayOneProject = ({ data }) => {
                         headlineSwe6={content1Item.headlineSwe6} headlineEng6={content1Item.headlineEng6}
                         headlineSwe7={content1Item.headlineSwe7} headlineEng7={content1Item.headlineEng7}
                         img={content1Item.image1}
+                        img2={content1Item.image2}
                         imageDescriptionSwe={content1Item.imageDescriptionSwe}
-                        imageDescriptionEng={content1Item.imageDescriptionEn}
+                        imageDescriptionEng={content1Item.imageDescriptionEng}
                         altSwe={content1Item.altSwe}
-                        altEng={content1Item.altEng} />
+                        altEng={content1Item.altEng}
+                       
+                        altSwe2={content1Item.altSwe2}
+                        altEng2={content1Item.altEng2}
+                        imageDescriptionSwe2={content1Item.imageDescriptionSwe2}
+                        imageDescriptionEng2={content1Item.imageDescriptionEng2}/> 
                     </section>
                   ) : (
                     <section className="case_content_main2">
@@ -86,10 +92,16 @@ export const DisplayOneProject = ({ data }) => {
                         textSwe7={content1Item.textSwe7}
                         textEng7={content1Item.textEng7}
                         img={content1Item.image1}
+                        img2={content1Item.image2}
                         imageDescriptionSwe={content1Item.imageDescriptionSwe}
-                        imageDescriptionEng={content1Item.imageDescriptionEn}
+                        imageDescriptionEng={content1Item.imageDescriptionEng}
                         altSwe={content1Item.altSwe}
-                        altEng={content1Item.altEng} />
+                        altEng={content1Item.altEng} 
+                        
+                        altSwe2={content1Item.altSwe2}
+                        altEng2={content1Item.altEng2}
+                        imageDescriptionSwe2={content1Item.imageDescriptionSwe2}
+                        imageDescriptionEng2={content1Item.imageDescriptionEng2}/>
                     </section>
                   )}
                 </>

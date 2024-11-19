@@ -19,7 +19,8 @@ export function CaseLargeworkcardright({ item }) {
               : item.descriptionEng && item.descriptionEng}</p>
           </div>
            <div className='CaseLargeworkcard-img'>
-           <LazyImage src={item.image1} classname2="container_image_large" classname="ImageLarge" />
+           <LazyImage src={item.image1}  altSwe={item.altSwe
+       } altEng={item.altEng} classname2="container_image_large" classname="ImageLarge" />
         </div>
       </div>
     </Link>

@@ -38,6 +38,7 @@ const Menu = () => {
   ];
 
   const caseList = [
+    { path: "/case/7", label: "WCAG-standarder", labelEng: "WCAG-standarder" },
     { path: '/case/1', label: "Loopeli:s företagsida", labelEng: "Loopeli's Business Page" },
     { path: '/case/2', label: "Loopeli:s Privatsida", labelEng: "Loopeli's Private Page" },
     { path: '/case/3', label: "Examensarbete", labelEng: "Thesis" },
@@ -51,8 +52,7 @@ const Menu = () => {
   const aboutList = [
     { path: "/about", label: "Om mig", labelEng: "About me" },
     { path: "/workeducation", label: "Arbete & Utbildning", labelEng: "work and education" },
-
-
+  
   ];
 
 
@@ -85,10 +85,10 @@ const Menu = () => {
 
   return (
     <nav id="menu">
-      <div className="menu-content-desktop"> {/*Desktop */}
+      <ul className="menu-content-desktop"> {/*Desktop */}
 
         {menuList.map((item) => (
-          <div key={item.path} className="menu-li">
+          <li key={item.path} className="menu-li">
             {item.component === MenuDropdown ? (
 
               <MenuDropdown
@@ -105,7 +105,7 @@ const Menu = () => {
 
 
 
-              <li tabIndex={item.tabIndex} className={`nav__item ${activeLink === item.path ? 'active' : ''}`}>
+              <div tabIndex={item.tabIndex} className={`nav__item ${activeLink === item.path ? 'active' : ''}`}>
 
                 <Link
                   href
@@ -119,11 +119,11 @@ const Menu = () => {
                     : item.labelEng && item.labelEng}
                 </Link>
 
-             </li>
+             </div>
 
             )}
               
-          </div>
+          </li>
 
         ))}
         {window.location.pathname === '/' ? (
@@ -133,7 +133,7 @@ const Menu = () => {
             <LanguageSelectors tabIndex={"5"} flexdirection={"row"} margin1={"15px 4px 0px 0px"} />
           </div>
         </div>)}
-      </div>
+      </ul>
 
 
 
