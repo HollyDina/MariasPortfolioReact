@@ -34,15 +34,17 @@ export const DisplayOneProject = ({ data }) => {
                         headlineSwe={content1Item.headlineSwe}
                         headlineEng={content1Item.headlineEng}
                         textSwe={content1Item.textSwe}
-                        textEng={content1Item.textEng1}
                         textSwe2={content1Item.textSwe2}
-                        textEng2={content1Item.textEng2}
                         textSwe3={content1Item.textSwe3}
-                        textEng3={content1Item.textEng3}
                         textSwe4={content1Item.textSwe4}
-                        textEng4={content1Item.textEng4}
+                        
+                     
                         textSwe5={content1Item.textSwe5}
-                        textEng5={content1Item.textEng5}
+                        textEng={content1Item.textEng}
+                        textEng2={content1Item.textEng2}
+                        textEng3={content1Item.textEng3}   
+                        textEng4={content1Item.textEng4}
+                          textEng5={content1Item.textEng5}
                         textSwe6={content1Item.textSwe6}
                         textEng6={content1Item.textEng6}
                         textSwe7={content1Item.textSwe7}
@@ -78,7 +80,7 @@ export const DisplayOneProject = ({ data }) => {
                         headlineSwe6={content1Item.headlineSwe6} headlineEng6={content1Item.headlineEng6}
                         headlineSwe7={content1Item.headlineSwe7} headlineEng7={content1Item.headlineEng7}
                         textSwe={content1Item.textSwe}
-                        textEng={content1Item.textEng1}
+                        textEng={content1Item.textEng}
                         textSwe2={content1Item.textSwe2}
                         textEng2={content1Item.textEng2}
                         textSwe3={content1Item.textSwe3}

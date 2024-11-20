@@ -45,19 +45,32 @@ export const TexImageSection = ({ tabIndex, headlineSwe,
 }) => {
 
     
-console.log(   imageDescriptionSwe2,
-    imageDescriptionEng2,
-    altSwe2,
-    altEng2 , "333333"
+console.log(    textSwe,
+    textEng,
+    textSwe2,
+    textEng2,
+    textSwe3,
+    textEng3,
+    textSwe4,
+    textEng4,
+    textSwe5,
+    textEng5,
+    textSwe6,
+    textEng6,
+    textSwe7,
+    textEng7, 
+)    
 
-)
-    const renderHeadline = (swe, eng) => {
+const { language } = useLanguage();
+    
+
+const renderHeadline = (swe, eng) => {
         const text = language === "sv" ? swe : eng;
         return text ? <h1 className="section-title-work" tabIndex={tabIndex}>
              {text} </h1> : null;
     };
 
-    const { language } = useLanguage();
+
     const renderText = (swe, eng) => {
         const text = language === "sv" ? swe : eng;
         return text ? <p className="bodytext">{text}</p> : null;

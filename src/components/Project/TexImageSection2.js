@@ -67,8 +67,10 @@ export const TexImageSection2 = ({  tabIndex, headlineSwe,
                 {renderText(textSwe2, textEng2)}
                 {renderHeadline(headlineSwe3, headlineEng3)}
                 {renderText(textSwe3, textEng3)}
+               
                 {renderHeadline(headlineSwe4, headlineEng4)}
                 {renderText(textSwe4, textEng4)}
+                
                 {renderHeadline(headlineSwe5, headlineEng5)}
                 {renderText(textSwe5, textEng5)}
                 {renderHeadline(headlineSwe6, headlineEng6)}
