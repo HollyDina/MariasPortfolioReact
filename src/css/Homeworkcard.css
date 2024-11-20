@@ -63,9 +63,9 @@ z-index: 230;
 
   .Homeworkcard-container {
     flex-wrap: wrap;
-    max-width: 1000px;
+    max-width: 1200px;
     flex-direction: row;
-    justify-content:center;
+    justify-content:start;
     row-gap: 40px;
     column-gap: 50px;
     

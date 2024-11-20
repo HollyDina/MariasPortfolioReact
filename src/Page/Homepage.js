@@ -107,7 +107,7 @@ function Home({ dataHome2 }) {
           <p className="bodytext">
             {language === "sv" ? aboutMeList.projectDescriptionSwe : aboutMeList.projectDescriptionEng}
           </p>
-          <div className="hero-button" tabIndex="7">
+          <div className="hero-button" tabIndex="10">
               <Link to="/case/7" className="a-hero-button">
                 {language && language === "sv"
                   ? aboutMeList.LearnSwe
