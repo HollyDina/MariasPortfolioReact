@@ -71,21 +71,6 @@ function Aboutme() {
           </div>
         </div>
       </section>
-      <section className="case_content_main2">
-
-        <div className="case_content">{/* kolla påtecten alt */}
-          <LazyImage src={"Wcage.jpg"}   altEng={"Has the text Wacage which has four icons"} altSwe={"Har texten Wacage som har fyra iconer"} classname2="container_image_medium" classname="about-img" />
-          <p className="centeredText">Wcage</p>
-        </div>
-        <div className="case_content">
-          <h1 className="section-title-work"  tabIndex="9">
-          {language === "sv" ? "Jag utvecklat min Portfolio med Fokusering på WCAG":"I have developed my portfolio with a focus on WCAG"}</h1>
-          <p className="bodytext">
-          {language === "sv" ? aboutMeList.projectDescriptionSwe :aboutMeList.projectDescriptionEng}
-          </p>
-        </div>
-      </section>
-     
 
       <section className="case_content_main">
         <div className="case_content">{/* kolla påtecten alt */}
