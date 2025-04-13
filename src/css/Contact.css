@@ -1,50 +1,23 @@
-.case_content_contact{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-}
+.card-container {
 
-.contact_content_headline{
-    display: flex;
-    flex-direction: row;
-   
-    font-size: 24px;
-    font-weight: 500;
+  }
   
-}
-
-.contact_content_detail{
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 2rem;
-    font-size: 24px;
+  /* Mobil: visas under 768px */
+  .mobile-only {
+    display: block;
+  }
   
-}
-.contact__container{
-    display: flex;
-    flex-direction: column;
-}
-
-.contact__container-content{
-    justify-content: space-around;
-}
-.contact_title{
- 
-    font-size:32px;
+  .desktop-only {
+    display: none;
+  }
   
-}
-@media (min-width: 700px) {
-    .contact__container{
-        display: flex;
-        flex-direction: row;
+  @media (min-width: 768px) {
+    .mobile-only {
+      display: none;
     }
-    
-    
-.contact_title{
- 
-    font-size:32px;
   
-}
-
-}
+    .desktop-only {
+      display: block;
+    }
+  }
+  

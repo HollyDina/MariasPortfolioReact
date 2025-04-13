@@ -1,14 +1,12 @@
 import React from 'react';
-import Homeworkcardsection from '../components/Home/Homeworkcardsection';
 
-import { CaseLargeWorkcardSection } from '../components/Project/CaseLargeWorkcardSection';
 import { LanguageSelectors } from '../components/Menu/LanguageSelectors';
 import { LazyImage } from '../components/LazyImage';
 import { useLanguage } from '../components/LanguageContext';
 import imageSwe from '../img/Maria-Ekman-Cv-SV-2024.pdf';
 import imageEng from '../img/Maria-Ekman-CV-personligt-brev-Ux-designer-2024-eng.pdf';
 import { Link } from 'react-router-dom';
-function Home({ dataHome2 }) {
+function Home() {
 
 
   const aboutMeList = {
@@ -127,9 +125,8 @@ function Home({ dataHome2 }) {
           {language && language === "sv"
             ? "Här kan du se några projekt"
             : "Here you can see some projects"}</h1></div>
-      <div className="Home">
-        <Homeworkcardsection dataHome2={dataHome2} />
-      </div>
+     
+      
     </div>
 
 
