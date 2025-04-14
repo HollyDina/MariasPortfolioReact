@@ -7,7 +7,9 @@ import './css/Image.css';
 import './css/Case.css';
 import './css/NyaNavbar.css';
 import './css/ImageGrid.css';
-import './css/Body.css';
+import './css/Body.css';import './css/AboutMe.css';
+
+
 import MainNavbar from './components/Menu/MainNavbar.js';
 
 

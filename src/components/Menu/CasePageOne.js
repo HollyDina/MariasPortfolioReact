@@ -1,5 +1,5 @@
 import React from 'react';
-
+import heroImage from "./OmMig.png"
 const ResponsiveImage = ({ src, alt, className }) => (
   <img src={src} alt={alt} className={`case-responsive-img ${className}`} />
 );

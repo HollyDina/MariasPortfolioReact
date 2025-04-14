@@ -5,6 +5,20 @@
   max-height: 300px;
 }
 
+.image-grid-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-grid-heading {
+  margin: 32px 0; /* Marginal ovanför och under rubriken */
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+}
+
 .imageMedium {
   width: 100%;
   height: auto; 

@@ -1,4 +1,5 @@
 import React from 'react';
+import heroImage from "./OmMig.png"
 
 const ResponsiveImage = ({ src, alt, className }) => (
   <img src={src} alt={alt} className={`case-responsive-img ${className}`} />
@@ -10,7 +11,7 @@ const CasePageTwo = () => (
       <section className="case-header">
         <h1 className="case-title">LOOPEL I WEBBPLATS</h1>
         <p className="case-subtitle">FÖRETAGSSIDA</p>
-        <ResponsiveImage src="/header.jpg" alt="Header" className="case-header-img" />
+        <ResponsiveImage src={heroImage} alt="Header" className="case-header-img" />
       </section>
 
       <section className="case-section">

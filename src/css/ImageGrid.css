@@ -25,6 +25,45 @@
   object-fit: cover;
 }
 
+
+
+/**/
+
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Alltid två per rad */
+  gap: 20px;
+  padding: 20px;
+}
+
+.image-box {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 16px;
+  background-color: #f9f9f9;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.image-title {
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.image-box:hover img {
+  transform: scale(1.02);
+}
+
 /* Desktop-anpassning */
 @media (min-width: 768px) {
  
