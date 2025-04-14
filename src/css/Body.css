@@ -6,11 +6,11 @@ body {
 
 
   a:visited {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
 
   a:link {
-    color: rgb(0, 0, 0); /* Färg på länkar som inte har klickats på */
+    color: rgb(255, 255, 255); /* Färg på länkar som inte har klickats på */
   }
 
   p {

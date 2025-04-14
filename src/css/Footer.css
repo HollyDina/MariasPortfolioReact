@@ -1,0 +1,78 @@
+/* case page */
+
+.case-container {
+    background-color: #324534; /* Grön bakgrund från bilden */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .case-content {
+    background-color: #fff;
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 8px;
+  }
+  
+  .case-header {
+    text-align: center;
+  }
+  
+  .case-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .case-subtitle {
+    font-size: 16px;
+    color: gray;
+  }
+  
+  .case-responsive-img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 16px;
+  }
+  
+  .case-section {
+    margin-top: 32px;
+  }
+  
+  .case-section-title {
+    font-size: 20px;
+    margin-bottom: 12px;
+    border-bottom: 2px solid black;
+    display: inline-block;
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 24px;
+    max-width: 800px;
+    margin-top: 16px;
+  }
+  
+  @media (min-width: 768px) {
+    .case-container {
+      padding: 40px;
+    }
+  
+    .case-title {
+      font-size: 32px;
+    }
+  
+    .case-section-title {
+      font-size: 24px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .case-container {
+      padding: 60px;
+    }
+  }
+  

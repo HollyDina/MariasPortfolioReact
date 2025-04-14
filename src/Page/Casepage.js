@@ -1,10 +1,10 @@
 import React from 'react';
 import { CaseLargeWorkcardSection } from '../components/Project/CaseLargeWorkcardSection';
 
-function Casepage({ dataHome }) {
+function Casepage() {
   return (
     <div className="main-content">
-    <CaseLargeWorkcardSection dataHome={dataHome} />
+  
     </div>
   )
 }

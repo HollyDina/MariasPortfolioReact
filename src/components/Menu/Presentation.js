@@ -1,12 +1,32 @@
 import imgs from "./314002952_821240728997254_1145159628344298327_n.jpg"
 
 
-function MainMenu2() {
+function Presentation() {
   return (
+<>
+
+    <div className="card-container-mobile" >
+      <div className="card-content-mobile" >
+        <img
+          src={imgs}
+          alt="Maria Ekman"
+          className="profile-img-mobile"
+        />
+        <div className="text-content-mobile">
+          <h1 className="name-mobile">MARIA EKMAN</h1>
+          <div class="subtitle-wrapper-mobile">
+          <div className="divider-mobile"></div>
+          <p className="title-mobile">UX-DESIGNER</p>
+          <p className="subtitle-mobile">TILLGÄNGLIGHETSEXPERT</p>
+        </div>
+      </div>
+      </div>
+</div>
 
 
-    <div className="card-container">
-      <div className="left-section">
+
+<div className="card-container">
+<div className="left-section">
         <div className="text">
           <h2>UX-DEISIGNER</h2>
           <p>TILLGÄNGLIGHETSEXPERT</p>
@@ -20,24 +40,43 @@ function MainMenu2() {
         <img
           src={imgs}
           alt="Maria Ekman"
-          className="profile-img-mobile"
+          className="profile-img"
         />
       </div>
-</div>
 
 
-
-
-
-
+      </div>
+      </>
   );
 };
 
 
 
 
-export default MainMenu2;
+export default Presentation;
 {/* 
+   <div className="left-section">
+        <div className="text">
+          <h2>UX-DEISIGNER</h2>
+          <p>TILLGÄNGLIGHETSEXPERT</p>
+        </div>
+      </div>
+
+
+      <div className="name-overlay">MARIAEKMAN</div>
+
+      <div className="right-section">
+        <img
+          src={imgs}
+          alt="Maria Ekman"
+          className="profile-img"
+        />
+      </div>
+
+
+
+
+
 
 
       <div className="left-section">

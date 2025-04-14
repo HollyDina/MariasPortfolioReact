@@ -1,0 +1,103 @@
+.nav {
+  background-color: #783e3e;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav__split-wrapper {
+  justify-content: flex-end;
+  /* Anpassa efter behov */
+  background-color: #2b3227;
+  /* DELAR SIDAN I SVART OCH VIT */
+  padding: 1rem;
+}
+
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+
+
+}
+
+.nav__logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav__menu {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav__link {
+  position: relative;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  padding-bottom: 0.25rem;
+  text-decoration: none;
+}
+
+.nav__underline {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #ffffff;
+  transition: width 0.3s ease;
+}
+
+.nav__link:hover .nav__underline,
+.nav__link--active .nav__underline {
+  width: 100%;
+}
+
+
+
+  .nav__split-wrapper {
+
+
+
+    background-color: #2b3227 50%;
+    /* DELAR SIDAN I SVART OCH VIT */
+
+  }
+
+  .nav__menu {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+
+/* Desktop */
+@media (min-width: 769px) {
+
+  .nav__menu {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .nav__split-wrapper {
+    background: linear-gradient(to right, #2b3227 50%, #f4f3ed 50%);
+    /* DELAR SIDAN I SVART OCH VIT */
+
+  }
+}
+
+.page {
+  padding: 2rem;
+  font-size: 1.25rem;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
