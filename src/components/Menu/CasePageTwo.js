@@ -14,11 +14,10 @@ const CasePageTwo = () => (
     <h1>LOOPEL I WEBBPLATS</h1>
     <p>FÖRETAGSSIDA</p>
     <button className="cv-button" type="button">
-      <a className='a-hero-button' download="Maria-Ekman-Cv-2024.pdf">    
+      <a className='a-cv-button' download="Maria-Ekman-Cv-2024.pdf">    
               Ladda ner personligt brev och CV
               </a>
-              </button> 
-            
+              </button>         
   </div>
 </div>
 
