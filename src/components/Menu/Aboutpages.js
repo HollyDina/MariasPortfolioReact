@@ -1,21 +1,14 @@
 import React from 'react';
 import heroImage from "./OmMig.png"
 
-
-
-export default function AboutMe() {
+const HeroSection = () => {
   return (
-    <div className="about-wrapper">
-      <div className="hero">
-        <img src={heroImage} className="hero-img" />
-        <div className="overlay"></div>
-        <div className="hero-content">
-          <h1 className="hero-title">Om mig</h1>
-          <button className="hero-button">Ladda ned mitt Cv &amp; personliga brev</button>
-        </div>
+    <section className="hero">
+      <div className="hero-image">
+        <img src={ heroImage } alt="Hero" />
+        <button className="cv-button">Ladda ned mitt Cv & personliga brev</button>
       </div>
-
-      <div className="content-AboutMe">
+      <div className="hero-text">
         <h2>Om mig</h2>
         <p>
           Hej! Jag är UX-designer på Loopeli med en passion för att skapa användarvänliga och
@@ -39,12 +32,14 @@ export default function AboutMe() {
           jag förstår hela processen – från idé till fungerande produkt.
         </p>
         <p>
-          Bosatt i Sundbyberg tillsammans med min sambo och våra två katter, lägger jag stor vikt
-          vid att hela tillvaron håller ett flyt på plats. En stor kattälskare som gärna tar en
-          runda med brädspelet eller FIFA på kvällarna. Utanför hemmet besöker jag gärna en och
-          annan vän, fotbollsspel eller ett intensivt pass crossfit.
+          Bosatt i Sundbyberg tillsammans med min sambo och våra två katter, leker jag ofta med idéer
+          även utanför arbetet för att få en extra boost. En stor kattälskare som gärna tar en
+          mat- eller bi-träff eller en fika på kvällarna. Utanför hemmet besöker jag ofta vänner med
+          barnen, fotbollsspel eller ett intensivt pass crossfit.
         </p>
       </div>
-    </div>
+    </section>
   );
-}
+};
+
+export default HeroSection;

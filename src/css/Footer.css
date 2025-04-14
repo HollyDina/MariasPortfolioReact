@@ -1,78 +1,159 @@
-/* case page */
+/* style.css */
 
 .case-container {
-    background-color: #324534; /* Grön bakgrund från bilden */
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-  }
+  background-color: #324534;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.case-content {
+  background-color: #fff;
+  max-width: 800px;
+  width: 100%;
+ 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 4px 4px 0px 0px;
+}
+
+.case-header-img {
+  width: 100%;
+  height: auto;
+  border-radius:4px 4px 0px 0px;
+  max-width: 800px;
+}
+
+.case-header {
+  text-align: center;
+}
+
+.case-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.case-subtitle {
+  font-size: 16px;
+  color: gray;
+}
+
+.case-responsive-img {
+  width: 100%;
+  height: auto;
+  border-radius:4px 4px 0px 0px;
   
-  .case-content {
-    background-color: #fff;
-    max-width: 800px;
-    width: 100%;
-    padding: 20px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    border-radius: 8px;
+}
+
+.case-section {
+  margin-top: 32px;
+      padding: 1rem;
+}
+
+.case-section-title {
+  font-size: 20px;
+  margin-bottom: 12px;
+  border-bottom: 2px solid black;
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .case-container {
+    padding: 40px;
   }
-  
-  .case-header {
-    text-align: center;
-  }
-  
+
   .case-title {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 32px;
   }
-  
-  .case-subtitle {
-    font-size: 16px;
-    color: gray;
-  }
-  
-  .case-responsive-img {
-    width: 100%;
-    height: auto;
-    border-radius: 4px;
-    margin-top: 16px;
-  }
-  
-  .case-section {
-    margin-top: 32px;
-  }
-  
+
   .case-section-title {
-    font-size: 20px;
-    margin-bottom: 12px;
-    border-bottom: 2px solid black;
-    display: inline-block;
+    font-size: 24px;
   }
-  
-  .image-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 24px;
-    max-width: 800px;
-    margin-top: 16px;
+}
+
+@media (min-width: 1024px) {
+  .case-container {
+    padding: 60px;
   }
+}
+
+
+
+.hero {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-overlay-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+}
+
+.hero-overlay-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.cv-button{
+  padding:1.3rem;
+  color:white;
+  background-color:black;
+  border-radius:8px;
+
+}
+
+.a-cv-button{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.cv-button:hover{
+  font-size: 14px;
+  padding:1.3rem;
+  color:white;
+  background-color:#324534;
+  border-radius:8px;
+  text-decoration:underline;
+ 
+
+}
+
+
+.hero-text {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  left:0%;
+  bottom:0%;
+  color: white;
   
-  @media (min-width: 768px) {
-    .case-container {
-      padding: 40px;
-    }
-  
-    .case-title {
-      font-size: 32px;
-    }
-  
-    .case-section-title {
-      font-size: 24px;
-    }
+  background: rgba(0, 0, 0, 0.4); /* valfri mörk overlay-bakgrund */
+  padding: 9rem 1rem 2rem 5rem;
+ 
+  border-radius: 4px 4px 0px 0px;
+}
+
+.hero-text h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.hero-text p {
+  margin: 0;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .hero-text h1 {
+    font-size: 36px;
   }
-  
-  @media (min-width: 1024px) {
-    .case-container {
-      padding: 60px;
-    }
+
+  .hero-text p {
+    font-size: 18px;
   }
-  
+}

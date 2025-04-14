@@ -11,7 +11,7 @@ export default function MainNavbar() {
   return (
    <>
       <Navbar />
-      <div className=".content">
+      
         <Routes>
           <Route path="/"  element={<HomePage/>} />
           <Route path="/about"  element={<AboutPages />} />
@@ -20,7 +20,6 @@ export default function MainNavbar() {
           <Route path="/case1" element={<CasePageOne />} />
 
         </Routes>
-      </div>
-   </>
+    </>
   );
 }
