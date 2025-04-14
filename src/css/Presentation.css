@@ -51,8 +51,17 @@
   width: 100%;
 }
 
+
+.card-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
 /* Mobil först */
 @media (max-width: 768px) {
+
   .nav__menu {
     flex-direction: column;
     align-items: flex-end;
@@ -61,6 +70,10 @@
 
 /* Desktop */
 @media (min-width: 769px) {
+
+  .card-wrapper {
+    background: linear-gradient(to right, #f4f3ed 50%, #2b3227 50%);
+  }
   .nav__menu {
     flex-direction: row;
     align-items: center;

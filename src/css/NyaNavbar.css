@@ -9,7 +9,7 @@
 .nav__split-wrapper {
   justify-content: flex-end;
   /* Anpassa efter behov */
-  background-color: #2b3227;
+  background-color: #202c25;
   /* DELAR SIDAN I SVART OCH VIT */
   padding: 1rem;
 }
@@ -37,7 +37,7 @@
 .nav__link {
   position: relative;
   text-decoration: none;
-  color: #ffffff;
+  color:#f4a940;
   font-weight: 500;
   padding-bottom: 0.25rem;
   text-decoration: none;
@@ -50,7 +50,7 @@
   left: 0;
   width: 0%;
   height: 2px;
-  background-color: #ffffff;
+  background-color:#f4a940;
   transition: width 0.3s ease;
 }
 

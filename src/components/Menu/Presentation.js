@@ -24,7 +24,7 @@ function Presentation() {
 </div>
 
 
-
+<div className="card-wrapper">
 <div className="card-container">
 <div className="left-section">
         <div className="text">
@@ -46,7 +46,9 @@ function Presentation() {
 
 
       </div>
+      </div>
       </>
+
   );
 };
 
