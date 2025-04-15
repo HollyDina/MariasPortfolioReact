@@ -2,16 +2,20 @@ import React from 'react';
 import heroImage from "./OmMig.png"
 import { Link } from 'react-router-dom';
 const ResponsiveImage = ({ src, alt, className }) => (
-  <img src={src} alt={alt} className={`case-responsive-img ${className}`} />
+  <img
+    src={src}
+    alt={alt}
+    className={`case-responsive-img ${className}`}
+    style={{ maxWidth: '100%', height: 'auto', maxHeight: '600px' }}
+  />
 );
-
 const CasePageTwo = () => (
   <div className="case-container">
     <div className="case-content">
       <div className="hero-overlay-container">
         <ResponsiveImage src={heroImage} alt="Header" className="case-header-img" />
         <div className="hero-text-case">
-          <h1 className='hero-headline'>LOOPEL I WEBBPLATS</h1>
+          <h1 className='hero-headline'>Loopeli tabelet app</h1>
         </div>
       </div>
 

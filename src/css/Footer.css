@@ -1,4 +1,8 @@
 /* style.css */
+.case-section {
+  margin-top: 32px;
+      padding: 1rem;
+}
 
 .case-container {
   background-color: #324534;
@@ -15,6 +19,8 @@
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   border-radius: 4px 4px 0px 0px;
 }
+
+
 
 .case-header-img {
   width: 100%;
@@ -45,11 +51,6 @@
   
 }
 
-.case-section {
-  margin-top: 32px;
-      padding: 1rem;
-}
-
 .case-section-title {
   font-size: 20px;
   margin-bottom: 12px;
@@ -57,25 +58,7 @@
   display: inline-block;
 }
 
-@media (min-width: 768px) {
-  .case-container {
-    
-  }
 
-  .case-title {
-    font-size: 32px;
-  }
-
-  .case-section-title {
-    font-size: 24px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .case-container {
-   
-  }
-}
 
 
 
@@ -89,6 +72,7 @@
   width: 100%;
   max-width: 800px;
   max-height: 800px;
+  display:flex;
 }
 
 .hero-overlay-container img {
@@ -101,16 +85,18 @@
 }
 
 .cv-button{
-  padding:1.3rem;
+  padding:0.5rem;
   color:white;
   background-color:black;
   border-radius:8px;
+
 
 }
 
 .a-cv-button{
   color: rgb(255, 255, 255);
   text-decoration: none;
+  font-size:1rem;
 }
 
 .cv-button:hover{
@@ -142,7 +128,8 @@
   bottom:0%;
   color: white;
   background: rgba(0, 0, 0, 0.4); /* valfri mörk overlay-bakgrund */
-  padding: 9rem 1rem 2rem 5rem;
+  padding: 4rem 1rem 1rem 2rem;
+
   border-radius: 4px 4px 0px 0px;
 }
 
@@ -164,7 +151,7 @@
 
 .hero-text h1 {
   margin: 0;
-  font-size: 28px;
+  font-size:1rem;
   font-weight: bold;
 }
 
@@ -173,6 +160,70 @@
   font-size: 16px;
   color: #ffffff;
 }
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+  /* style.css */
+.case-section {
+ 
+      padding: 2rem;
+}
+
+  
+.a-cv-button{
+
+  font-size:1.2rem;
+}
+
+
+  .hero-text h1 {
+
+    font-size:2rem;
+  
+  }
+  .hero-text {
+  
+    padding: 9rem 1rem 2rem 5rem;
+
+  }
+  
+.cv-button{
+  padding:1rem;
+  
+
+}
+
+  .case-container {
+    
+  }
+
+  .case-title {
+    font-size: 32px;
+  }
+
+  .case-section-title {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .case-container {
+   
+  }
+}
+
+
+
 
 @media (min-width: 768px) {
   .hero-text h1 {

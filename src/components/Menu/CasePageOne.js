@@ -2,13 +2,18 @@ import React from 'react';
 
 import heroImage from "./chas-academy-emblem.png"
 const ResponsiveImage = ({ src, alt, className }) => (
-  <img src={src} alt={alt} className={`case-responsive-img ${className}`} />
+  <img
+    src={src}
+    alt={alt}
+    className={`case-responsive-img ${className}`}
+    style={{  maxWidth: '400px', height: 'auto', maxHeight: '800px' }}
+  />
 );
-
 const CasePageOne = () => (
   <div className="case-container">
     <div className="case-content">
     <div className="hero-overlay-container">
+    <ResponsiveImage src={heroImage} alt="Header" className="case-header-img" />
   <ResponsiveImage src={heroImage} alt="Header" className="case-header-img" />
   <div className="hero-text-case">
   <h1 className='hero-headline'>Uppdrag </h1>
