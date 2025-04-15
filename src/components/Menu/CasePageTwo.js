@@ -8,18 +8,12 @@ const ResponsiveImage = ({ src, alt, className }) => (
 const CasePageTwo = () => (
   <div className="case-container">
     <div className="case-content">
-    <div className="hero-overlay-container">
-  <ResponsiveImage src={heroImage} alt="Header" className="case-header-img" />
-  <div className="hero-text">
-    <h1>LOOPEL I WEBBPLATS</h1>
-    <p>FÖRETAGSSIDA</p>
-    <button className="cv-button" type="button">
-      <a className='a-cv-button' download="Maria-Ekman-Cv-2024.pdf">    
-              Ladda ner personligt brev och CV
-              </a>
-              </button>         
-  </div>
-</div>
+      <div className="hero-overlay-container">
+        <ResponsiveImage src={heroImage} alt="Header" className="case-header-img" />
+        <div className="hero-text-case">
+          <h1 className='hero-headline'>LOOPEL I WEBBPLATS</h1>
+        </div>
+      </div>
 
       <section className="case-section">
         <h2 className="case-section-title">Bakgrund</h2>

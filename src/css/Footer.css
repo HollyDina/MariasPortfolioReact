@@ -2,7 +2,6 @@
 
 .case-container {
   background-color: #324534;
-  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,6 +41,7 @@
   width: 100%;
   height: auto;
   border-radius:4px 4px 0px 0px;
+  max-height:800px;
   
 }
 
@@ -59,7 +59,7 @@
 
 @media (min-width: 768px) {
   .case-container {
-    padding: 40px;
+    
   }
 
   .case-title {
@@ -73,7 +73,7 @@
 
 @media (min-width: 1024px) {
   .case-container {
-    padding: 60px;
+   
   }
 }
 
@@ -88,6 +88,7 @@
   position: relative;
   width: 100%;
   max-width: 800px;
+  max-height: 800px;
 }
 
 .hero-overlay-container img {
@@ -95,6 +96,8 @@
   width: 100%;
   height: auto;
   border-radius: 4px 4px 0px 0px;
+  max-width: 800px;
+   max-height: 600px;
 }
 
 .cv-button{
@@ -120,8 +123,17 @@
  
 
 }
+.hero-p{
+  font-size: 1.5rem;
+  margin: 0;
 
+}
+.hero-headline{
+  font-size: 2rem;
+  margin: 0;
 
+  
+}
 .hero-text {
   position: absolute;
   top: 0%;
@@ -129,12 +141,26 @@
   left:0%;
   bottom:0%;
   color: white;
-  
   background: rgba(0, 0, 0, 0.4); /* valfri mörk overlay-bakgrund */
   padding: 9rem 1rem 2rem 5rem;
- 
   border-radius: 4px 4px 0px 0px;
 }
+
+
+.hero-text-case {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  left:0%;
+  bottom:0%;
+  color: white;
+  background: rgba(0, 0, 0, 0.4); /* valfri mörk overlay-bakgrund */
+  padding:9rem 0rem 0rem 5rem;
+  border-radius: 4px 4px 0px 0px;
+  font-size: 5rem;
+  
+}
+
 
 .hero-text h1 {
   margin: 0;
