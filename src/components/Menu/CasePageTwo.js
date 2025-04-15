@@ -1,12 +1,12 @@
 import React from 'react';
-import heroImage from "./OmMig.png"
+import heroImage from "./surffplattahero.svg"
 import { Link } from 'react-router-dom';
 const ResponsiveImage = ({ src, alt, className }) => (
   <img
     src={src}
     alt={alt}
     className={`case-responsive-img ${className}`}
-    style={{ maxWidth: '100%', height: 'auto', maxHeight: '600px' }}
+    style={{ maxWidth: '100%', height: 'auto', maxHeight: '500px' }}
   />
 );
 const CasePageTwo = () => (

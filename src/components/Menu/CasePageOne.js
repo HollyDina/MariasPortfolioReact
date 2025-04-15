@@ -1,12 +1,11 @@
 import React from 'react';
-
-import heroImage from "./chas-academy-emblem.png"
+import heroImage from "./mobilhero.svg"
 const ResponsiveImage = ({ src, alt, className }) => (
   <img
     src={src}
     alt={alt}
     className={`case-responsive-img ${className}`}
-    style={{  maxWidth: '400px', height: 'auto', maxHeight: '800px' }}
+    style={{  maxWidth: '900px', height: 'auto', maxHeight: '600px' }}
   />
 );
 const CasePageOne = () => (
@@ -14,15 +13,15 @@ const CasePageOne = () => (
     <div className="case-content">
     <div className="hero-overlay-container">
     <ResponsiveImage src={heroImage} alt="Header" className="case-header-img" />
-  <ResponsiveImage src={heroImage} alt="Header" className="case-header-img" />
+   
   <div className="hero-text-case">
-  <h1 className='hero-headline'>Uppdrag </h1>
-  <p  className='hero-p'>Chas academy</p>      
+  <h1 className='hero-headline'>Användarguide:</h1>
+  <p  className='hero-p'> Så här använder du Loopeli Appen</p>      
   </div>
 </div>
 
       <section className="case-section">
-        <h2 className="case-section-title">Uppdrag av Chas academy</h2>
+        <h2 className="case-section-title">Användarguide</h2>
         <p>
           I slutet av programmet fick vi i uppgift att utvärdera studenternas upplevelse
           av kursen genom att kartlägga resan och identifiera möjliga förbättringsområden.

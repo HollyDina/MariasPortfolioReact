@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import img4 from "./spel4.b513fc64d79158a22791.png"
+import img4 from "./Game.png"
 import img3 from "./chas-academy-emblem.png"
 import img1 from "./mobiler.png"
 
