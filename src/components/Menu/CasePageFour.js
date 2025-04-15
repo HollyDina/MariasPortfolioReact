@@ -96,6 +96,20 @@ const CasePageFour = () => (
         <p>För barnen skapades en karta som fokuserar på deras intressen och en annan som belyser deras behov.</p>
 
       </section>
+      <section className="case-section">
+        <h1 className="case-section-title">
+      Här är några av de viktigaste behoven som överfördes till prototypen
+</h1>
+<p><strong>Här är några av de viktigaste behoven som överfördes till prototypen:</strong></p>
+
+<ul>
+  <li>Barnet behöver veta vad som ska göras efter speltiden och behöver förstå varför.</li>
+  <li>Barnet behöver förvarnas om att speltiden snart är slut.</li>
+  <li>Barnet vill vara med och bestämma aktiviteter efter speltiden.</li>
+  <li>Barnet behöver fasta regler i vardagen och kan glömma iPaden när hen är aktiv och stimulerad av andra aktiviteter.</li>
+</ul>
+
+      </section>
 
       <section className="case-section">
         <h2 className="case-section-title">Föräldrars beteendetyper</h2>
