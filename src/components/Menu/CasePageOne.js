@@ -21,17 +21,8 @@ const CasePageOne = () => (
 </div>
 
       <section className="case-section">
-        <h2 className="case-section-title">Användarguide</h2>
-        <p>
-          I slutet av programmet fick vi i uppgift att utvärdera studenternas upplevelse
-          av kursen genom att kartlägga resan och identifiera möjliga förbättringsområden.
-          CHAS academy är en del av IT-konsultbolaget CHAS och erbjuder utbildningar inom
-          tech med fokus på Front End. Företaget har starka kopplingar till arbetsmarknaden
-          och utlovar praktik som leder till jobb. Tillsammans med en kurskollega gjorde jag
-          en omfattande användarundersökning där vi intervjuade studenter för att förstå
-          utbildningens svagheter och styrkor samt föreslå konkreta förbättringsåtgärder,
-          för att höja kurskvaliteten.
-        </p>
+        <h2 className="case-section-title">Bakgrund</h2>
+      
 
         <h3>Roll</h3>
         <ul>
@@ -53,19 +44,13 @@ const CasePageOne = () => (
           <li>Produktägare</li>
         </ul>
 
-        <h3>Syftet</h3>
+        <h3>Målet</h3>
         <p>
-          Syftet med denna analys är att identifiera och förbättra kundresan för
-          studenterna i utbildningen på CHAS Academy med målet att öka kundupplevelsen
-          och effektiviteten i deras studier. Analysen ämnar också ge tydliga riktlinjer
-          för hur skolan kan förbättra utbildningen utifrån insikter från elever för att
-          bättre matcha arbetsmarknadens och elevernas behov. Genom intervjuer, research
-          och identifiering av "Jobs to be done" samt framtagning av en kundresekarta,
-          identifieras smärtpunkter, styrkor och kritiska tillfällen ("moments of truth").
-          Resultaten används sedan för att skapa konkreta åtgärder och förbättringsförslag
-          som direkt bidrar till en bättre utbildningsupplevelse och i längden kan påverka
-          skolans erbjudande och konkurrenskraft. Syftet är att skapa en relevant och
-          effektiv utbildning i samklang med arbetsmarknadens behov.
+         
+        <p>Målet är att förbättra designgränssnittet, göra det mer användarvänligt samt säkerställa att designen följer WCAG-kriterierna.</p>
+
+<p>Det innebär att ta bort överflödig design, förenkla instruktionerna samt göra det enklare för användaren att installera och använda appen.</p>
+
         </p>
 
         <h3>Mål</h3>
@@ -81,39 +66,33 @@ const CasePageOne = () => (
       </section>
 
       <section className="case-section">
-        <h2 className="case-section-title">Research & analys</h2>
+        <h2 className="case-section-title">Flödesschema av appen</h2>
         <p>
-          Vi började med att intervjua elever för att förstå behovet. Studenterna delade
-          deras erfarenheter kring olika situationer och berättade om deras upplevelse.
-          Gradvis blev det tydligare vilka delar av utbildningen som fungerar bra och
-          mindre bra, vilket gav oss möjlighet att analysera och kartlägga utbildningens
-          styrkor och svagheter. Utifrån dessa insikter började vi identifiera återkommande
-          mönster och områden där elever kände sig frustrerade eller otillfredsställda.
+        <p>Jag började med att filma iPad-skärmen vid installation av Äldreappen via Anhörigappen, för att kartlägga det nuvarande flödet.</p>
+
+<p>Därefter skapade jag ett flödesschema för att visualisera hur apparna fungerar och hur de olika vyerna hänger ihop.</p>
+
         </p>
       </section>
 
       <section className="case-section">
-        <h2 className="case-section-title">Kundresekartan</h2>
-        <p>
-          Kundresekartan visar alla relevanta touchpoints, som belyser vad som är extra
-          positivt och vad som behöver förbättras. Den kartlägger studenternas
-          helhetsupplevelse och fångar upp specifika situationer där utbildningen
-          inte möter elevernas förväntningar. Genom kartan visualiseras hur elever
-          interagerar med kursinnehåll, administration, och hur väl utbildningen
-          uppfyller deras behov över tid.
-        </p>
+        <h2 className="case-section-title">Low-fi-design</h2>
+       
+        <p>Jag skapade en low-fi-design för att snabbt få en överblick över vilka ändringar jag hade gjort och identifiera hur designen kunde förtydligas.</p>
+
+       
       </section>
 
       <section className="case-section">
         <h2 className="case-section-title">Förbättringsområden</h2>
-        <p>
-          Det sista skedet i analysen omfattade att skapa konkreta förbättringsåtgärder.
-          Vi föreslog förändringar som var realistiska att genomföra och som direkt
-          adresserade identifierade problemområden. Detta innefattade allt från
-          kommunikation, kursinnehåll och support, till övergripande pedagogiska
-          strategier. Målet var att säkerställa en högre kvalitet på utbildningen
-          och öka elevernas övergripande nöjdhet.
-        </p>
+        <p>Det sista skedet i analysen handlade om att ta fram konkreta förbättringsåtgärder.</p>
+
+<p>Vi föreslog realistiska förändringar som direkt adresserade de identifierade problemområdena.</p>
+
+<p>Dessa omfattade allt från kommunikation, kursinnehåll och support till övergripande pedagogiska strategier.</p>
+
+<p>Målet var att säkerställa högre kvalitet i utbildningen och att öka studenternas totala upplevda nöjdhet.</p>
+
       </section>
 
     </div>
