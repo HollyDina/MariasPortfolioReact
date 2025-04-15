@@ -26,22 +26,23 @@ const CasePageOne = () => (
 
         <h3>Roll</h3>
         <ul>
-          <li>Service designer</li>
-          <li>Research</li>
+        <li>UX-designer</li>
+        
         </ul>
 
         <h3>Verktyg & Metoder</h3>
         <ul>
-          <li>Figma</li>
-          <li>Intervjuer med camera</li>
-          <li>Jobs to be done</li>
-          <li>Kundresekarta</li>
+        <li>Figma</li>
+      <li>ChatGPT</li>
+      <li>Videoinspelning</li>
+      <li>Flödesschema</li>
+      <li>Low-fi</li>
         </ul>
 
         <h3>Team</h3>
         <ul>
-          <li>Utvecklare</li>
-          <li>Produktägare</li>
+        <li>Utvecklare</li>
+        <li>Produktägare</li>
         </ul>
 
         <h3>Målet</h3>
