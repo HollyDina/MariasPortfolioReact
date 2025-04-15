@@ -16,6 +16,11 @@
 
   
 }
+.image-color{
+  background-color: #202c25;
+  padding: 1.5rem;
+  border-radius:4px
+}
 
 .subtitle-mobile {
   font-size: 0.8rem;

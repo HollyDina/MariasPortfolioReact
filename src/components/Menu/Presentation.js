@@ -28,13 +28,13 @@ function Presentation() {
         <div className="card-container">
           <div className="left-section">
             <div className="text">
-              <h2>UX-DEISIGNER</h2>
+              <h2>UX-DESIGNER</h2>
               <p>TILLGÄNGLIGHETSEXPERT</p>
             </div>
           </div>
 
 
-          <div className="name-overlay">MARIAEKMAN</div>
+          <div className="name-overlay">MARIA EKMAN</div>
 
           <div className="right-section">
             <img
