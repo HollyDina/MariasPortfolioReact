@@ -4,7 +4,6 @@ import Lowifsurffplata from "./Low-if-surffplata.png"
 import Lowfiloopeli from "./Low-fi_loopeli_app.svg"
 import higSurfplatta from "./higSurfplatta.svg"
 
-import { Link } from 'react-router-dom';
 const ResponsiveImage = ({ src, alt, className }) => (
   <img
     src={src}
@@ -19,12 +18,12 @@ const CasePageTwo = () => (
       <div className="hero-overlay-container">
         <ResponsiveImage src={heroImage} alt="Header" className="case-header-img" />
         <div className="hero-text-case">
-          <h1 className='hero-headline'>Loopelis tabelet app</h1>
+          <h1 className='hero-headline'>Loopelis tablet app</h1>
         </div>
       </div>
 
       <section className="case-section">
-        <h3>Roll</h3>
+        <h2>Roll</h2>
         <p>UX-designer</p>
 
         <h4>Verktyg och metoder</h4>
@@ -39,7 +38,7 @@ const CasePageTwo = () => (
           <li>Affinity Diagramming</li>
         </ul>
 
-        <h5>Team</h5>
+        <h3>Team</h3>
         <ul>
           <li>Utvecklare</li>
           <li>Produktägare</li>
@@ -67,6 +66,7 @@ const CasePageTwo = () => (
       </section>
 
       <section className="case-section">
+      <ResponsiveImage src={Lowfiloopeli} alt="Schema" className="case-section-img" />
         <h2 className="case-section-title">Flödesschema över appen</h2>
         <p>För att få en bättre förståelse för appens struktur började jag med att spela in skärmen på min iPad medan jag använde Elderappen.</p>
 
@@ -74,14 +74,15 @@ const CasePageTwo = () => (
 
 
 
-        <ResponsiveImage src={Lowfiloopeli} alt="Schema" className="case-section-img" />
+  
       </section>
 
       <section className="case-section">
+      <ResponsiveImage src={Lowifsurffplata} alt="Low-fi-versionen av Loopeli-app för surfplattap" className="case-section-img" />
         <h2 className="case-section-title">Low-fi-design i Loopelis surfplatteapp</h2>
         <p>Fokus ligger på appens struktur och funktion, vilket innebär att flera idéer kan testas utan att fastna i detaljer.</p>
         <p>Användarflödena är i centrum, och genom att undvika färger, typsnitt och grafik i ett tidigt skede minskar risken att viktiga beslut fördröjs.</p>
-        <ResponsiveImage src={Lowifsurffplata} alt="Low-fi-versionen av Loopeli-app för surfplattap" className="case-section-img" />
+       
       </section>
 
       <section className="case-section">
@@ -105,12 +106,13 @@ const CasePageTwo = () => (
       </section>
 
       <section className="case-section">
+        
+      <ResponsiveImage src={higSurfplatta} alt="Designen" className="case-section-img" />
         <h2 className="case-section-title">Design som stöttar användaren</h2>
         <p>Jag har designat gränssnittet så att huvudfunktionerna står i fokus, med större ikoner och texter.</p>
         <p>Varje sida har en huvudrubrik, och både texter och ikoner har färger som uppfyller WCAG-kraven.</p>
         <p>Radion visar tydligare vilken låt som spelas och vilken som är aktiv. Kanalen kan ändras, och en animation visas när den byts.</p>
 
-        <ResponsiveImage src={higSurfplatta} alt="Designen" className="case-section-img" />
       </section>
     </div>
   </div>

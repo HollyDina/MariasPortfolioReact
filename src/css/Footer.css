@@ -54,16 +54,24 @@
   max-height:800px;
   
 }
-
 .case-section-title {
   font-size: 20px;
   margin-bottom: 12px;
-  border-top: 3px solid black;
-  display: inline-block;
+  position: relative; /* behövs för att placera ::before i förhållande till titeln */
+  display: inline-block; /* så att bredden matchar textens längd */
+  padding-top: 12px; /* så att det finns utrymme för linjen ovanför */
 }
 
 
-
+.case-section-title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: black;
+}
 
 
 .hero {

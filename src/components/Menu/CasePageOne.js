@@ -5,7 +5,7 @@ import skapakontoflödesschema from "./skapakontoflödesschema.svg"
 import nyaflödesschema from "./nyaflödesschema.svg"
 import Nuvarnadeflödesschema from "./Nuvarnadeflödesschema.svg"
 import gudietoapp from "./gudietoapp.svg"
-import HigGudie from "./HigGudie.svg"
+import HigGuide from "./HigGuide.svg"
 
 
 const ResponsiveImage = ({ src, alt, className }) => (
@@ -87,6 +87,8 @@ const CasePageOne = () => (
       </section>
 
       <section className="case-section">
+      <ResponsiveImage src={HigGuide} alt="Header" className="case-header-img" />
+
         <h2 className="case-section-title">Förbättringsområden</h2>
         <p>Det sista skedet i analysen handlade om att ta fram konkreta förbättringsåtgärder.</p>
 
@@ -96,8 +98,7 @@ const CasePageOne = () => (
 
         <p>Målet var att säkerställa högre kvalitet i utbildningen och att öka studenternas totala upplevda nöjdhet.</p>
 
-        <ResponsiveImage src={HigGudie} alt="Header" className="case-header-img" />
-
+       
       </section>
 
     </div>
