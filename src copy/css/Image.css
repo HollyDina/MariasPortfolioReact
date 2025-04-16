@@ -1,0 +1,90 @@
+.imageMediumHomeworkcard {
+  width: 100%;
+  height: auto; 
+  display: flex;
+  max-height: 300px;
+}
+
+.image-grid-wrapper {
+  display: flex;
+  flex-direction: column;.image-grid-heading {
+  margin: 32px 0; /* Marginal ovanför och under rubriken */
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+}
+  align-items: center;
+}
+
+
+
+.imageMedium {
+  width: 100%;
+  height: auto; 
+  display: flex;
+}
+
+
+.Imagehero{
+  max-width: 100%;
+  height: auto; 
+  display: flex;
+}
+
+.container_image_large {
+   max-width: 700px;
+   height: auto; 
+}
+
+
+.ImageLarge {
+  width: 100%;
+  height: auto; 
+  min-width: 100px;
+   
+  }
+
+/* For tablets */
+@media (min-width: 768px)  {
+  .imageMediumHomeworkcard {
+    /* Add your tablet styles here */
+    /* Example: Adjusting the width and padding */
+    width: 100%;
+   
+    
+  }
+
+  .imageMedium{
+    /* Add your tablet styles here */
+    /* Example: Adjusting the width and padding */
+    width: 100%;
+   
+    
+  }
+  .container_image_large {
+   
+   
+   }
+
+   .ImageLarge {
+ 
+     min-width: 500px
+    }
+   
+}
+
+/* For desktop */
+@media (min-width: 992px) {
+  .imageMedium {
+    /* Add your desktop styles here */
+    /* Example: Keeping the original width and padding */
+   
+    
+  }
+
+  .ImageLarge {
+ 
+    min-width: 550px
+   }
+}

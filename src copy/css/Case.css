@@ -1,0 +1,19 @@
+
+  
+  .bodytext {
+    font-size: 1rem;
+ /* Align the text to the right */
+  
+    line-height:2rem;
+    text-align: left;
+   
+  
+  }
+ 
+  .text {
+    font-size: 1rem;
+    text-align: left; /* Align the text to the right */
+    font-weight: bold;
+
+  }
+ 
