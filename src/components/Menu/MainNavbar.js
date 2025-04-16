@@ -7,8 +7,8 @@ import CasePageThree from "./CasePageThree"
 import CasePageFour from "./CasePageFour";
 import Navbar from "./Navbar";import ImageGrid from "./ImageGrid";
 
- import AboutPages from "./Aboutpages"
- import HomePage from "./HomePage"
+ import AboutPages from "./AboutMe"
+
 export default function MainNavbar() {
   return (
    <>

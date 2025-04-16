@@ -1,6 +1,6 @@
 import React from 'react';
 
-function AboutPage({ data }) {
+function AboutPage() {
 
   return (
     <div className="main-content">

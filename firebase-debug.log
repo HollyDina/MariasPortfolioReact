@@ -1,0 +1,52 @@
+[debug] [2025-04-16T21:22:10.571Z] ----------------------------------------------------------------------
+[debug] [2025-04-16T21:22:10.572Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jonat\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-04-16T21:22:10.573Z] CLI Version:   14.1.0
+[debug] [2025-04-16T21:22:10.573Z] Platform:      win32
+[debug] [2025-04-16T21:22:10.573Z] Node Version:  v20.8.1
+[debug] [2025-04-16T21:22:10.573Z] Time:          Wed Apr 16 2025 23:22:10 GMT+0200 (centraleuropeisk sommartid)
+[debug] [2025-04-16T21:22:10.573Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-16T21:22:10.688Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-16T21:22:10.688Z] > authorizing via signed-in user (mariaekmaan91@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\maria\mariasportfolio
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-04-16T21:22:14.735Z] Using project from CLI flag: marias-ux-designer-portfolio
+[debug] [2025-04-16T21:22:14.736Z] Checked if tokens are valid: true, expires at: 1744839732289
+[debug] [2025-04-16T21:22:14.736Z] Checked if tokens are valid: true, expires at: 1744839732289
+[debug] [2025-04-16T21:22:14.738Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/marias-ux-designer-portfolio [none]
+[debug] [2025-04-16T21:22:15.015Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/marias-ux-designer-portfolio 200
+[debug] [2025-04-16T21:22:15.015Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/marias-ux-designer-portfolio {"projectId":"marias-ux-designer-portfolio","projectNumber":"571778810675","displayName":"marias-uxdesigner-portfolio","name":"projects/marias-ux-designer-portfolio","resources":{"hostingSite":"marias-ux-designer-portfolio"},"state":"ACTIVE","etag":"1_0d71f5ab-98a0-4c11-9b12-1a3df6c437c5"}
+[info] i  Using project marias-ux-designer-portfolio (marias-uxdesigner-portfolio) 
+[info] 
+=== Hosting Setup
+[debug] [2025-04-16T21:22:15.020Z] Checked if tokens are valid: true, expires at: 1744839732289
+[debug] [2025-04-16T21:22:15.020Z] Checked if tokens are valid: true, expires at: 1744839732289
+[debug] [2025-04-16T21:22:15.020Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/marias-ux-designer-portfolio [none]
+[debug] [2025-04-16T21:22:15.234Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/marias-ux-designer-portfolio 200
+[debug] [2025-04-16T21:22:15.235Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/marias-ux-designer-portfolio {"projectId":"marias-ux-designer-portfolio","projectNumber":"571778810675","displayName":"marias-uxdesigner-portfolio","name":"projects/marias-ux-designer-portfolio","resources":{"hostingSite":"marias-ux-designer-portfolio"},"state":"ACTIVE","etag":"1_0d71f5ab-98a0-4c11-9b12-1a3df6c437c5"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
