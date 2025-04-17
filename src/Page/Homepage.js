@@ -1,8 +1,7 @@
 import React from 'react';
 
-import Presentation from "../components/Menu/Presentation";
-import ImageGrid from "../components/Menu/ImageGrid";
-
+import Presentation from '../components/Presentation/Presentation';
+import ImageGrid from '../components/ImagGird/ImageGrid';
 function Home() {
 
 

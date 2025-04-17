@@ -26,8 +26,9 @@
 .left-section-imge {
   padding: 2rem; /* Utrymme runt hela sektionen */
   display: flex;
-  background-Color: #f4f3ed;
+  background:#f4f3ed;
   justify-content: center; /* Centrerar grid i mitten */
+
 }
 
 .image-box img {

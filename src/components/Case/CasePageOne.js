@@ -1,12 +1,11 @@
 import React from 'react';
-import heroImage from "./mobilhero.svg"
-import Färgkodsförklaring from "./Färgkodsförklaring.svg"
-import skapakontoflödesschema from "./skapakontoflödesschema.svg"
-import nyaflödesschema from "./nyaflödesschema.svg"
-import Nuvarnadeflödesschema from "./Nuvarnadeflödesschema.svg"
-import gudietoapp from "./gudietoapp.svg"
-import HigGuide from "./HigGuide.svg"
 
+import mobilhero from '../../img/mobilhero.svg';
+import Fargkod from "../../img/fargforklaring.svg";
+import skapakonto from '../../img/skapakontoflödesschema.svg';
+import nyaflöde from '../../img/nyaflödesschema.svg';
+import nuvarandeflöde from '../../img/Nuvarnadeflödesschema.svg';
+import lowGuide from '../../img/lowGuide.svg';
 
 const ResponsiveImage = ({ src, alt, className }) => (
   <img
@@ -20,9 +19,10 @@ const CasePageOne = () => (
   <div className="case-container">
     <div className="case-content">
       <div className="hero-overlay-container">
-        <ResponsiveImage src={heroImage} alt="Header" className="case-header-img" />
+        <ResponsiveImage src={mobilhero} alt="Header" className="case-header-img" />
 
         <div className="hero-text-case">
+
           <h1 className='hero-headline'>Användarguide:</h1>
           <p className='hero-p'> Så här använder du Loopeli Appen</p>
         </div>
@@ -61,33 +61,66 @@ const CasePageOne = () => (
       <section className="case-section">
         <div className="image-color">
           <h1 className="case-section-title" style={{ color: "white" }}>Färgkodsförklaring till flödesschema</h1>
-          <ResponsiveImage src={Färgkodsförklaring} alt="Färgkodsförklaring till flödesschema" className="case-header-img" />
-          <ResponsiveImage src={skapakontoflödesschema} alt="Header" className="case-header-img" />
+          <ResponsiveImage src={Fargkod} alt="Färgkodsförklaring till flödesschema" className="case-header-img" />
+          <ResponsiveImage src={skapakonto} alt="Header" className="case-header-img" />
+          <ResponsiveImage src={nyaflöde} alt="Header" className="case-header-img" />
 
-          <ResponsiveImage src={nyaflödesschema} alt="Header" className="case-header-img" />
-
-          
-          <ResponsiveImage src={Nuvarnadeflödesschema} alt="Header" className="case-header-img" />
+          <ResponsiveImage src={nuvarandeflöde} alt="Header" className="case-header-img" />
         </div>
         <h1 className="case-section-title">Flödesschema av appen</h1>
         <p>Jag började med att filma iPad-skärmen vid installationen av Äldreappen via Anhörigappen, för att kartlägga det nuvarande flödet och skapa ett flödesschema över hur appen idag skapar ett konto på webbplatsen, samt hur kontot verifieras.</p>
 
-<p>Jag stötte dock på fel under kartläggningen, vilket ledde till att jag skapade ett nytt flödesschema för kontoverifiering. Om flödet skulle anpassas efter mitt förslag skulle det bli enklare för användare att skapa ett konto hos Looepli.</p>
+        <p>Jag stötte dock på fel under kartläggningen, vilket ledde till att jag skapade ett nytt flödesschema för kontoverifiering. Om flödet skulle anpassas efter mitt förslag skulle det bli enklare för användare att skapa ett konto hos Looepli.</p>
 
-<p>Därefter skapade jag ett flödesschema för att visualisera hur apparna fungerar och hur de olika vyerna hänger ihop.</p>
+        <p>Därefter skapade jag ett flödesschema för att visualisera hur apparna fungerar och hur de olika vyerna hänger ihop.</p>
 
       </section>
 
       <section className="case-section"><div className="image-color">
-        <ResponsiveImage src={gudietoapp} alt="Header" className="case-header-img" />
+
+        <ResponsiveImage src={lowGuide} alt="Header" className="case-header-img" />
       </div>
         <h2 className="case-section-title">Low-fi-design</h2>
 
         <p>Jag skapade en low-fi-design för att snabbt få en överblick över vilka ändringar jag hade gjort och identifiera hur designen kunde förtydligas.</p>
       </section>
 
+
+      <section className="case-section"><div className="image-color">
+
+
+      </div>
+        <h2 className="case-section-title">     Color palett</h2>
+
+        <p></p>
+      </section>
+      <section className="case-section"><div className="image-color">
+
+
+      </div>
+        <h2 className="case-section-title"> Iconer</h2>
+
+        <p></p>
+      </section>
+      <section className="case-section"><div className="image-color">
+
+
+      </div>
+        <h2 className="case-section-title"> Kanppar</h2>
+
+        <p></p>
+      </section>
+      <section className="case-section"><div className="image-color">
+
+
+      </div>
+        <h2 className="case-section-title">Typsnitt</h2>
+
+        <p></p>
+      </section>
+
       <section className="case-section">
-      <ResponsiveImage src={HigGuide} alt="Header" className="case-header-img" />
+
 
         <h2 className="case-section-title">Förbättringsområden</h2>
         <p>Det sista skedet i analysen handlade om att ta fram konkreta förbättringsåtgärder.</p>
@@ -98,7 +131,7 @@ const CasePageOne = () => (
 
         <p>Målet var att säkerställa högre kvalitet i utbildningen och att öka studenternas totala upplevda nöjdhet.</p>
 
-       
+
       </section>
 
     </div>

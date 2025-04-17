@@ -12,8 +12,9 @@
 
   
   #root{
-    background-color: #f4f3ed;
-  height: 100vh;
+   
+       /* background: linear-gradient(to right, #f4f3ed 50%, #2b3227 50%);*/
+       height:100vh;
 
   }
 

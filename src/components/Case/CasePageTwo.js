@@ -1,8 +1,8 @@
 import React from 'react';
-import heroImage from "./surffplattahero.svg"
-import Lowifsurffplata from "./Low-if-surffplata.png"
-import Lowfiloopeli from "./Low-fi_loopeli_app.svg"
-import higSurfplatta from "./higSurfplatta.svg"
+import heroImage from "../../img/surffplattahero.svg"
+import Lowifsurffplata from "../../img/Low-if-surffplata.png"
+import Lowfiloopeli from "../../img/Low-fi_loopeli_app.svg"
+import higSurfplatta from "../../img/higSurfplatta.svg"
 
 const ResponsiveImage = ({ src, alt, className }) => (
   <img
@@ -43,17 +43,17 @@ const CasePageTwo = () => (
           <li>Utvecklare</li>
           <li>Produktägare</li>
         </ul>
-        </section>
-        <section className="case-section">
+      </section>
+      <section className="case-section">
         <h2 className="case-section-title">Mål</h2>
-    
-      
-          <p>Överflödiga element har minimerats för att appen ska vara funktionell och ha ett logiskt användarflöde.</p>
-          <p>Appen uppfyller WCAG-kraven.</p>
-          <p>Huvudfunktionerna prioriteras med större ikoner, knappar och texter samt färger med hög kontrast.</p>
-          <p>Namnen på sidorna är enkla och tydliga.</p>
 
-    
+
+        <p>Överflödiga element har minimerats för att appen ska vara funktionell och ha ett logiskt användarflöde.</p>
+        <p>Appen uppfyller WCAG-kraven.</p>
+        <p>Huvudfunktionerna prioriteras med större ikoner, knappar och texter samt färger med hög kontrast.</p>
+        <p>Namnen på sidorna är enkla och tydliga.</p>
+
+
       </section>
 
       <section className="case-section">
@@ -66,23 +66,19 @@ const CasePageTwo = () => (
       </section>
 
       <section className="case-section">
-      <ResponsiveImage src={Lowfiloopeli} alt="Schema" className="case-section-img" />
+        <ResponsiveImage src={Lowfiloopeli} alt="Schema" className="case-section-img" />
         <h2 className="case-section-title">Flödesschema över appen</h2>
         <p>För att få en bättre förståelse för appens struktur började jag med att spela in skärmen på min iPad medan jag använde Elderappen.</p>
 
         <p>Jag tog även bilder av olika vyer i både liggande och stående läge, och använde ett flödesschema för att analysera appens uppbyggnad.</p>
-
-
-
-  
       </section>
 
       <section className="case-section">
-      <ResponsiveImage src={Lowifsurffplata} alt="Low-fi-versionen av Loopeli-app för surfplattap" className="case-section-img" />
+        <ResponsiveImage src={Lowifsurffplata} alt="Low-fi-versionen av Loopeli-app för surfplattap" className="case-section-img" />
         <h2 className="case-section-title">Low-fi-design i Loopelis surfplatteapp</h2>
         <p>Fokus ligger på appens struktur och funktion, vilket innebär att flera idéer kan testas utan att fastna i detaljer.</p>
         <p>Användarflödena är i centrum, och genom att undvika färger, typsnitt och grafik i ett tidigt skede minskar risken att viktiga beslut fördröjs.</p>
-       
+
       </section>
 
       <section className="case-section">
@@ -101,13 +97,45 @@ const CasePageTwo = () => (
         <h2 className="case-section-title">Resultat från användartester</h2>
         <p>Efter användartester har jag minskat storleken på rubrikerna, ändrat deras namn, lagt till en bakåtpil med tillhörande text samt förenklat och slagit ihop designen för texter i bilder och meddelanden sidan.</p>
 
-<p>Användarna verkar förstå att de kan läsa meddelanden från sina anhöriga. De verkar också förstå hur menyn fungerar när de väl har lärt sig hur appen fungerar.</p>
-
+        <p>Användarna verkar förstå att de kan läsa meddelanden från sina anhöriga. De verkar också förstå hur menyn fungerar när de väl har lärt sig hur appen fungerar.</p>
       </section>
 
+
       <section className="case-section">
-        
-      <ResponsiveImage src={higSurfplatta} alt="Designen" className="case-section-img" />
+        <div className="image-color">
+
+
+      </div>
+        <h2 className="case-section-title">     Color palett</h2>
+
+        <p></p>
+      </section>
+      <section className="case-section"><div className="image-color">
+
+
+      </div>
+        <h2 className="case-section-title"> Kanppar</h2>
+
+        <p></p>
+      </section>
+      <section className="case-section"><div className="image-color">
+
+
+      </div>
+        <h2 className="case-section-title"> Ikoner</h2>
+
+        <p></p>
+      </section>
+      <section className="case-section"><div className="image-color">
+
+
+      </div>
+        <h2 className="case-section-title">Typsnitt</h2>
+
+        <p></p>
+      </section>
+      <section className="case-section">
+        <ResponsiveImage src={higSurfplatta} alt="Designen" className="case-section-img" />
         <h2 className="case-section-title">Design som stöttar användaren</h2>
         <p>Jag har designat gränssnittet så att huvudfunktionerna står i fokus, med större ikoner och texter.</p>
         <p>Varje sida har en huvudrubrik, och både texter och ikoner har färger som uppfyller WCAG-kraven.</p>

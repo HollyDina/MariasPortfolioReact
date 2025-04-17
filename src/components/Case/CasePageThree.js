@@ -1,14 +1,13 @@
 import React from 'react';
-import heroImage from "./chas-academy-emblem.png"
+import heroImage from "../../img/chas-academy-emblem.png"
 
-import Affärsnyttakommunikation1 from "./Affärsnytta och kommunikation.jpg"
-import kundresahela2 from "./kundresa hela.jpg"
-import kundresa3 from "./kundresa2.jpg"
-
-import första4 from "./första.jpg"
-import Praktiskutbild from "./Praktisk utbildning.bb5ae9b47f1b0780581a.jpg"
-import kravux from "./krav och ux.jpg"
-import Branschnara from "./Branschnara.jpg"
+import Affärsnyttakommunikation1 from "../../img/Affärsnytta och kommunikation.jpg"
+import kundresahela2 from "../../img/krh.jpg"
+import kundresa3 from "../../img/kundresa2.jpg"
+import första4 from "../../img/första.jpg"
+import Praktiskutbild from "../../img/Praktisk utbildning.bb5ae9b47f1b0780581a.jpg"
+import kravux from "../../img/krav och ux.jpg"
+import Branschnara from "../../img/Branschnara.jpg"
 
 const ResponsiveHero = ({ src, alt, className }) => (
   <img
@@ -35,7 +34,7 @@ const CasePageThree = () => (
     <div className="case-content">
 
       <div className="hero-overlay-container">
-        <ResponsiveHero src={heroImage} alt="Header"  />
+    <ResponsiveHero src={heroImage} alt="Header"  />
         <ResponsiveHero src={heroImage} alt="Header"  />
         <div className="hero-text-case">
           <h1 className='hero-headline'>Uppdrag </h1>
@@ -102,7 +101,7 @@ const CasePageThree = () => (
 
       <section className="case-section">
       <div className="image-color">
-      <ResponsiveImage src={Affärsnyttakommunikation1} alt="Header" className="case-header-img" />
+     *<ResponsiveImage src={Affärsnyttakommunikation1} alt="Header" className="case-header-img" />
     </div>
         <h2 className="case-section-title">Research & analys</h2>
 
@@ -130,6 +129,7 @@ const CasePageThree = () => (
       <section className="case-section">
       <div className="image-color">
       <ResponsiveImage src={kundresahela2} alt="Header" className="case-header-img" />
+
      </div>
         <h2 className="case-section-title">Kundresekartan</h2>
       
@@ -183,22 +183,6 @@ const CasePageThree = () => (
       </section>
 
       <section className="case-section">
-        <h2 className="case-section-title">Pain points & Moments of truth</h2>
-        <p>
-          Kundresekartan visar de olika faserna i kundresan, som börjar med att man upptäcker UX och finner det intressant.
-          Nästa steg är att undersöka och göra research för att hitta rätt skola, följt av ansökan och antagning innan man påbörjar utbildningen.</p>
-        <p>
-          Fasen "Går i skolan" delas upp i tre underkategorier: "Innehåll och kurser", "Lärare" samt "Kommunikation och socialt", vilket är viktigt att förstå separat. Dessa faser pågår parallellt, vilket illustreras med en cirkulär pil.
-
-          Nästa fas är praktik, och därefter examination – vilket förhoppningsvis leder till ett jobb.
-        </p>
-        <p>
-          I den vänstra kolumnen finns rubriker som beskriver interaktioner, mål, touchpoints (illustrerade med ikoner) samt positiva och negativa tankar från intervjudeltagare.
-          Jag har också skapat en känslokurva som visar vilka faser som upplevts som positiva och vilka som varit mindre bra, och avslutas med insikter och möjligheter.
-        </p>
-      </section>
-
-      <section className="case-section">
       <div className="image-color">
       <ResponsiveImage src={första4} alt="Header" className="case-header-img" />
       </div>
@@ -214,7 +198,7 @@ const CasePageThree = () => (
 
       <section className="case-section"> 
       <div className="image-color">
-        <ResponsiveImage src={kravux} alt="Header" className="case-header-img" />
+      <ResponsiveImage src={kravux} alt="Header" className="case-header-img" />
         </div>
         <h2 className="case-section-title">Blandningen av UX-design och krav</h2>
        
@@ -228,7 +212,8 @@ const CasePageThree = () => (
 
       </section>
       <section className="case-section">
-      <div className="image-color"> <ResponsiveImage src={Branschnara} alt="Header" className="case-header-img" />
+      <div className="image-color"> 
+     <ResponsiveImage src={Branschnara} alt="Header" className="case-header-img" />
         </div>
         <h2 className="case-section-title">Branschnära</h2>
        
@@ -242,8 +227,8 @@ const CasePageThree = () => (
 
       </section>
       <section className="case-section"> 
-      <div>
-        <ResponsiveImage src={Praktiskutbild} alt="Header" className="case-header-img" />
+      <div className="image-color"> 
+      <ResponsiveImage src={Praktiskutbild} alt="Header" className="case-header-img" />
         </div>
         <h2 className="case-section-title">Praktisk utbildning</h2>
        

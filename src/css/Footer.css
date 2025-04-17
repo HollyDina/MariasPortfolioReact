@@ -5,17 +5,16 @@
 }
 
 .case-container {
-  background-color: #324534;
   display: flex;
   flex-direction: column;
   align-items: center;
+ 
 }
 
 .case-content {
-  background-color: #fff;
+  background-color: #f4f3ed;
   max-width: 800px;
   width: 100%;
- 
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   border-radius: 4px 4px 0px 0px;
 }
@@ -137,11 +136,10 @@
   top: 0%;
   right: 0%;
   left:0%;
-  bottom:0%;
+  bottom:25px;
   color: white;
   background: rgba(0, 0, 0, 0.4); /* valfri mörk overlay-bakgrund */
   padding: 4rem 1rem 1rem 2rem;
-
   border-radius: 4px 4px 0px 0px;
 }
 
@@ -151,11 +149,12 @@
   top: 0%;
   right: 0%;
   left:0%;
-  bottom:0%;
+  bottom:25px;
   color: white;
   background: rgba(0, 0, 0, 0.4); /* valfri mörk overlay-bakgrund */
   padding:9rem 0rem 0rem 5rem;
   border-radius: 4px 4px 0px 0px;
+
   font-size: 5rem;
   
 }
@@ -215,22 +214,12 @@
 
 }
 
-  .case-container {
-    
-  }
-
   .case-title {
     font-size: 32px;
   }
 
   .case-section-title {
     font-size: 24px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .case-container {
-   
   }
 }
 

@@ -1,9 +1,8 @@
 import { Link } from 'react-router-dom';
-import img4 from "./Game.png"
-import img3 from "./chas-academy-emblem.png"
-import img1 from "./mobiler.png"
-
-import img2 from "./ipads.svg"
+import img4 from "../../img/Game.png"
+import img3 from "../../img/chas-academy-emblem.png"
+import img1 from "../../img/mobiler.png"
+import img2 from "../../img/ipads.svg"
 
 export default function ImageGrid() { 
   return (
@@ -12,7 +11,7 @@ export default function ImageGrid() {
         <h2 className="image-grid-heading">Projekt jag arbetat med – uppdrag och egna initiativ</h2>
         <div className="image-grid">
           <div className="image-box">
-            <h3 className="image-title">Användarguide: Så här använder du Loopeli Appen</h3>
+           <h3 className="image-title">Användarguide: Så här använder du Loopeli Appen</h3>
             {/*<p className="image-description">Beskrivning för Projekt 1</p>*/}
             <Link to="/Case1">
               <img src={img1} alt="Bild 1" />

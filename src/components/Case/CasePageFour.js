@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImage from "./Game.png"
+import Game from '../../img/Game.png';
 const ResponsiveImage = ({ src, alt, className }) => (
   <img
     src={src}
@@ -12,8 +12,8 @@ const CasePageFour = () => (
   <div className="case-container">
     <div className="case-content">
       <div className="hero-overlay-container">
-        <ResponsiveImage src={heroImage} alt="Header" className="case-header-img" />
-        <ResponsiveImage src={heroImage} alt="Header" className="case-header-img" />
+      <ResponsiveImage src={Game} alt="Header" className="case-header-img" />
+      <ResponsiveImage src={Game} alt="Header" className="case-header-img" />
         <div className="hero-text-case">
           <h1 className='hero-headline'>Examensarbete</h1>
           <p className='hero-p'>Chas Academy</p>
@@ -98,9 +98,8 @@ const CasePageFour = () => (
       </section>
       <section className="case-section">
         <h1 className="case-section-title">
-      Här är några av de viktigaste behoven som överfördes till prototypen
-</h1>
-<p><strong>Här är några av de viktigaste behoven som överfördes till prototypen:</strong></p>
+      Här är några av de viktigaste behoven som överfördes till prototypen</h1>
+
 
 <ul>
   <li>Barnet behöver veta vad som ska göras efter speltiden och behöver förstå varför.</li>
@@ -201,6 +200,28 @@ const CasePageFour = () => (
         <p>Totalt genomfördes 5 användartester med barn (3–9 år) och 8 med vuxna, eftersom föräldrarna generellt var mer datorvana.</p>
 
       </section>
+      
+            <section className="case-section"><div className="image-color">
+          
+            </div>
+              <h2 className="case-section-title">     Color palett</h2>
+      
+              <p></p>
+            </section>
+            <section className="case-section"><div className="image-color">
+          
+          </div>
+            <h2 className="case-section-title"> Iconer</h2>
+      
+            <p></p>
+          </section>
+          <section className="case-section"><div className="image-color">
+          
+          </div>
+            <h2 className="case-section-title">Typsnitt</h2>
+      
+            <p></p>
+          </section>
 
       <section className="case-section">
         <h2 className="case-section-title">Slutresultat</h2>

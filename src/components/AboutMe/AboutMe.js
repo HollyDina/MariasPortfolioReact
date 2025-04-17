@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImage from "./OmMig.png"
+import OmMig from '../../img/OmMig.png';
 const ResponsiveImage = ({ src, alt, className }) => (
   <img src={src} alt={alt} className={`case-responsive-img ${className}`} />
 );
@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (<div className="case-container">
     <div className="case-content">
       <div className="hero-overlay-container">
-        <ResponsiveImage src={heroImage} alt="Header" className="case-header-img" />
+      <ResponsiveImage src={OmMig} alt="Header" className="case-header-img" />
         <div className="hero-text">
           <h1>Om mig</h1>
           <button className="cv-button" type="button">

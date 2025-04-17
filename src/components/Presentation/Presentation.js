@@ -1,4 +1,4 @@
-import imgs from "./314002952_821240728997254_1145159628344298327_n.jpg"
+import imgs from "../../img/314002952_821240728997254_1145159628344298327_n.jpg"
 
 
 function Presentation() {
@@ -44,9 +44,8 @@ function Presentation() {
             />
           </div>
 
-
         </div>
-      </div>
+    </div >
     </>
 
   );

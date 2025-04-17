@@ -1,13 +1,13 @@
 import React from "react";
 import { Routes, Route, } from "react-router-dom";
-import CasePageTwo from "./CasePageTwo";
-import CasePageOne from "./CasePageOne";
-import CasePageThree from "./CasePageThree"
-import CasePageFour from "./CasePageFour";
-import Navbar from "./Navbar";
-import ImageGrid from "./ImageGrid";
+import CasePageTwo from '../Case/CasePageTwo';
+import CasePageOne from '../Case/CasePageOne';
+import CasePageThree from '../Case/CasePageThree';
+import CasePageFour from '../Case/CasePageFour';
+import ImageGrid from '../ImagGird/ImageGrid';
+import AboutMe from '../AboutMe/AboutMe';
+import Navbar  from "./Navbar"
 import Homepage from '../../Page/Homepage';
- import AboutPages from "./AboutMe"
 
 export default function MainNavbar() {
   return (
@@ -16,7 +16,7 @@ export default function MainNavbar() {
       
         <Routes>
           <Route path="/"  element={<Homepage/>} />
-          <Route path="/about"  element={<AboutPages />} />
+          <Route path="/about"  element={<AboutMe />} />
           <Route path="/case"  element={<ImageGrid/>} />
           <Route path="/case1" element={<CasePageOne />} />
           <Route path="/case2" element={<CasePageTwo />} />
