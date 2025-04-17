@@ -2,7 +2,7 @@
 import './App.css';
 import './css/Menu.css';
 import './css/Presentation.css';
-import './css/Footer.css';
+import './css/HeroCase.css';
 import './css/Image.css';
 import './css/Case.css';
 import './css/NyaNavbar.css';

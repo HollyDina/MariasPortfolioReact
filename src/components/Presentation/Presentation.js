@@ -14,10 +14,11 @@ function Presentation() {
       alt="Maria Ekman"
       className="profile-img-mobile"
     />
-    <div className="text-content-mobile">
-      <h1 className="name-mobile">MARIA EKMAN</h1>
+    <div className="text-content-mobile"> 
       <div class="subtitle-wrapper-mobile">
-        <div className="divider-mobile"></div>
+    
+      <h1 className="name-mobile">MARIA EKMAN</h1>
+     
         <p className="title-mobile">UX-DESIGNER</p>
         <p className="subtitle-mobile">TILLGÄNGLIGHETSEXPERT</p>
       </div>
