@@ -14,7 +14,7 @@ const ResponsiveHero = ({ src, alt, className }) => (
     src={src}
     alt={alt}
     className={`case-responsive-img ${className}`}
-    style={{ maxWidth: '400px', height: 'auto', maxHeight: '700px' }}
+    style={{ maxWidth: '350px', height: 'auto', maxHeight: '350px' }}
   />
 );
 
@@ -23,7 +23,7 @@ const ResponsiveImage = ({ src, alt, className }) => (
     src={src}
     alt={alt}
     className={`case-responsive-img ${className}`}
-    style={{ maxWidth: '800px', height: 'auto', maxHeight: '1000px' }}
+    style={{ maxWidth: '350', height: 'auto', maxHeight: '350px' }}
   />
 );
 const CasePageThree = () => (
@@ -37,7 +37,7 @@ const CasePageThree = () => (
     <ResponsiveHero src={heroImage} alt="Header"  />
         <ResponsiveHero src={heroImage} alt="Header"  />
         <div className="hero-text-case">
-          <h1 className='hero-headline'>Uppdrag </h1>
+          <h1 className='hero-headline'>Uppdrag av</h1>
           <p className='hero-p'>Chas academy</p>
         </div>
       </div>

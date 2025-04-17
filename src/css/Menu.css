@@ -23,23 +23,20 @@
 }
 
 .subtitle-mobile {
-  font-size: 0.8rem;
+  font-size:1.5rem;
   letter-spacing: 1px;
   margin-top: 4px;
-  font-weight: 500;
+  font-weight: 900;
 }
-
 .divider-mobile {
   height: 2px;
-  width: 100%;
   background-color: #f4a940;
-  margin-top: 4px;
+  margin: 4px 0;
+  width: fit-content;
+  align-self: flex-start; /* säkerställ att den följer namnets bredd */
 }
-
-
-
 .title-mobile {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: bold;
   letter-spacing: 1px;
   padding:0px;
@@ -65,15 +62,15 @@
 
 
 
-.text-content-mobile .name-mobile {
-  font-size: 1.2rem;
+.name-mobile {
+  font-size: 2rem;
   font-weight: bold;
-  letter-spacing: 2px;  
-  margin:4px;
+  letter-spacing: 2px;
+  margin: 4px 0;
+  border-style: solid;
+  border-color: #f4a940 transparent; /* färg upptill, genomskinligt på sidorna */
+  border-top:5px;
 }
-
-
-
 
 
 .subtitle-mobile {
