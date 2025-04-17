@@ -1,5 +1,4 @@
 import React from "react";
-
 import { Routes, Route, } from "react-router-dom";
 import CasePageTwo from "./CasePageTwo";
 import CasePageOne from "./CasePageOne";
@@ -23,7 +22,6 @@ export default function MainNavbar() {
           <Route path="/case2" element={<CasePageTwo />} />
           <Route path="/case3" element={<CasePageThree />} />
           <Route path="/case4" element={<CasePageFour />} />
-
         </Routes>
     </>
   );
