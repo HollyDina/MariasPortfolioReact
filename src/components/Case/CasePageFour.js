@@ -206,7 +206,7 @@ const CasePageFour = () => (
             <section className="case-section"><div className="image-color">
           
             </div>
-              <h2 className="case-section-title">     Color palett</h2>
+              <h2 className="case-section-title">Color palett</h2>
       
               <p></p>
             </section>

@@ -114,7 +114,7 @@ const CasePageTwo = () => (
 
 
       </div>
-        <h2 className="case-section-title"> Kanppar</h2>
+        <h2 className="case-section-title"> Knappar</h2>
 
         <p></p>
       </section>
