@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImage from "../../img/MobileCase.svg"
+import heroImage from "../../img/surffplattahero.svg"
 import Lowifsurffplata from "../../img/Low-if-surffplata.png"
 import Lowfiloopeli from "../../img/Low-fi_loopeli_app.svg"
 import higSurfplatta from "../../img/higSurfplatta.svg"
@@ -114,7 +114,7 @@ const CasePageTwo = () => (
 
 
       </div>
-        <h2 className="case-section-title"> Knappar</h2>
+        <h2 className="case-section-title"> Kanppar</h2>
 
         <p></p>
       </section>

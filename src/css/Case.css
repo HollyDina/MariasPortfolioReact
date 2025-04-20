@@ -10,4 +10,10 @@
   
   }
  
+  .text {
+    font-size: 1rem;
+    text-align: left; /* Align the text to the right */
+    font-weight: bold;
+
+  }
  

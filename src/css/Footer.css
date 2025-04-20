@@ -1,9 +1,4 @@
 /* style.css */
-
-.case-header-img-four{
-  display:none;
-  
-  }
 .case-section {
   
       padding: 1rem;
@@ -26,27 +21,14 @@
 
 
 
-.case-header-img-three {
-  width: 100%;
-  height: auto;
-  border-radius:4px 4px 0px 0px;
-  max-width: 800px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-
-
-}
-
-
-
-
 .case-header-img {
   width: 100%;
   height: auto;
   border-radius:4px 4px 0px 0px;
   max-width: 800px;
-
+  margin-bottom: 1.5rem;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-
+  border-radius: 4px 4px 4px 4px;
 
 }
 
@@ -73,14 +55,22 @@
 }
 .case-section-title {
   font-size: 20px;
-  padding-bottom:3px;
-  border-bottom: 4px solid black;
   margin-bottom: 12px;
   position: relative; /* behövs för att placera ::before i förhållande till titeln */
   display: inline-block; /* så att bredden matchar textens längd */
   padding-top: 12px; /* så att det finns utrymme för linjen ovanför */
 }
 
+
+.case-section-title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: black;
+}
 
 
 .hero {
@@ -115,7 +105,44 @@
  
 
 }
+/*
 .hero-overlay-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  max-height: 800px;
+  display:flex;
+}
+
+
+.hero-overlay-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px 4px 0px 0px;
+  max-width: 800px;
+   max-height: 600px;
+}
+.hero-text-case {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  left:0%;
+  bottom:25px;
+  color: white;
+  background: rgba(0, 0, 0, 0.4); /* valfri mörk overlay-bakgrund *//*
+  padding:9rem 0rem 0rem 5rem;
+  border-radius: 4px 4px 0px 0px;
+
+  font-size: 5rem;
+  
+}
+.hero-headline{
+  font-size: 2rem;
+  margin: 0;
+
+  
+}*/.hero-overlay-container {
   position: relative;
   width: 100%;
   max-width: 800px;
@@ -124,10 +151,11 @@
   flex-direction: column;
 }
 
-.hero-overlay-container {
+.hero-overlay-container img {
   display: block;
   width: 100%;
   height: auto;
+  border-radius: 4px;
   max-width: 800px;
   max-height: none; /* ändrat! */
 }
@@ -144,21 +172,22 @@
   padding: 2rem 3rem 2rem 3rem; /* luft åt båda håll, men du kan justera t.ex. 5rem till vänster */
   background: rgba(0, 0, 0, 0.4);
   color: white;
-
+  border-radius: 4px;
+}
+.hero-headline {
+  font-size: 2rem;
+  margin: 0;
 }
 
-.hero-headline {
+.hero-p {
   font-size: 1.5rem;
   margin: 0;
-  padding-bottom:3px;
-  border-bottom: 4px solid rgb(255, 255, 255);
 }
 
 
 .hero-p{
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin: 0;
-  max-width:250px;
 
 }
 
@@ -167,31 +196,21 @@
   top: 0%;
   right: 0%;
   left:0%;
-  bottom:0%;
+  bottom:25px;
   color: white;
   background: rgba(0, 0, 0, 0.4); /* valfri mörk overlay-bakgrund */
   padding: 4rem 1rem 1rem 2rem;
   border-radius: 4px 4px 0px 0px;
 }
 
-.hero-image-box{
-  display: flex
-  ;
-      justify-content: center;
-      background-color:#202c25;
-  
-}
+
 
 
 
 .hero-text h1 {
-  margin: 16px;
+  margin: 0;
   font-size:1rem;
   font-weight: bold;
-  border-bottom: 4px solid rgb(255, 255, 255);
-  display:block;
-  max-width:150px;
-  padding-bottom:8px;
 }
 
 .hero-text p {
@@ -211,25 +230,6 @@
 
 
 @media (min-width: 768px) {
-
-
-.hero-headline {
-  font-size: 2rem;
-
-}
-   
-.hero-p {
-  
-    font-size: 1.5rem;
-    
-  }
-
-
-.case-header-img-four {
-
-  display:block;
-
-}
 
   /* style.css */
 .case-section {
@@ -274,5 +274,11 @@
 
 
 @media (min-width: 768px) {
- 
+  .hero-text h1 {
+    font-size: 36px;
+  }
+
+  .hero-text p {
+    font-size: 18px;
+  }
 }

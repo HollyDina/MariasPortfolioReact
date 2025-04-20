@@ -1,6 +1,6 @@
 import React from 'react';
 
-import mobilhero from '../../img/ipadcase.svg';
+import mobilhero from '../../img/mobilhero.svg';
 import Fargkod from "../../img/fargforklaring.svg";
 import skapakonto from '../../img/skapakontoflödesschema.svg';
 import nyaflöde from '../../img/nyaflödesschema.svg';
@@ -106,7 +106,7 @@ const CasePageOne = () => (
 
 
       </div>
-        <h2 className="case-section-title"> Knappar</h2>
+        <h2 className="case-section-title"> Kanppar</h2>
 
         <p></p>
       </section>

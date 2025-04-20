@@ -5,17 +5,15 @@ const ResponsiveImage = ({ src, alt, className }) => (
     src={src}
     alt={alt}
     className={`case-responsive-img ${className}`}
-    style={{ maxWidth: '400px', height: 'auto', maxHeight: '400px' }}
+    style={{ maxWidth: '400px', height: 'auto', maxHeight: '800px' }}
   />
 );
 const CasePageFour = () => (
   <div className="case-container">
     <div className="case-content">
       <div className="hero-overlay-container">
-      <div className="hero-image-box">
-      <ResponsiveImage src={Game} alt="Header" className="case-header-img-three" />
-      <ResponsiveImage src={Game} alt="Header" className="case-header-img-four" />
-      </div>
+      <ResponsiveImage src={Game} alt="Header" className="case-header-img" />
+      <ResponsiveImage src={Game} alt="Header" className="case-header-img" />
         <div className="hero-text-case">
           <h1 className='hero-headline'>Examensarbete</h1>
           <p className='hero-p'>Chas Academy</p>
@@ -206,7 +204,7 @@ const CasePageFour = () => (
             <section className="case-section"><div className="image-color">
           
             </div>
-              <h2 className="case-section-title">Color palett</h2>
+              <h2 className="case-section-title">     Color palett</h2>
       
               <p></p>
             </section>
