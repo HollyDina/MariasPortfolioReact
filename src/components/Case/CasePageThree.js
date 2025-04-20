@@ -32,10 +32,11 @@ const CasePageThree = () => (
 
   <div className="case-container">
     <div className="case-content">
-
       <div className="hero-overlay-container">
-    <ResponsiveHero src={heroImage} alt="Header"  />
-        <ResponsiveHero src={heroImage} alt="Header"  />
+        <div className="hero-image-box">
+          <ResponsiveHero src={heroImage} alt="Header" className="case-header-img-three" />
+          <ResponsiveHero src={heroImage} alt="Header" className="case-header-img-four" />
+        </div>
         <div className="hero-text-case">
           <h1 className='hero-headline'>Uppdrag av</h1>
           <p className='hero-p'>Chas academy</p>
@@ -100,12 +101,12 @@ const CasePageThree = () => (
       </section>
 
       <section className="case-section">
-      <div className="image-color">
-     *<ResponsiveImage src={Affärsnyttakommunikation1} alt="Header" className="case-header-img" />
-    </div>
+        <div className="image-color">
+          *<ResponsiveImage src={Affärsnyttakommunikation1} alt="Header" className="case-header-img" />
+        </div>
         <h2 className="case-section-title">Research & analys</h2>
 
-     
+
         <p>
           Efter intervjuerna analyserade jag svaren för att hitta samband. Studenterna uttryckte främst en önskan att lära sig UX-design och att utveckla kompetens inom kravställning.        </p>
         <p>
@@ -127,12 +128,12 @@ const CasePageThree = () => (
       </section>
 
       <section className="case-section">
-      <div className="image-color">
-      <ResponsiveImage src={kundresahela2} alt="Header" className="case-header-img" />
+        <div className="image-color">
+          <ResponsiveImage src={kundresahela2} alt="Header" className="case-header-img" />
 
-     </div>
+        </div>
         <h2 className="case-section-title">Kundresekartan</h2>
-      
+
         <p>
           Kundresekartan visar de olika faserna i kundresan, som börjar med att man upptäcker UX och finner det intressant.
           Nästa steg är att undersöka och göra research för att hitta rätt skola, följt av ansökan och antagning innan man påbörjar utbildningen.</p>
@@ -149,9 +150,9 @@ const CasePageThree = () => (
 
 
       <section className="case-section">
-      <div className="image-color">
-      <ResponsiveImage src={kundresa3} alt="Header" className="case-header-img" />
-      </div>
+        <div className="image-color">
+          <ResponsiveImage src={kundresa3} alt="Header" className="case-header-img" />
+        </div>
         <h2 className="case-section-title">Pain points & Moments of truth</h2>
 
 
@@ -183,9 +184,9 @@ const CasePageThree = () => (
       </section>
 
       <section className="case-section">
-      <div className="image-color">
-      <ResponsiveImage src={första4} alt="Header" className="case-header-img" />
-      </div>
+        <div className="image-color">
+          <ResponsiveImage src={första4} alt="Header" className="case-header-img" />
+        </div>
         <h2 className="case-section-title">
           Chas Academy nuvarande
           affärsmodell på UX-området</h2>
@@ -196,12 +197,12 @@ const CasePageThree = () => (
 
       </section>
 
-      <section className="case-section"> 
-      <div className="image-color">
-      <ResponsiveImage src={kravux} alt="Header" className="case-header-img" />
+      <section className="case-section">
+        <div className="image-color">
+          <ResponsiveImage src={kravux} alt="Header" className="case-header-img" />
         </div>
         <h2 className="case-section-title">Blandningen av UX-design och krav</h2>
-       
+
         <p>Det har förekommit missförstånd kring fördelningen mellan UX-design och kravhantering.</p>
 
         <p>För att minska förväntningsgapet föreslår vi att utbildningens namn förtydligas, till exempel genom att kalla den <em>“UX-designer och Kravhanterare”</em>. Detta kan hjälpa till att påverka studenternas förväntningar och mål (<em>Jobs to be Done</em>).</p>
@@ -212,11 +213,11 @@ const CasePageThree = () => (
 
       </section>
       <section className="case-section">
-      <div className="image-color"> 
-     <ResponsiveImage src={Branschnara} alt="Header" className="case-header-img" />
+        <div className="image-color">
+          <ResponsiveImage src={Branschnara} alt="Header" className="case-header-img" />
         </div>
         <h2 className="case-section-title">Branschnära</h2>
-       
+
         <p>Trots att CHAS Academy har grundats av ett branschbolag, utnyttjas dess potential inte fullt ut.</p>
 
         <p>En möjlighet är att bättre använda de kontakter som finns genom CHAS Visual Management och ledningsgruppen. Studenterna kan till exempel arbeta med verkliga case från CHAS Visual Management, vilket stärker deras erfarenhet och portfölj inför framtiden.</p>
@@ -226,12 +227,12 @@ const CasePageThree = () => (
         <p>CHAS Visual Management och deras kunder kan dessutom fungera som en kanal för att marknadsföra skolan via sina hemsidor.</p>
 
       </section>
-      <section className="case-section"> 
-      <div className="image-color"> 
-      <ResponsiveImage src={Praktiskutbild} alt="Header" className="case-header-img" />
+      <section className="case-section">
+        <div className="image-color">
+          <ResponsiveImage src={Praktiskutbild} alt="Header" className="case-header-img" />
         </div>
         <h2 className="case-section-title">Praktisk utbildning</h2>
-       
+
         <p>Många studenter förväntade sig en mer praktisk utbildning än vad som faktiskt erbjöds.</p>
 
         <p>För att bättre uppfylla värdeerbjudandet om praktisk utbildning föreslås att en övningsbank skapas för studenterna.</p>
