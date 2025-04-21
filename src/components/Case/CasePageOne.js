@@ -5,13 +5,25 @@ import skapakonto from '../../img/skapakontoflödesschema.svg';
 import nyaflöde from '../../img/nyaflödesschema.svg';
 import nuvarandeflöde from '../../img/Nuvarnadeflödesschema.svg';
 import lowGuide from '../../img/lowGuide.svg';
-
+import Mobilicon from '../../img/Mobilicon.svg';
+import mobilInput from '../../img/mobilInput.svg';
+import Mobilcolor from '../../img/Mobilcolor.svg';
 const ResponsiveImage = ({ src, alt, className }) => (
   <img
     src={src}
     alt={alt}
     className={`case-responsive-img ${className}`}
     style={{ maxWidth: '900px', height: 'auto', maxHeight: '600px' }}
+  />
+);
+
+
+const ResponsiveImage2 = ({ src, alt, className }) => (
+  <img
+    src={src}
+    alt={alt}
+    className={`case-responsive-img ${className}`}
+    style={{ maxWidth: '400px', height: 'auto', maxHeight: '400px' }}
   />
 );
 const CasePageOne = () => (
@@ -59,7 +71,7 @@ const CasePageOne = () => (
 
       <section className="case-section">
         <div className="image-color">
-          <h1 className="case-section-title" style={{ color: "white" }}>Färgkodsförklaring till flödesschema</h1>
+
           <ResponsiveImage src={Fargkod} alt="Färgkodsförklaring till flödesschema" className="case-header-img" />
           <ResponsiveImage src={skapakonto} alt="Header" className="case-header-img" />
           <ResponsiveImage src={nyaflöde} alt="Header" className="case-header-img" />
@@ -75,47 +87,31 @@ const CasePageOne = () => (
 
       </section>
 
-      <section className="case-section"><div className="image-color">
-
-        <ResponsiveImage src={lowGuide} alt="Header" className="case-header-img" />
-      </div>
+      <section className="case-section">
+        <div className="image-color">
+          <ResponsiveImage src={lowGuide} alt="Header" className="case-header-img" />
+        </div>
         <h2 className="case-section-title">Low-fi-design</h2>
 
         <p>Jag skapade en low-fi-design för att snabbt få en överblick över vilka ändringar jag hade gjort och identifiera hur designen kunde förtydligas.</p>
       </section>
-
-
-      <section className="case-section"><div className="image-color">
-
-
-      </div>
+      <section className="case-section">
+        <div className="image-color">
+          <ResponsiveImage src={Mobilcolor} alt="Header" className="case-header-img" />
+        </div>
         <h2 className="case-section-title">Färgpalett</h2>
-
-        <p></p>
       </section>
-      <section className="case-section"><div className="image-color">
 
-
-      </div>
+      <section className="case-section">
+        <div className="image-color">
+          <ResponsiveImage2 src={Mobilicon} alt="Header" className="case-header-img" />
+        </div>
         <h2 className="case-section-title"> Ikoner</h2>
-
-        <p></p>
       </section>
-      <section className="case-section"><div className="image-color">
-
-
-      </div>
-        <h2 className="case-section-title">Knappar</h2>
-
-        <p></p>
-      </section>
-      <section className="case-section"><div className="image-color">
-
-
-      </div>
-        <h2 className="case-section-title">Typsnitt</h2>
-
-        <p></p>
+      <section className="case-section">
+        <div className="image-color">
+          <ResponsiveImage2 src={mobilInput} alt="Header" className="case-header-img" />
+        </div>        <h2 className="case-section-title">Inputfält och Knappar</h2>
       </section>
 
       <section className="case-section">
