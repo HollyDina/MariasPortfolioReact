@@ -3,7 +3,9 @@ import heroImage from "../../img/MobileCase.svg"
 import Lowifsurffplata from "../../img/Low-if-surffplata.png"
 import Lowfiloopeli from "../../img/Low-fi_loopeli_app.svg"
 import higSurfplatta from "../../img/higSurfplatta.svg"
-
+import ipadColor from "../../img/ipadColor.svg"
+import ipadIcon from "../../img/ipadIcon.svg"
+import buttonIpad from "../../img/buttonIpad.svg"
 const ResponsiveImage = ({ src, alt, className }) => (
   <img
     src={src}
@@ -103,36 +105,25 @@ const CasePageTwo = () => (
 
       <section className="case-section">
         <div className="image-color">
-
-
+        <ResponsiveImage src={ipadColor} alt="Low-fi-versionen av Loopeli-app för surfplattap" className="case-section-img" />
       </div>
         <h2 className="case-section-title">Färgpalett</h2>
 
         <p></p>
       </section>
-      <section className="case-section"><div className="image-color">
-
-
+      <section className="case-section">
+        <div className="image-color">
+      <ResponsiveImage src={buttonIpad} alt="Low-fi-versionen av Loopeli-app för surfplattap" className="case-section-img" />
       </div>
         <h2 className="case-section-title">Knappar</h2>
 
-        <p></p>
       </section>
-      <section className="case-section"><div className="image-color">
-
-
+      <section className="case-section">
+        <div className="image-color">
+        <ResponsiveImage src={ipadIcon} alt="Low-fi-versionen av Loopeli-app för surfplattap" className="case-section-img" />
       </div>
         <h2 className="case-section-title"> Ikoner</h2>
 
-        <p></p>
-      </section>
-      <section className="case-section"><div className="image-color">
-
-
-      </div>
-        <h2 className="case-section-title">Typsnitt</h2>
-
-        <p></p>
       </section>
       <section className="case-section">
         <ResponsiveImage src={higSurfplatta} alt="Designen" className="case-section-img" />
