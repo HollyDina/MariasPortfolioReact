@@ -17,7 +17,7 @@ function Presentation() {
     <div className="text-content-mobile">
       <h1 className="name-mobile">MARIA EKMAN</h1>
       <div class="subtitle-wrapper-mobile">
-        <div className="divider-mobile"></div>
+        
         <p className="title-mobile">UX-DESIGNER</p>
         <p className="subtitle-mobile">TILLGÄNGLIGHETSEXPERT</p>
       </div>
@@ -25,32 +25,31 @@ function Presentation() {
   </div>
 </div>
 
-<div className="text-content-mobile">
-             <div class="subtitle-wrapper-mobile">
-               <h1 className="name-mobile">MARIA EKMAN</h1>
-               <p className="title-mobile">UX-DESIGNER</p>
-               <p className="subtitle-mobile">TILLGÄNGLIGHETSEXPERT</p>
-             </div>
-           </div>
-       <div className="card-wrapper">
-         <div className="card-container">
-           <div className="left-section">
-             <div className="text">
-               <h2>UX-DESIGNER</h2>
-               <p>TILLGÄNGLIGHETSEXPERT</p>
-             </div>
-           </div>
-           <div className="name-overlay">MARIA EKMAN</div>
-           <div className="right-section">
-             <img
-               src={imgs}
-               alt="Maria Ekman"
-               className="profile-img"
-             />
-           </div>
-         </div>
-       </div>
-     </>
+
+<div className="card-wrapper">
+  <div className="card-container">
+    <div className="left-section">
+      <div className="text">
+        <h2>UX-DESIGNER</h2>
+        <p>TILLGÄNGLIGHETSEXPERT</p>
+      </div>
+    </div>
+
+
+    <div className="name-overlay">MARIA EKMAN</div>
+
+    <div className="right-section">
+      <img
+        src={imgs}
+        alt="Maria Ekman"
+        className="profile-img"
+      />
+    </div>
+
+
+  </div>
+</div>
+</>
 
   );
 };
