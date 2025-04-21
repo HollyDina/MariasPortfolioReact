@@ -73,9 +73,14 @@ const CasePageOne = () => (
         <div className="image-color">
 
           <ResponsiveImage src={Fargkod} alt="Färgkodsförklaring till flödesschema" className="case-header-img" />
+          </div>
+          <div className="image-color">
           <ResponsiveImage src={skapakonto} alt="Header" className="case-header-img" />
+          </div>
+          <div className="image-color">
           <ResponsiveImage src={nyaflöde} alt="Header" className="case-header-img" />
-
+          </div>
+          <div className="image-color">
           <ResponsiveImage src={nuvarandeflöde} alt="Header" className="case-header-img" />
         </div>
         <h1 className="case-section-title">Flödesschema av appen</h1>
@@ -104,20 +109,17 @@ const CasePageOne = () => (
 
       <section className="case-section">
         <div className="image-color">
+          <ResponsiveImage2 src={mobilInput} alt="Header" className="case-header-img" />
+        </div>        <h2 className="case-section-title">Inputfält och Knappar</h2>
+      </section>
+      <section className="case-section">
+        <div className="image-color">
           <ResponsiveImage2 src={Mobilicon} alt="Header" className="case-header-img" />
         </div>
         <h2 className="case-section-title"> Ikoner</h2>
       </section>
       <section className="case-section">
-        <div className="image-color">
-          <ResponsiveImage2 src={mobilInput} alt="Header" className="case-header-img" />
-        </div>        <h2 className="case-section-title">Inputfält och Knappar</h2>
-      </section>
 
-      <section className="case-section">
-
-
-        <h2 className="case-section-title">Förbättringsområden</h2>
         <p>Det sista skedet i analysen handlade om att ta fram konkreta förbättringsåtgärder.</p>
 
         <p>Vi föreslog realistiska förändringar som direkt adresserade de identifierade problemområdena.</p>
@@ -126,7 +128,7 @@ const CasePageOne = () => (
 
         <p>Målet var att säkerställa högre kvalitet i utbildningen och att öka studenternas totala upplevda nöjdhet.</p>
 
-
+        <h2 className="case-section-title">Förbättringsområden</h2>
       </section>
 
     </div>
