@@ -11,7 +11,12 @@
 
 .image-grid-wrapper {
   display: flex;
-  flex-direction: column;.image-grid-heading {
+  flex-direction: column;
+  background-color: #f4f3ed;
+  align-items: center;
+  border-radius:4px;
+}
+  .image-grid-heading {
   margin: 32px 0; /* Marginal ovanför och under rubriken */
   font-size: 1.5rem;
   font-weight: bold;
@@ -19,16 +24,18 @@
   color: #000000;
   padding-bottom:3px;
   border-bottom: 4px solid black;
+ 
+
 }
-  align-items: center;
-}
+  
+
 /* bild grid */
 
 
 .left-section-imge {
   padding: 2rem; /* Utrymme runt hela sektionen */
   display: flex;
-  background:#f4f3ed;
+ 
   justify-content: center; /* Centrerar grid i mitten */
 
 }
