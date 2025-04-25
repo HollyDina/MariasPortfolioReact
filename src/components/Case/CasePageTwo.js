@@ -126,13 +126,13 @@ const CasePageTwo = () => (
 
       </section>
       <section className="case-section">
-        <ResponsiveImage src={higSurfplatta} alt="Designen" className="case-section-img" />
-      
+         <h2 className="case-section-title">Design som stöttar användaren</h2>
         <p>Jag har designat gränssnittet så att huvudfunktionerna står i fokus, med större ikoner och texter.</p>
         <p>Varje sida har en huvudrubrik, och både texter och ikoner har färger som uppfyller WCAG-kraven.</p>
         <p>Radion visar tydligare vilken låt som spelas och vilken som är aktiv. Kanalen kan ändras, och en animation visas när den byts.</p>
-        <h2 className="case-section-title">Design som stöttar användaren</h2>
-      </section>
+       
+     <ResponsiveImage src={higSurfplatta} alt="Designen" className="case-section-img" />
+       </section>
     </div>
   </div>
 );

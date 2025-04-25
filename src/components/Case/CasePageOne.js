@@ -8,6 +8,8 @@ import lowGuide from '../../img/lowGuide.svg';
 import Mobilicon from '../../img/Mobilicon.svg';
 import mobilInput from '../../img/mobilInput.svg';
 import Mobilcolor from '../../img/Mobilcolor.svg';
+import HigGuide from '../../img/higGuid.svg';
+
 const ResponsiveImage = ({ src, alt, className }) => (
   <img
     src={src}
@@ -23,7 +25,7 @@ const ResponsiveImage2 = ({ src, alt, className }) => (
     src={src}
     alt={alt}
     className={`case-responsive-img ${className}`}
-    style={{ maxWidth: '400px', height: 'auto', maxHeight: '400px' }}
+    style={{ maxWidth: '400px', height: 'auto',display:"flex", maxHeight: '400px',justifyContent: "center" }}
   />
 );
 const CasePageOne = () => (
@@ -119,7 +121,11 @@ const CasePageOne = () => (
         <h2 className="case-section-title"> Ikoner</h2>
       </section>
       <section className="case-section">
+      <div className="image-color">
+        <ResponsiveImage2 src={HigGuide} alt="Header" className="case-header-img" />
+    </div>
 
+          <h2 className="case-section-title">Förbättringsområden</h2>
         <p>Det sista skedet i analysen handlade om att ta fram konkreta förbättringsåtgärder.</p>
 
         <p>Vi föreslog realistiska förändringar som direkt adresserade de identifierade problemområdena.</p>
@@ -128,7 +134,7 @@ const CasePageOne = () => (
 
         <p>Målet var att säkerställa högre kvalitet i utbildningen och att öka studenternas totala upplevda nöjdhet.</p>
 
-        <h2 className="case-section-title">Förbättringsområden</h2>
+        
       </section>
 
     </div>

@@ -1,10 +1,10 @@
 
 body {
   font-size: 1rem;
-  background:linear-gradient(to right, #2b3227 50%, #f4f3ed 50%);
+  
 
   }
-  
+ 
 
 
   a:visited {
@@ -34,20 +34,7 @@ body {
     border-radius: 4px
   }
 */
-  .skip-to-content {
-    position: absolute;
-    top: -50px;
-    left: 10px;
-    background-color: #bc4646;
-    padding: 10px;
-    text-decoration: none;
-    color: #000;
-    z-index: 100;
-   min-width: 44px;
-   display: flex;
-   justify-content: center;
-   width: 100vw;
-  }
+  
   
   .skip-to-content:focus {
     top: 10px; /* Visar länken när den får fokus */
@@ -60,4 +47,12 @@ body {
     background-color: palegreen;
   }
   
-  
+  @media (min-width: 768px)  {
+    body {
+      
+      background:linear-gradient(to right, #2b3227 50%, #f4f3ed 50%);
+    
+      }
+      
+      
+    }

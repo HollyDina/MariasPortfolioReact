@@ -5,17 +5,39 @@
   position: relative;
 
 }
-
-*{
+* {
   font-size: 1rem;
   }
 
-  
-  #root{
+.home-background {
+  background-color:#f4f3ed 
+
+}
+
+.common-background {
+  background-color:#f4f3ed 
+ 
+
+}
+  @media (min-width: 768px)  {
    
-       /* background: linear-gradient(to right, #f4f3ed 50%, #2b3227 50%);*/
-       height:100vh;
+  .home-background {
+    background: linear-gradient(to right, #f4f3ed 50%, #2b3227 50%);
+    background-size: cover;
+    min-height: 100vh;
 
   }
-
   
+  .common-background {
+    background: linear-gradient(to right, #2b3227 50%, #f4f3ed 50%);
+   
+    background-size: cover;
+    min-height: 100vh;
+
+  }
+  
+  
+      
+    }
+
+
