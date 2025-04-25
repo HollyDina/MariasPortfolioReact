@@ -1,5 +1,6 @@
 import React from 'react';
 import OmMig from '../../img/OmMig.png';
+import CV from '../../img/Maria-Ekman-Cv-SV-2025.pdf';
 const ResponsiveImage = ({ src, alt, className }) => (
   <img src={src} alt={alt} className={`case-responsive-img ${className}`} />
 );
@@ -11,7 +12,8 @@ const HeroSection = () => {
         <div className="hero-text">
           <h1>Om mig</h1>
           <button className="cv-button" type="button">
-            <a className='a-cv-button' download="Maria-Ekman-Cv-2024.pdf">
+            <a className='a-cv-button' download="Maria-Ekman-Cv-SV-2025.pdf"
+            href={CV}>
               Ladda ner personligt brev och CV
             </a>
           </button>
