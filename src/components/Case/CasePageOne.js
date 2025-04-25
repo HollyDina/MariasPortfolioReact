@@ -9,6 +9,8 @@ import Mobilicon from '../../img/Mobilicon.svg';
 import mobilInput from '../../img/mobilInput.svg';
 import Mobilcolor from '../../img/Mobilcolor.svg';
 import HigGuide from '../../img/higGuid.svg';
+import PersonaOcar from '../../img/PersonaOcar.svg';
+
 
 const ResponsiveImage = ({ src, alt, className }) => (
   <img
@@ -92,6 +94,13 @@ const CasePageOne = () => (
 
         <p>Därefter skapade jag ett flödesschema för att visualisera hur apparna fungerar och hur de olika vyerna hänger ihop.</p>
 
+      </section>
+
+      <section className="case-section">
+        <div className="image-color">
+          <ResponsiveImage src={PersonaOcar} className="case-header-img" />
+        </div>
+        <h2 className="case-section-title">Personas</h2>
       </section>
 
       <section className="case-section">

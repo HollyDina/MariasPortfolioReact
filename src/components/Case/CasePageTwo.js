@@ -6,6 +6,11 @@ import higSurfplatta from "../../img/higSurfplatta.svg"
 import ipadColor from "../../img/ipadColor.svg"
 import ipadIcon from "../../img/ipadIcon.svg"
 import buttonIpad from "../../img/buttonIpad.svg"
+import Användaretester1 from "../../img/Användaretester1.svg"
+import Användaretester2 from "../../img/Användaretester2.svg"
+import Lowfi2 from "../../img/Low-fi2.svg"
+import IngaSvensson from '../../img/inger.svg';
+
 const ResponsiveImage = ({ src, alt, className }) => (
   <img
     src={src}
@@ -66,6 +71,14 @@ const CasePageTwo = () => (
 
         {/*<ResponsiveImage src="/research.jpg" alt="Research" className="case-section-img" />*/}
       </section>
+      <section className="case-section">
+     
+      <ResponsiveImage src={IngaSvensson} alt="Schema" className="case-section-img" />
+        <h2 className="case-section-title">Personas</h2>
+        
+        {/*<ResponsiveImage src="/research.jpg" alt="Research" className="case-section-img" />*/}
+      </section>
+
 
       <section className="case-section">
         <ResponsiveImage src={Lowfiloopeli} alt="Schema" className="case-section-img" />
@@ -96,43 +109,84 @@ const CasePageTwo = () => (
       </section>
 
       <section className="case-section">
-        <h2 className="case-section-title">Resultat från användartester</h2>
-        <p>Efter användartester har jag minskat storleken på rubrikerna, ändrat deras namn, lagt till en bakåtpil med tillhörande text samt förenklat och slagit ihop designen för texter i bilder och meddelanden sidan.</p>
+        <div className="image-color">
+          <ResponsiveImage src={Användaretester1} alt="Low-fi-versionen av Loopeli-app för surfplattap" className="case-section-img" />
+        </div>
+        <h2 className="case-section-title">Sammanställning av användartester</h2>
+        <p>Majoriteten klarade uppgiften, men viss tvekan kring hur höjning av ljudet fungerade. Viss förvirring initialt, men inga stora hinder.</p>
 
-        <p>Användarna verkar förstå att de kan läsa meddelanden från sina anhöriga. De verkar också förstå hur menyn fungerar när de väl har lärt sig hur appen fungerar.</p>
+        <p>De flesta hittade bilder och texter, men vissa var osäkra på detaljer som hur man läser ett meddelande enskilt. Designproblem med otydlig klickbarhet.</p>
+
+        <p>Detta case visade störst osäkerhet. Ringa och avsluta samtal var svårt för flera, vilket tyder på behov av ett förbättrat användargränssnitt för samtal.</p>
+
+        <p>Flera användare lärde sig appen efter testet. Många klickade på icke-interaktiva delar och testade sig fram.</p>
+        <p>Vissa rubriker och texter behöver förtydligas, likaså designen kring hur man ringer och genomför samtal. Funktionen för att höja volymen på radion bör också göras mer lättförståelig och användarvänlig</p>
+
+
       </section>
+      <section className="case-section">
+        <div className="image-color">
+          <ResponsiveImage src={Lowfi2} alt="Low-fi-versionen av Loopeli-app för surfplattap" className="case-section-img" />
+        </div>
+        <h2 className="case-section-title">Design för ändringar utifrån användartester</h2>
+        <p>En knapp för 'Ringa' har lagts till under varje telefonbild i 'Kontakter'. En tillbaka-knapp med text har också lagts till och texten har ändrats till 'Läs meddelande'. Lägg till knappar och ikoner som tydligt visar hur man höjer volymen.</p>
+        <p>Rubrikerna har minskats i storlek, namnen har ändrats, och designen för bilder och meddelanden har förenklats och slagits ihop.</p>
+
+        <p>Användarna förstår nu hur de läser meddelanden och använder menyn efter en kort inlärning.</p>
+
+
+
+      </section>
+
+      <section className="case-section">
+        <div className="image-color">
+          <ResponsiveImage src={Användaretester2} alt="Low-fi-versionen av Loopeli-app för surfplattap" className="case-section-img" />
+        </div>
+        <h2 className="case-section-title">Resultat från användartester – andra testomgången </h2>
+        <p>Fler användare klarade uppgifterna jämfört med tidigare tester, även om viss förvirring kvarstod kring vilka knappar som skulle tryckas, särskilt i början.</p>
+
+        <p>Alla användare hittade enkelt bilder och meddelanden, och uppgiften upplevdes som lätt.</p>
+
+        <p>
+          Alla kunde ringa och avsluta samtal utan större problem, men användare 4 visade viss osäkerhet och gick först till meddelanden och bilder istället för till samtalsfunktionen. Personen hittade rätt sen.
+        </p>
+
+
+      </section>
+
 
 
       <section className="case-section">
         <div className="image-color">
-        <ResponsiveImage src={ipadColor} alt="Low-fi-versionen av Loopeli-app för surfplattap" className="case-section-img" />
-      </div>
+          <ResponsiveImage src={ipadColor} alt="Low-fi-versionen av Loopeli-app för surfplattap" className="case-section-img" />
+        </div>
         <h2 className="case-section-title">Färgpalett</h2>
 
         <p></p>
       </section>
       <section className="case-section">
         <div className="image-color">
-      <ResponsiveImage src={buttonIpad} alt="Low-fi-versionen av Loopeli-app för surfplattap" className="case-section-img" />
-      </div>
+          <ResponsiveImage src={buttonIpad} alt="Low-fi-versionen av Loopeli-app för surfplattap" className="case-section-img" />
+        </div>
         <h2 className="case-section-title">Knappar</h2>
 
       </section>
       <section className="case-section">
         <div className="image-color">
-        <ResponsiveImage src={ipadIcon} alt="Low-fi-versionen av Loopeli-app för surfplattap" className="case-section-img" />
-      </div>
+          <ResponsiveImage src={ipadIcon} alt="Low-fi-versionen av Loopeli-app för surfplattap" className="case-section-img" />
+        </div>
         <h2 className="case-section-title"> Ikoner</h2>
 
       </section>
       <section className="case-section">
-         <h2 className="case-section-title">Design som stöttar användaren</h2>
+        <ResponsiveImage src={higSurfplatta} alt="Designen" className="case-section-img" />
+        <h2 className="case-section-title">Design som stöttar användaren</h2>
         <p>Jag har designat gränssnittet så att huvudfunktionerna står i fokus, med större ikoner och texter.</p>
         <p>Varje sida har en huvudrubrik, och både texter och ikoner har färger som uppfyller WCAG-kraven.</p>
         <p>Radion visar tydligare vilken låt som spelas och vilken som är aktiv. Kanalen kan ändras, och en animation visas när den byts.</p>
-       
-     <ResponsiveImage src={higSurfplatta} alt="Designen" className="case-section-img" />
-       </section>
+
+
+      </section>
     </div>
   </div>
 );
