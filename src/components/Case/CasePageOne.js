@@ -73,7 +73,9 @@ const CasePageOne = () => (
 
       </section>
 
+
       <section className="case-section">
+      <h1 className="case-section-title">Flödesschema av appen</h1>
         <div className="image-color">
 
           <ResponsiveImage src={Fargkod} alt="Färgkodsförklaring till flödesschema" className="case-header-img" />
@@ -87,7 +89,7 @@ const CasePageOne = () => (
           <div className="image-color">
           <ResponsiveImage src={nuvarandeflöde} alt="Header" className="case-header-img" />
         </div>
-        <h1 className="case-section-title">Flödesschema av appen</h1>
+        
         <p>Jag började med att filma iPad-skärmen vid installationen av Äldreappen via Anhörigappen, för att kartlägga det nuvarande flödet och skapa ett flödesschema över hur appen idag skapar ett konto på webbplatsen, samt hur kontot verifieras.</p>
 
         <p>Jag stötte dock på fel under kartläggningen, vilket ledde till att jag skapade ett nytt flödesschema för kontoverifiering. Om flödet skulle anpassas efter mitt förslag skulle det bli enklare för användare att skapa ett konto hos Looepli.</p>
@@ -96,45 +98,46 @@ const CasePageOne = () => (
 
       </section>
 
-      <section className="case-section">
+      <section className="case-section">  
+      <h2 className="case-section-title">Personas</h2>
         <div className="image-color">
           <ResponsiveImage src={PersonaOcar} className="case-header-img" />
         </div>
-        <h2 className="case-section-title">Personas</h2>
+    
       </section>
 
-      <section className="case-section">
+      <section className="case-section">   <h2 className="case-section-title">Low-fi-design</h2>
         <div className="image-color">
           <ResponsiveImage src={lowGuide} alt="Header" className="case-header-img" />
         </div>
-        <h2 className="case-section-title">Low-fi-design</h2>
+     
 
         <p>Jag skapade en low-fi-design för att snabbt få en överblick över vilka ändringar jag hade gjort och identifiera hur designen kunde förtydligas.</p>
       </section>
-      <section className="case-section">
+      <section className="case-section"> <h2 className="case-section-title">Färgpalett</h2>
         <div className="image-color">
           <ResponsiveImage src={Mobilcolor} alt="Header" className="case-header-img" />
         </div>
-        <h2 className="case-section-title">Färgpalett</h2>
+       
       </section>
 
       <section className="case-section">
-        <div className="image-color">
+        <div className="image-color">   <h2 className="case-section-title">Inputfält och Knappar</h2>
           <ResponsiveImage2 src={mobilInput} alt="Header" className="case-header-img" />
-        </div>        <h2 className="case-section-title">Inputfält och Knappar</h2>
+        </div>     
       </section>
       <section className="case-section">
-        <div className="image-color">
+        <div className="image-color"><h2 className="case-section-title"> Ikoner</h2>
           <ResponsiveImage2 src={Mobilicon} alt="Header" className="case-header-img" />
         </div>
-        <h2 className="case-section-title"> Ikoner</h2>
+        
       </section>
       <section className="case-section">
-      <div className="image-color">
+      <div className="image-color">      <h2 className="case-section-title">Förbättringsområden</h2>
         <ResponsiveImage2 src={HigGuide} alt="Header" className="case-header-img" />
     </div>
 
-          <h2 className="case-section-title">Förbättringsområden</h2>
+    
         <p>Det sista skedet i analysen handlade om att ta fram konkreta förbättringsåtgärder.</p>
 
         <p>Vi föreslog realistiska förändringar som direkt adresserade de identifierade problemområdena.</p>
