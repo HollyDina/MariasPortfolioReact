@@ -10,6 +10,9 @@ import Användaretester1 from "../../img/Användaretester1.svg"
 import Användaretester2 from "../../img/Användaretester2.svg"
 import Lowfi2 from "../../img/Low-fi2.svg"
 import IngaSvensson from '../../img/inger.svg';
+import Empatikarta from '../../img/empatikarta.svg';
+import Behovskarta from '../../img/Behovskarta.svg';
+
 
 const ResponsiveImage = ({ src, alt, className }) => (
   <img
@@ -54,12 +57,14 @@ const CasePageTwo = () => (
       <section className="case-section">
         <h2 className="case-section-title">Mål</h2>
 
+        <p>För att göra appen mer användarvänlig har överflödiga element minimerats, vilket bidrar till en funktionell design med ett logiskt användarflöde.</p>
 
-        <p>Överflödiga element har minimerats för att appen ska vara funktionell och ha ett logiskt användarflöde.</p>
-        <p>Appen uppfyller WCAG-kraven.</p>
-        <p>Huvudfunktionerna prioriteras med större ikoner, knappar och texter samt färger med hög kontrast.</p>
-        <p>Namnen på sidorna är enkla och tydliga.</p>
 
+        <p>Appen uppfyller även WCAG-kraven för tillgänglighet.</p>
+
+        <p>Huvudfunktionerna prioriteras genom större ikoner, knappar och texter, samt färger med hög kontrast.</p>
+
+        <p>Sidornas namn är enkla och tydliga för att underlätta navigering.</p>
 
       </section>
 
@@ -81,16 +86,25 @@ const CasePageTwo = () => (
       </section>
 
 
-
       <section className="case-section">
-        <h2 className="case-section-title">Syftet med användartesterna av den gamla designen</h2>
+        <h2 className="case-section-title">Behovskarta</h2>
+        <p>Jag valde att genomföra djupintervjuer för att lära känna användaren och förstå deras behov. Därefter sammanställde jag intervjuerna i en behovskarta.</p>
 
         <div className="image-color">
-
+          <ResponsiveImage src={Behovskarta} alt="Schema" className="case-section-img" />
         </div>
-        <p>Syftet med användartesterna är att undersöka om användarna förstår designen och kan navigera i appens gränssnitt utan problem. Vi vill säkerställa att användarna klarar av Loopelis huvudfunktioner, som att ringa samtal, läsa meddelanden, justera volymen, välja en radiokanal samt kontakta en anhörig.</p>
-        <p>Vi undersöker också om menyer är tydliga och fungerar som tänkt, eller om det finns något som behöver förtydligas ytterligare.</p>
-        <p>Dessutom vill vi utvärdera vilka ikoner som fungerar bäst i menyn – exempelvis om en husikon eller hamburgermeny är tydligast, samt om en telefon- eller adressboksikon mest effektivt signalerar samtalsfunktionen.</p>
+      </section>
+
+
+
+
+      <section className="case-section">
+        <h2 className="case-section-title">Empatikarta</h2>
+        <p>Jag valde att skapa en empatikarta för att få en djupare förståelse för användarens tankar, känslor, behov och utmaningar. Genom att visualisera dessa insikter kunde jag lättare identifiera vad som är viktigt för användaren och anpassa lösningen utifrån det.</p>
+
+        <div className="image-color">
+          <ResponsiveImage src={Empatikarta} alt="Schema" className="case-section-img" />
+        </div>
       </section>
 
       <section className="case-section">
@@ -184,30 +198,23 @@ const CasePageTwo = () => (
         <div className="image-color">
           <ResponsiveImage src={ipadColor} alt="Low-fi-versionen av Loopeli-app för surfplattap" className="case-section-img" />
         </div>
-
-
-        <p></p>
       </section>
-      <section className="case-section"><h2 className="case-section-title">Knappar</h2>
-        <div className="image-color">
 
+      <section className="case-section">
+        <h2 className="case-section-title">Knappar</h2>
+        <div className="image-color">
           <ResponsiveImage src={buttonIpad} alt="Low-fi-versionen av Loopeli-app för surfplattap" className="case-section-img" />
         </div>
-
-
       </section>
-      <section className="case-section"> <h2 className="case-section-title"> Ikoner</h2>
-        <div className="image-color">
 
+      <section className="case-section">
+        <h2 className="case-section-title"> Ikoner</h2>
+        <div className="image-color">
           <ResponsiveImage src={ipadIcon} alt="Low-fi-versionen av Loopeli-app för surfplattap" className="case-section-img" />
         </div>
-
-
       </section>
       <section className="case-section">
         <h2 className="case-section-title">Design som stöttar användaren</h2>
-
-
         <p>Jag har designat gränssnittet så att huvudfunktionerna står i fokus, med större ikoner och texter.</p>
         <p>Varje sida har en huvudrubrik, och både texter och ikoner har färger som uppfyller WCAG-kraven.</p>
         <p>Radion visar tydligare vilken låt som spelas och vilken som är aktiv. Kanalen kan ändras, och en animation visas när den byts.</p>
