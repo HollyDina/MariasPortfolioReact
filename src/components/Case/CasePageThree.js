@@ -101,9 +101,9 @@ const CasePageThree = () => (
       </section>
 
       <section className="case-section">
-        <div className="image-color">
-          *<ResponsiveImage src={Affärsnyttakommunikation1} alt="Header" className="case-header-img" />
-        </div>
+        
+          <ResponsiveImage src={Affärsnyttakommunikation1} alt="Header" className="case-header-img" />
+       
         <h2 className="case-section-title">Research & analys</h2>
 
 
@@ -128,10 +128,10 @@ const CasePageThree = () => (
       </section>
 
       <section className="case-section">
-        <div className="image-color">
+        
           <ResponsiveImage src={kundresahela2} alt="Header" className="case-header-img" />
 
-        </div>
+        
         <h2 className="case-section-title">Kundresekartan</h2>
 
         <p>
@@ -150,9 +150,9 @@ const CasePageThree = () => (
 
 
       <section className="case-section">
-        <div className="image-color">
+        
           <ResponsiveImage src={kundresa3} alt="Header" className="case-header-img" />
-        </div>
+      
         <h2 className="case-section-title">Pain points & Moments of truth</h2>
 
 
@@ -184,9 +184,9 @@ const CasePageThree = () => (
       </section>
 
       <section className="case-section">
-        <div className="image-color">
+        
           <ResponsiveImage src={första4} alt="Header" className="case-header-img" />
-        </div>
+      
         <h2 className="case-section-title">
           Chas Academy nuvarande
           affärsmodell på UX-området</h2>
@@ -198,9 +198,9 @@ const CasePageThree = () => (
       </section>
 
       <section className="case-section">
-        <div className="image-color">
+        
           <ResponsiveImage src={kravux} alt="Header" className="case-header-img" />
-        </div>
+ 
         <h2 className="case-section-title">Blandningen av UX-design och krav</h2>
 
         <p>Det har förekommit missförstånd kring fördelningen mellan UX-design och kravhantering.</p>
@@ -213,9 +213,9 @@ const CasePageThree = () => (
 
       </section>
       <section className="case-section">
-        <div className="image-color">
+        
           <ResponsiveImage src={Branschnara} alt="Header" className="case-header-img" />
-        </div>
+     
         <h2 className="case-section-title">Branschnära</h2>
 
         <p>Trots att CHAS Academy har grundats av ett branschbolag, utnyttjas dess potential inte fullt ut.</p>
@@ -228,9 +228,9 @@ const CasePageThree = () => (
 
       </section>
       <section className="case-section">
-        <div className="image-color">
+        
           <ResponsiveImage src={Praktiskutbild} alt="Header" className="case-header-img" />
-        </div>
+     
         <h2 className="case-section-title">Praktisk utbildning</h2>
 
         <p>Många studenter förväntade sig en mer praktisk utbildning än vad som faktiskt erbjöds.</p>

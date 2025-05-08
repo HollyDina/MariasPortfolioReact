@@ -1,22 +1,18 @@
 import React from 'react';
 import OmMig from '../../img/OmMig.png';
-import CV from '../../img/Maria-Ekman-Cv-SV-2025.pdf';
+
+import ImageAboutme from "../ImagGird/ImageAboutme"
 const ResponsiveImage = ({ src, alt, className }) => (
   <img src={src} alt={alt} className={`case-responsive-img ${className}`} />
 );
 const HeroSection = () => {
-  return (<div className="case-container">
+  return (
+  <div className="case-container">
     <div className="case-content">
       <div className="hero-overlay-container">
       <ResponsiveImage src={OmMig} alt="Header" className="case-header-img" />
         <div className="hero-text">
           <h1>Om mig</h1>
-          <button className="cv-button" type="button">
-            <a className='a-cv-button' download="Maria-Ekman-Cv-SV-2025.pdf"
-            href={CV}>
-              Ladda ner personligt brev och CV
-            </a>
-          </button>
         </div>
       </div>
       <section className="case-section">
@@ -37,6 +33,9 @@ const HeroSection = () => {
           Bosatt i Sundbyberg tillsammans med min sambo och våra två katter, leker jag ofta med idéer även utanför jobbet för att få en extra kreativ boost. Jag är en stor kattälskare som gärna tar en mat- eller biokväll, eller en fika. Utanför hemmet umgås jag ofta med vänner och deras barn, spelar fotboll eller kör ett intensivt pass crossfit.
         </p>
       </section>
+
+      <ImageAboutme></ImageAboutme>
+
     </div>
   </div>
 

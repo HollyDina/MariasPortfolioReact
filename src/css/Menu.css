@@ -19,8 +19,16 @@
 .image-color{
   background-color: #202c25;
   padding: 1.5rem;
+  padding-top: 3rem;
   border-radius:4px
 }
+
+
+
+.case-section-personas{
+  display:flex;
+}
+
 
 .subtitle-mobile {
   font-size: 0.8rem;
@@ -59,7 +67,7 @@
 .name-mobile {
   font-size: 2rem;
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 5px;
   margin: 4px 0;
   border-style: solid;
   border-color: #b57c30 transparent; /* färg upptill, genomskinligt på sidorna */

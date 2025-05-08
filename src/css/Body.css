@@ -1,8 +1,7 @@
 
 body {
-  font-size: 1rem;
-  
 
+  font-family:"poppins", "sans serif";
   }
  
 
@@ -15,9 +14,10 @@ body {
     color: #f4a940; /* Färg på länkar som inte har klickats på */
   }
 
-  p {
-    line-height: 1.5;
-  }
+.p{
+ 
+
+}
 
   .max300{
     max-width: 300px;
@@ -35,18 +35,7 @@ body {
   }
 */
   
-  
-  .skip-to-content:focus {
-    top: 10px; /* Visar länken när den får fokus */
-  }
 
-  .container-skip-to-content {
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-    background-color: palegreen;
-  }
-  
   @media (min-width: 768px)  {
     body {
       
