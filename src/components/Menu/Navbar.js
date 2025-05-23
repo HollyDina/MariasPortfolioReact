@@ -16,7 +16,7 @@ export default function Navbar() {
               <span className="nav__underline"></span>
             </NavLink>
             <NavLink to="/case" className={({ isActive }) => isActive ? "nav__link nav__link--active" : "nav__link"}>
-              Projekt
+             Arbete
               <span className="nav__underline"></span>
             </NavLink>
           </div>

@@ -19,7 +19,7 @@ function Presentation() {
       <div class="subtitle-wrapper-mobile">
         
         <p className="title-mobile">UX-DESIGNER</p>
-        <p className="subtitle-mobile">TILLGÄNGLIGHETSEXPERT</p>
+        <p className="subtitle-mobile">TILLGÄNGLIGHETS-EXPERT</p>
       </div>
     </div>
   </div>
@@ -31,7 +31,7 @@ function Presentation() {
     <div className="left-section">
       <div className="text">
         <h2>UX-DESIGNER</h2>
-        <p>TILLGÄNGLIGHETSEXPERT</p>
+        <p>TILLGÄNGLIGHETS-EXPERT</p>
       </div>
     </div>
 
