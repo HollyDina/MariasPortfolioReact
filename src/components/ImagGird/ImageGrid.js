@@ -31,13 +31,13 @@ export default function ImageGrid() {
               <img src={img3} alt="Bild 3" />
             </Link>
           </div>
-          <div className="image-box">
+         {/* <div className="image-box">
             <h3 className="image-title">Examensarbete</h3>
-            {/*<p className="image-description">Beskrivning för Projekt 1</p>*/}
+         
             <Link to="/Case4">
               <img src={img4} alt="Bild 4" />
             </Link>
-          </div>
+          </div>*/}
         </div>
       </div>
     </div>

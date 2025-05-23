@@ -14,6 +14,7 @@ import Empatikarta from '../../img/empatikarta.svg';
 import Behovskarta from '../../img/Behovskarta.svg';
 import BertilNilsson from '../../img/BertilNilsson.svg';
 import LinaKarlsson from '../../img/LinaKarlsson.svg';
+import Text_style from '../../img/Text_style.svg';
 
 
 
@@ -221,7 +222,12 @@ Testerna visade att vissa funktioner, såsom att ringa samtal eller höja volyme
               <ResponsiveImage src={ipadColor} alt="Low-fi-versionen av Loopeli-app för surfplattap" className="case-section-img" />
         
           </section>
-
+                <section className="case-section">
+            <h2 className="case-section-title">Textstil</h2>
+           
+              <ResponsiveImage src={Text_style} alt="Low-fi-versionen av Loopeli-app för surfplattap" className="case-section-img" />
+        
+          </section>
           <section className="case-section">
             <h2 className="case-section-title">Knappar</h2>
            

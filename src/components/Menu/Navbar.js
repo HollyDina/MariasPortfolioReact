@@ -12,11 +12,11 @@ export default function Navbar() {
               <span className="nav__underline"></span>
             </NavLink>
             <NavLink to="/about" className={({ isActive }) => isActive ? "nav__link nav__link--active" : "nav__link"}>
-              About Me
+            Om mig
               <span className="nav__underline"></span>
             </NavLink>
             <NavLink to="/case" className={({ isActive }) => isActive ? "nav__link nav__link--active" : "nav__link"}>
-              Case
+              Projekt
               <span className="nav__underline"></span>
             </NavLink>
           </div>

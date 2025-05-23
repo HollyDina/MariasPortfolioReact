@@ -138,7 +138,7 @@
   align-items: flex-start;    /* innehåll mot vänster */
   text-align: left;           /* text radar upp sig till vänster */
   padding: 2rem 3rem 2rem 3rem; /* luft åt båda håll, men du kan justera t.ex. 5rem till vänster */
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.6);
   color: white;
   
 }

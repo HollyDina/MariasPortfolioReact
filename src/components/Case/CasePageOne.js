@@ -10,6 +10,10 @@ import mobilInput from '../../img/mobilInput.svg';
 import Mobilcolor from '../../img/Mobilcolor.svg';
 import HigGuide from '../../img/higGuid.svg';
 import PersonaOcar from '../../img/PersonaOcar.svg';
+import PersonaKarl from '../../img/PersonaKarl.svg';
+import PersonaAnna from '../../img/PersonaAnna.svg';
+import Text_style from '../../img/Text_style.svg';
+
 
 
 const ResponsiveImage = ({ src, alt, className }) => (
@@ -93,8 +97,6 @@ const CasePageOne = () => (
         <ResponsiveImage src={nyaflöde} alt="Header" className="case-header-img" />
 
 
-        <ResponsiveImage src={nuvarandeflöde} alt="Header" className="case-header-img" />
-
 
 
       </section>
@@ -103,7 +105,8 @@ const CasePageOne = () => (
         <h2 className="case-section-title">Personas</h2>
 
         <ResponsiveImage src={PersonaOcar} className="case-header-img" />
-
+        <ResponsiveImage src={PersonaAnna} className="case-header-img" />
+        <ResponsiveImage src={PersonaKarl} className="case-header-img" />
 
       </section>
 
@@ -117,6 +120,13 @@ const CasePageOne = () => (
       <section className="case-section"> <h2 className="case-section-title">Färgpalett</h2>
 
         <ResponsiveImage src={Mobilcolor} alt="Header" className="case-header-img" />
+
+
+      </section>
+
+      <section className="case-section"> <h2 className="case-section-title">TextStil </h2>
+
+        <ResponsiveImage src={Text_style} alt="Header" className="case-header-img" />
 
 
       </section>
