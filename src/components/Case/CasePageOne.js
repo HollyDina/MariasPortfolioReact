@@ -13,7 +13,8 @@ import PersonaOcar from '../../img/PersonaOcar.svg';
 import PersonaKarl from '../../img/PersonaKarl.svg';
 import PersonaAnna from '../../img/PersonaAnna.svg';
 import Text_style from '../../img/Text_style.svg';
-
+import Lowfilmedtext from '../../img/Low-fil-med-text.svg';
+import Lowfiinto from '../../img/Lowfi-into.svg';
 
 
 const ResponsiveImage = ({ src, alt, className }) => (
@@ -48,13 +49,13 @@ const CasePageOne = () => (
       </div>
 
       <section className="case-section">
-        <h3>Roll</h3>
+        <h3 className="case-section-title">Roll</h3>
         <ul>
           <li>UX-designer</li>
 
         </ul>
 
-        <h3>Verktyg & Metoder</h3>
+        <h3 className="case-section-title">Verktyg & Metoder</h3>
         <ul>
           <li>Figma</li>
           <li>ChatGPT</li>
@@ -63,7 +64,7 @@ const CasePageOne = () => (
           <li>Low-fi</li>
         </ul>
 
-        <h3>Team</h3>
+        <h3 className="case-section-title">Team</h3>
         <ul>
           <li>Utvecklare</li>
           <li>Produktägare</li>
@@ -111,12 +112,40 @@ const CasePageOne = () => (
       </section>
 
       <section className="case-section">   <h2 className="case-section-title">Low-fi-design</h2>
-        <p>Jag skapade en low-fi-design för att snabbt få en överblick över vilka ändringar jag hade gjort och identifiera hur designen kunde förtydligas.</p>
+ <p>Jag skapade en low-fi-design för att snabbt få en tydlig överblick över de ändringar jag gjort och för att identifiera vilka delar av designen som kunde förtydligas.
 
+</p>
 
-        <ResponsiveImage src={lowGuide} alt="Header" className="case-header-img" />
+ <div className="two-column-list">
+  <ul class="spacious-list">
+    <li><span class="bold-number">1 .</span> För att visa appens namn och tydliggöra vilken app som är aktiv har en grafisk ikon lagts till.</li>
+      <li><span class="bold-number">2 .</span> Instruktionstexten är inramad för att tydligt visa att det rör sig om två olika texter och för att skilja dem åt.</li>
+ <li><span class="bold-number"> 2 .</span> Instruktionerna har numrerats för att göra det tydligare i vilken ordning de ska utföras.</li>
+ <li><span class="bold-number">2 .</span> Jag har lagt till rubriker för att tydliggöra vilken typ av information som presenteras.</li>
+  <li><span class="bold-number">3 .</span> Jag har lagt till etiketter (labels)och placeholder enligt WCAG för att förtydliga vad varje inmatningsfält gör.</li>
+ <li><span class="bold-number"> 4 .</span> Ikoner har lagts till på samtliga knappar för att ge en visuell indikation av deras funktion.</li>
+  <li><span class="bold-number">6 .</span> För att förtydliga valmöjligheten har ett streck och ett beskrivande ord lagts till.</li>
+ 
+   
+ 
+</ul>   
+</div>
 
+<ResponsiveImage src={Lowfiinto} alt="Header" className="case-header-img" />
       </section>
+
+         <section className="case-section">   <h2 className="case-section-title">Low-fi-design med text</h2>
+ <p>Texten har optimerats för att vara kort, lätt att läsa och förstå, samt tillgänglig och visuellt igenkännlig.
+</p>
+
+
+
+
+
+<ResponsiveImage src={Lowfilmedtext} alt="Header" className="case-header-img" />
+      </section>
+
+      
       <section className="case-section"> <h2 className="case-section-title">Färgpalett</h2>
 
         <ResponsiveImage src={Mobilcolor} alt="Header" className="case-header-img" />
@@ -142,20 +171,10 @@ const CasePageOne = () => (
 
 
       </section>
-      <section className="case-section"><h2 className="case-section-title">Förbättringsområden</h2>
+      <section className="case-section"><h2 className="case-section-title">Slut rusultat</h2>
+      <p>Gör ändringar i knapparna, vänsterpanelen och textjusteringen till höger för att förbättra tillgängligheten. Syftet är att öka läsbarheten och användarvänligheten för alla användare, särskilt för personer med nedsatt syn. Använd färger med hög kontrast – till exempel gult mot svart – och välj andra färgkombinationer som gör innehållet så lättläst som möjligt</p>
 
-        <ResponsiveImage2 src={HigGuide} alt="Header" className="case-header-img" />
-
-
-
-        <p>Det sista skedet i analysen handlade om att ta fram konkreta förbättringsåtgärder.</p>
-
-        <p>Vi föreslog realistiska förändringar som direkt adresserade de identifierade problemområdena.</p>
-
-        <p>Dessa omfattade allt från kommunikation, kursinnehåll och support till övergripande pedagogiska strategier.</p>
-
-        <p>Målet var att säkerställa högre kvalitet i utbildningen och att öka studenternas totala upplevda nöjdhet.</p>
-
+        <ResponsiveImage src={HigGuide} alt="Header" className="case-header-img" />
 
       </section>
 

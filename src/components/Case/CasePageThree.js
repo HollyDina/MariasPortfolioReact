@@ -56,13 +56,13 @@ const CasePageThree = () => (
           för att höja kurskvaliteten.
         </p>
 
-        <h3>Roll</h3>
+        <h3 className="case-section-title">Roll</h3>
         <ul>
           <li>Service designer</li>
           <li>Research</li>
         </ul>
 
-        <h3>Verktyg & Metoder</h3>
+        <h3 className="case-section-title">Verktyg & Metoder</h3>
         <ul>
           <li>Figma</li>
           <li>Intervjuer med camera</li>
@@ -70,7 +70,7 @@ const CasePageThree = () => (
           <li>Kundresekarta</li>
         </ul>
 
-        <h3>Team</h3>
+        <h3 className="case-section-title">Team</h3>
         <ul>
           <li>Utvecklare</li>
           <li>Produktägare</li>

@@ -6,6 +6,14 @@
       padding: 1rem;
 }
 
+.bold-number {
+  font-weight: bold;
+}
+.spacious-list li {
+  margin-bottom: 0.75em;
+    list-style-type: none;
+  padding-left: 0;
+}
 
 
 .case-header-img-four{
@@ -63,7 +71,7 @@
 .case-responsive-img {
   width: 100%;
   height: auto;
-  border-radius:4px 4px 0px 0px;
+  border-radius:2px 2px 0px 0px;
   max-height:800px;
   
 }
@@ -75,6 +83,24 @@
   position: relative; /* behövs för att placera ::before i förhållande till titeln */
   display: inline-block; /* så att bredden matchar textens längd */
   padding-top: 12px; /* så att det finns utrymme för linjen ovanför */
+}
+
+.two-column-list {
+  display: flex;
+  gap: 2rem;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+}
+
+.two-column-list ul {
+  flex: 1;
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.list-title {
+  margin-top: 2rem;
+  font-weight: bold;
 }
 
 

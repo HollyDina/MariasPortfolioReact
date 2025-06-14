@@ -45,7 +45,7 @@
   height: auto;
   max-height: 300px; /* Maxhöjd om du vill begränsa det visuellt */
   display: block;
-  border-radius: 8px;
+  border-radius: 2px;
   object-fit: cover;
   transition: transform 0.3s ease;
 }
@@ -68,7 +68,7 @@
 
 .image-box {
   border: 1px solid #ccc;
-  border-radius: 10px;
+  border-radius: 2px;
   padding: 16px;
   background-color:  #2b3227;
   text-align: center;

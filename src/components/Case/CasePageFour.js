@@ -31,13 +31,13 @@ const CasePageFour = () => (
           Det pågår en ständig debatt om hur mycket skärmtid barn bör ha. Jag ville starta ett projekt för att bli mer säker på Design Thinking-processen,
           inspirerad av en väns svårigheter att få sina barn att slita sig från skärmen.
         </p>
-
-        <h2>Roll</h2>
+    
+        <h2 className="case-section-title">Roll</h2>
         <ul>
           <li>UX-designer</li>
         </ul>
 
-        <h3>Verktyg & Metoder</h3>
+        <h3 className="case-section-title">Verktyg & Metoder</h3>
         <ul>
           <li>Miro</li>
           <li>Kvalitativa intervjuer</li>
@@ -45,7 +45,7 @@ const CasePageFour = () => (
           <li>Affinity Diagramming</li>
         </ul>
 
-        <h4>Team</h4>
+        <h4 className="case-section-title">Team</h4>
         <ul>
           <li>Utvecklare</li>
           <li>Produktägare</li>

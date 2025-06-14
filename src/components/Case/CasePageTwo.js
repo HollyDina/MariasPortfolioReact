@@ -6,9 +6,9 @@ import higSurfplatta from "../../img/higSurfplatta.svg"
 import ipadColor from "../../img/ipadColor.svg"
 import ipadIcon from "../../img/ipadIcon.svg"
 import buttonIpad from "../../img/buttonIpad.svg"
-import Användaretester1 from "../../img/Användaretester1.svg"
-import Användaretester2 from "../../img/Användaretester2.svg"
-import Lowfi2 from "../../img/Low-fi2.svg"
+import Användaretester1 from "../../img/Användaretester1.svg";
+import Användaretester2 from "../../img/Användaretester2.svg";
+import Lowfil2 from "../../img/Lowfil2.svg";
 import IngaSvensson from '../../img/inger.svg';
 import Empatikarta from '../../img/empatikarta.svg';
 import Behovskarta from '../../img/Behovskarta.svg';
@@ -26,6 +26,14 @@ const ResponsiveImage = ({ src, alt, className }) => (
     style={{ maxWidth: '100%', height: 'auto', maxHeight: '700px' }}
   />
 );
+const ResponsiveImage2 = ({ src, alt, className }) => (
+  <img
+    src={src}
+    alt={alt}
+    className={`case-responsive-img ${className}`}
+    style={{ maxWidth: '100%', height: 'auto', maxHeight: '1218px' }}
+  />
+);
 const CasePageTwo = () => (
   <div className="case-container">
     <div className="case-content">
@@ -37,10 +45,10 @@ const CasePageTwo = () => (
       </div>
 
       <section className="case-section">
-        <h2>Roll</h2>
+        <h2 className="case-section-title">Roll</h2>
         <p>UX-designer</p>
 
-        <h4>Verktyg och metoder</h4>
+        <h4 className="case-section-title">Verktyg och metoder</h4>
         <ul>
           <li>Figma</li>
           <li>ChatGPT</li>
@@ -52,7 +60,7 @@ const CasePageTwo = () => (
           <li>Affinity Diagramming</li>
         </ul>
 
-        <h3>Team</h3>
+        <h3 className="case-section-title">Team</h3>
         <ul>
           <li>Utvecklare</li>
           <li>Produktägare</li>
@@ -190,30 +198,48 @@ Testerna visade att vissa funktioner, såsom att ringa samtal eller höja volyme
           </section>
 
           <section className="case-section">
-            <h2 className="case-section-title">Design är ändringar</h2>
-            <p>En "Ringa"-knapp har lagts till under varje kontaktbild i "Kontakter" för att tydliggöra att man kan ringa dessa personer.</p>
+  <h2 className="case-section-title">
+    Low-fidelity används för att testa och ändra designen tidigt i processen
+  </h2>
 
-            <p>En tillbaka-knapp med text har också lagts till i menyn.</p>
+  <p>
+    Jag använde mig av en low-fidelity prototyp för att snabbt kunna testa och utvärdera idéer med användare, utan att lägga tid på detaljerad design. Det gjorde det möjligt att fokusera på funktion och flöde i ett tidigt skede.
+  </p>
 
-            <p>På sidan "Meddelanden och bilder" har alla bilder nu fått texten "Läs meddelande" samt information om vem meddelandet är ifrån.</p>
+  <h3 className="list-title">Förbättringar som gjorts:</h3>
 
-            <p>En liten pil har lagts till för att göra det tydligare att objekten är klickbara.</p>
+  <div className="two-column-list">
+  <ul class="spacious-list">
+  <li><span class="bold-number">1 .</span> Menynamn har ändrats till "Meddelanden och namn".</li>
+  <li><span class="bold-number">2 .</span> Lägg till en rubrik under ikonen så att användaren förstår vad knappen gör. Använd ett kryss för att stänga menyn, eftersom det är standard i de flesta menyer.</li>
+  <li><span class="bold-number">3 .</span> Ring-knappen ska vara större än de andra eftersom det är huvudfunktionen</li>
+  <li><span class="bold-number">4 .</span> Har lagt till en animation som visar vilken kanal som är aktiv.</li>
+  <li><span class="bold-number">5 .</span> Eftersom användare försökte höja volymen på olika sätt har två alternativ lagts till – med knappar och ikoner – för att göra det enklare att justera musiken</li>
+<li><span class="bold-number">6 .</span> Lägg till en hamburgarikonen, eftersom det är standard och något användare känner igen.</li>
+  <li><span class="bold-number">7 .</span> En tillbaka-knapp med text har lagts till i menyn för att underlätta navigationen, eftersom användare tidigare instinktivt blickade upp mot det övre hörnet för att hitta en tillbaka-knapp.</li>
+ 
+</ul>
 
-            <p>Två olika alternativ för att höja ljudvolymen har lagts till, tillsammans med knappar och ikoner för att på ett tydligt sätt visa hur volymen kan justeras.</p>
+<ul class="spacious-list">
+   <li><span class="bold-number">8 .</span> Den första kontaktens bild och namn visas tillsammans med texten. En 'Ring'-knapp har lagts till under varje kontaktbild i vyn 'Kontakter'.</li>
+  <li><span class="bold-number">9 .</span> Knappen har ändrats för att bättre matcha resten av appens design. En visuell stil som liknar andra vyer har lagts till för att öka igenkänningen, och text har lagts till bredvid ikonen för tydlighet.</li>
+  <li><span class="bold-number">10 .</span> Knappen har ändrats för att bättre matcha resten av appens design. En visuell stil som liknar andra vyer har lagts till för att öka igenkänningen, och text har lagts till bredvid ikonen för tydlighet.</li>
+  <li><span class="bold-number">11 .</span> Varje sida har nu en rubrik för att göra det lättare för användare att se var de är.</li>
+  <li><span class="bold-number">12 .</span> I vyn 'Meddelanden och bilder' har alla meddelandebilder försetts med texten 'Läs meddelande' för att tydliggöra att de är klickbara. Detta har lagts till eftersom det tidigare inte framgick att man kunde läsa meddelandena, vilket skapade förvirring för användare.</li>
+  <li><span class="bold-number">12 .</span> I meddelandevyn har en liten pil lagts till vid alla meddelanden för att tydliggöra att objekten är klickbara.</li>
+<li><span class="bold-number">13 .</span> Texten i meddelandet har förstorats, och det är nu tydligt vem meddelandet kommer från</li>
+  
+</ul> </div>
 
-            <p>Varje sida har nu en rubrik för att göra det lättare för användaren att förstå var i appen de befinner sig.</p>
+  <ResponsiveImage2
+    src={Lowfil2}
+    alt="Low-fi-versionen av Loopeli-app för surfplatta"
+    className="case-section-img2"
+  />
+</section>
 
-            <p>Menynamnen har ändrats till "Meddelanden och namn" för att spegla att innehållet består av både bilder och text.</p>
-          </section>
-          <section className="case-section">
 
-            <h2 className="case-section-title">Low-fidelity</h2>
-            <p>Jag använde mig av en low-fidelity prototyp för att snabbt kunna testa och utvärdera idéer med användare, utan att lägga tid på detaljerad design. Det gjorde det möjligt att fokusera på funktion och flöde i ett tidigt skede.</p>
-
-           
-              <ResponsiveImage src={Lowfi2} alt="Low-fi-versionen av Loopeli-app för surfplattap" className="case-section-img" />
-        
-          </section>
+      
 
 
           <section className="case-section">
@@ -243,11 +269,11 @@ Testerna visade att vissa funktioner, såsom att ringa samtal eller höja volyme
           </section>
           <section className="case-section">
             <h2 className="case-section-title">Design som stöttar användaren</h2>
-            <p>Jag har designat gränssnittet så att huvudfunktionerna står i fokus, med större ikoner och texter.</p>
-            <p>Varje sida har en huvudrubrik, och både texter och ikoner har färger som uppfyller WCAG-kraven.</p>
-            <p>Radion visar tydligare vilken låt som spelas och vilken som är aktiv. Kanalen kan ändras, och en animation visas när den byts.</p>
+            <p>Kontakter visas nu som rektanglar med namn och för tydligare läsbarhet. Vit bakgrund är en del av den nya design</p>
 
-           
+  <p>Färgerna på både text och ikoner har valts för att uppfylla WCAG:s riktlinjer.</p>
+
+          
             <ResponsiveImage src={higSurfplatta} alt="Designen" className="case-section-img" />
           
           </section>
